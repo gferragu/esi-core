@@ -4,27 +4,27 @@
 {
     "distutils": {
         "depends": [
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/arrayscalars.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/ufuncobject.h",
-            "src/shakemap/c/contour.h"
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/arrayobject.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/arrayscalars.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/ndarrayobject.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/ndarraytypes.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/ufuncobject.h",
+            "src/esi_core/shakemap/c/contour.h"
         ],
         "include_dirs": [
-            "src/shakemap/c",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include"
+            "src/esi_core/shakemap/c",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include"
         ],
         "libraries": [
             "m"
         ],
-        "name": "shakemap.c.pcontour",
+        "name": "esi_core.shakemap.c.pcontour",
         "sources": [
-            "src/shakemap/c/pcontour.pyx",
-            "src/shakemap/c/contour.c"
+            "src/esi_core/shakemap/c/pcontour.pyx",
+            "src/esi_core/shakemap/c/contour.c"
         ]
     },
-    "module_name": "shakemap.c.pcontour"
+    "module_name": "esi_core.shakemap.c.pcontour"
 }
 END: Cython Metadata */
 
@@ -766,8 +766,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__shakemap__c__pcontour
-#define __PYX_HAVE_API__shakemap__c__pcontour
+#define __PYX_HAVE__esi_core__shakemap__c__pcontour
+#define __PYX_HAVE_API__esi_core__shakemap__c__pcontour
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1011,7 +1011,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "src/shakemap/c/pcontour.pyx",
+  "src/esi_core/shakemap/c/pcontour.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -1052,7 +1052,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":689
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":689
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1061,7 +1061,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":690
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":690
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1070,7 +1070,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":691
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":691
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1079,7 +1079,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":692
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":692
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1088,7 +1088,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":696
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":696
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1097,7 +1097,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":697
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":697
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1106,7 +1106,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":698
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":698
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1115,7 +1115,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":699
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":699
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1124,7 +1124,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":703
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":703
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1133,7 +1133,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":704
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":704
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1142,7 +1142,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":713
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":713
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1151,7 +1151,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":714
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":714
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1160,7 +1160,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":715
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":715
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1169,7 +1169,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":717
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":717
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1178,7 +1178,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":718
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":718
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1187,7 +1187,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":719
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":719
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1196,7 +1196,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":721
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":721
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1205,7 +1205,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":722
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":722
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1214,7 +1214,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":724
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":724
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1223,7 +1223,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":725
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":725
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1232,7 +1232,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":726
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":726
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1267,7 +1267,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 /*--- Type declarations ---*/
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":728
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":728
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1276,7 +1276,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":729
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":729
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1285,7 +1285,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":730
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":730
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1294,7 +1294,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":732
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":732
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1874,13 +1874,13 @@ static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 
 /* Module declarations from 'cython' */
 
-/* Module declarations from 'shakemap.c.pcontour' */
+/* Module declarations from 'esi_core.shakemap.c.pcontour' */
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
-#define __Pyx_MODULE_NAME "shakemap.c.pcontour"
-extern int __pyx_module_is_main_shakemap__c__pcontour;
-int __pyx_module_is_main_shakemap__c__pcontour = 0;
+#define __Pyx_MODULE_NAME "esi_core.shakemap.c.pcontour"
+extern int __pyx_module_is_main_esi_core__shakemap__c__pcontour;
+int __pyx_module_is_main_esi_core__shakemap__c__pcontour = 0;
 
-/* Implementation of 'shakemap.c.pcontour' */
+/* Implementation of 'esi_core.shakemap.c.pcontour' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_round;
 static PyObject *__pyx_builtin_ImportError;
@@ -1939,10 +1939,10 @@ static const char __pyx_k_contour_levels[] = "contour_levels";
 static const char __pyx_k_MultiLineString[] = "MultiLineString";
 static const char __pyx_k_FeatureCollection[] = "FeatureCollection";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
-static const char __pyx_k_shakemap_c_pcontour[] = "shakemap.c.pcontour";
-static const char __pyx_k_src_shakemap_c_pcontour_pyx[] = "src/shakemap/c/pcontour.pyx";
+static const char __pyx_k_esi_core_shakemap_c_pcontour[] = "esi_core.shakemap.c.pcontour";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
+static const char __pyx_k_src_esi_core_shakemap_c_pcontour[] = "src/esi_core/shakemap/c/pcontour.pyx";
 static PyObject *__pyx_n_u_AREA;
 static PyObject *__pyx_n_u_C;
 static PyObject *__pyx_n_u_Feature;
@@ -1966,6 +1966,7 @@ static PyObject *__pyx_n_s_crlist;
 static PyObject *__pyx_n_s_cv;
 static PyObject *__pyx_n_s_dx;
 static PyObject *__pyx_n_s_dy;
+static PyObject *__pyx_n_s_esi_core_shakemap_c_pcontour;
 static PyObject *__pyx_n_s_feature;
 static PyObject *__pyx_n_u_features;
 static PyObject *__pyx_n_s_fg;
@@ -1993,16 +1994,15 @@ static PyObject *__pyx_n_u_properties;
 static PyObject *__pyx_n_s_pt;
 static PyObject *__pyx_n_s_range;
 static PyObject *__pyx_n_s_round;
-static PyObject *__pyx_n_s_shakemap_c_pcontour;
 static PyObject *__pyx_n_s_size;
-static PyObject *__pyx_kp_s_src_shakemap_c_pcontour_pyx;
+static PyObject *__pyx_kp_s_src_esi_core_shakemap_c_pcontour;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_n_u_type;
 static PyObject *__pyx_n_s_ul_x;
 static PyObject *__pyx_n_s_ul_y;
 static PyObject *__pyx_n_u_value;
 static PyObject *__pyx_n_s_verb;
-static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_grid, PyObject *__pyx_v_dx, PyObject *__pyx_v_dy, PyObject *__pyx_v_ul_x, PyObject *__pyx_v_ul_y, PyArrayObject *__pyx_v_contour_levels, PyObject *__pyx_v_outstyle, PyObject *__pyx_v_verb, PyObject *__pyx_v_fmt); /* proto */
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_grid, PyObject *__pyx_v_dx, PyObject *__pyx_v_dy, PyObject *__pyx_v_ul_x, PyObject *__pyx_v_ul_y, PyArrayObject *__pyx_v_contour_levels, PyObject *__pyx_v_outstyle, PyObject *__pyx_v_verb, PyObject *__pyx_v_fmt); /* proto */
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_3;
 static PyObject *__pyx_int_4;
@@ -2013,7 +2013,7 @@ static PyObject *__pyx_tuple__3;
 static PyObject *__pyx_codeobj__4;
 /* Late includes */
 
-/* "shakemap/c/pcontour.pyx":50
+/* "esi_core/shakemap/c/pcontour.pyx":50
  * 
  * 
  * def pcontour(np.ndarray[double, ndim=2, mode='c']grid, dx, dy, ul_x, ul_y,             # <<<<<<<<<<<<<<
@@ -2022,9 +2022,9 @@ static PyObject *__pyx_codeobj__4;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8shakemap_1c_8pcontour_1pcontour(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8shakemap_1c_8pcontour_1pcontour = {"pcontour", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8shakemap_1c_8pcontour_1pcontour, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8shakemap_1c_8pcontour_1pcontour(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_8pcontour_1pcontour(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_8esi_core_8shakemap_1c_8pcontour_1pcontour = {"pcontour", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_8shakemap_1c_8pcontour_1pcontour, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_8pcontour_1pcontour(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyArrayObject *__pyx_v_grid = 0;
   PyObject *__pyx_v_dx = 0;
   PyObject *__pyx_v_dy = 0;
@@ -2158,13 +2158,13 @@ static PyObject *__pyx_pw_8shakemap_1c_8pcontour_1pcontour(PyObject *__pyx_self,
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("pcontour", 0, 7, 9, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 50, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("shakemap.c.pcontour.pcontour", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.shakemap.c.pcontour.pcontour", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_grid), __pyx_ptype_5numpy_ndarray, 1, "grid", 0))) __PYX_ERR(0, 50, __pyx_L1_error)
   if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_contour_levels), __pyx_ptype_5numpy_ndarray, 1, "contour_levels", 0))) __PYX_ERR(0, 51, __pyx_L1_error)
-  __pyx_r = __pyx_pf_8shakemap_1c_8pcontour_pcontour(__pyx_self, __pyx_v_grid, __pyx_v_dx, __pyx_v_dy, __pyx_v_ul_x, __pyx_v_ul_y, __pyx_v_contour_levels, __pyx_v_outstyle, __pyx_v_verb, __pyx_v_fmt);
+  __pyx_r = __pyx_pf_8esi_core_8shakemap_1c_8pcontour_pcontour(__pyx_self, __pyx_v_grid, __pyx_v_dx, __pyx_v_dy, __pyx_v_ul_x, __pyx_v_ul_y, __pyx_v_contour_levels, __pyx_v_outstyle, __pyx_v_verb, __pyx_v_fmt);
 
   /* function exit code */
   goto __pyx_L0;
@@ -2175,7 +2175,7 @@ static PyObject *__pyx_pw_8shakemap_1c_8pcontour_1pcontour(PyObject *__pyx_self,
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_grid, PyObject *__pyx_v_dx, PyObject *__pyx_v_dy, PyObject *__pyx_v_ul_x, PyObject *__pyx_v_ul_y, PyArrayObject *__pyx_v_contour_levels, PyObject *__pyx_v_outstyle, PyObject *__pyx_v_verb, PyObject *__pyx_v_fmt) {
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject *__pyx_self, PyArrayObject *__pyx_v_grid, PyObject *__pyx_v_dx, PyObject *__pyx_v_dy, PyObject *__pyx_v_ul_x, PyObject *__pyx_v_ul_y, PyArrayObject *__pyx_v_contour_levels, PyObject *__pyx_v_outstyle, PyObject *__pyx_v_verb, PyObject *__pyx_v_fmt) {
   Py_ssize_t __pyx_v_ny;
   Py_ssize_t __pyx_v_nx;
   PyArrayObject *__pyx_v_fg = 0;
@@ -2244,7 +2244,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   }
   __pyx_pybuffernd_contour_levels.diminfo[0].strides = __pyx_pybuffernd_contour_levels.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_contour_levels.diminfo[0].shape = __pyx_pybuffernd_contour_levels.rcbuffer->pybuffer.shape[0];
 
-  /* "shakemap/c/pcontour.pyx":53
+  /* "esi_core/shakemap/c/pcontour.pyx":53
  *              np.ndarray[double, ndim=1, mode='c']contour_levels, outstyle,
  *              verb=0, fmt=0):
  *     cdef Py_ssize_t ny = grid.shape[0]             # <<<<<<<<<<<<<<
@@ -2253,7 +2253,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
   __pyx_v_ny = (__pyx_v_grid->dimensions[0]);
 
-  /* "shakemap/c/pcontour.pyx":54
+  /* "esi_core/shakemap/c/pcontour.pyx":54
  *              verb=0, fmt=0):
  *     cdef Py_ssize_t ny = grid.shape[0]
  *     cdef Py_ssize_t nx = grid.shape[1]             # <<<<<<<<<<<<<<
@@ -2262,7 +2262,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
   __pyx_v_nx = (__pyx_v_grid->dimensions[1]);
 
-  /* "shakemap/c/pcontour.pyx":55
+  /* "esi_core/shakemap/c/pcontour.pyx":55
  *     cdef Py_ssize_t ny = grid.shape[0]
  *     cdef Py_ssize_t nx = grid.shape[1]
  *     cdef np.ndarray[double, ndim=1] fg = grid.flatten(order='C')             # <<<<<<<<<<<<<<
@@ -2292,7 +2292,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   __pyx_v_fg = ((PyArrayObject *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "shakemap/c/pcontour.pyx":64
+  /* "esi_core/shakemap/c/pcontour.pyx":64
  *     cdef int i
  * 
  *     gjson = {"type": "FeatureCollection",             # <<<<<<<<<<<<<<
@@ -2303,7 +2303,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   __Pyx_GOTREF(__pyx_t_3);
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_type, __pyx_n_u_FeatureCollection) < 0) __PYX_ERR(0, 64, __pyx_L1_error)
 
-  /* "shakemap/c/pcontour.pyx":65
+  /* "esi_core/shakemap/c/pcontour.pyx":65
  * 
  *     gjson = {"type": "FeatureCollection",
  *              "features": []}             # <<<<<<<<<<<<<<
@@ -2317,7 +2317,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   __pyx_v_gjson = ((PyObject*)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "shakemap/c/pcontour.pyx":67
+  /* "esi_core/shakemap/c/pcontour.pyx":67
  *              "features": []}
  * 
  *     cres = contour_grid(<double *>fg.data, nx, ny, dx, dy, ul_x, ul_y,             # <<<<<<<<<<<<<<
@@ -2329,7 +2329,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   __pyx_t_7 = __pyx_PyFloat_AsDouble(__pyx_v_ul_x); if (unlikely((__pyx_t_7 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 67, __pyx_L1_error)
   __pyx_t_8 = __pyx_PyFloat_AsDouble(__pyx_v_ul_y); if (unlikely((__pyx_t_8 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 67, __pyx_L1_error)
 
-  /* "shakemap/c/pcontour.pyx":69
+  /* "esi_core/shakemap/c/pcontour.pyx":69
  *     cres = contour_grid(<double *>fg.data, nx, ny, dx, dy, ul_x, ul_y,
  *                         <double *>contour_levels.data,
  *                         np.size(contour_levels),             # <<<<<<<<<<<<<<
@@ -2359,7 +2359,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   __pyx_t_9 = __Pyx_PyInt_As_size_t(__pyx_t_3); if (unlikely((__pyx_t_9 == (size_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 69, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "shakemap/c/pcontour.pyx":70
+  /* "esi_core/shakemap/c/pcontour.pyx":70
  *                         <double *>contour_levels.data,
  *                         np.size(contour_levels),
  *                         outstyle, verb)             # <<<<<<<<<<<<<<
@@ -2369,7 +2369,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_outstyle); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 70, __pyx_L1_error)
   __pyx_t_11 = __Pyx_PyInt_As_int(__pyx_v_verb); if (unlikely((__pyx_t_11 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 70, __pyx_L1_error)
 
-  /* "shakemap/c/pcontour.pyx":67
+  /* "esi_core/shakemap/c/pcontour.pyx":67
  *              "features": []}
  * 
  *     cres = contour_grid(<double *>fg.data, nx, ny, dx, dy, ul_x, ul_y,             # <<<<<<<<<<<<<<
@@ -2378,7 +2378,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
   __pyx_v_cres = contour_grid(((double *)__pyx_v_fg->data), __pyx_v_nx, __pyx_v_ny, __pyx_t_5, __pyx_t_6, __pyx_t_7, __pyx_t_8, ((double *)__pyx_v_contour_levels->data), __pyx_t_9, __pyx_t_10, __pyx_t_11);
 
-  /* "shakemap/c/pcontour.pyx":72
+  /* "esi_core/shakemap/c/pcontour.pyx":72
  *                         outstyle, verb)
  * 
  *     if outstyle == 3 or outstyle == 4:             # <<<<<<<<<<<<<<
@@ -2402,7 +2402,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_12) {
 
-    /* "shakemap/c/pcontour.pyx":73
+    /* "esi_core/shakemap/c/pcontour.pyx":73
  * 
  *     if outstyle == 3 or outstyle == 4:
  *         for i in range(-1, <int>cres.ncarray, 1):             # <<<<<<<<<<<<<<
@@ -2414,7 +2414,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
     for (__pyx_t_14 = -1; __pyx_t_14 < __pyx_t_10; __pyx_t_14+=1) {
       __pyx_v_i = __pyx_t_14;
 
-      /* "shakemap/c/pcontour.pyx":74
+      /* "esi_core/shakemap/c/pcontour.pyx":74
  *     if outstyle == 3 or outstyle == 4:
  *         for i in range(-1, <int>cres.ncarray, 1):
  *             if i == -1:             # <<<<<<<<<<<<<<
@@ -2424,7 +2424,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __pyx_t_12 = ((__pyx_v_i == -1L) != 0);
       if (__pyx_t_12) {
 
-        /* "shakemap/c/pcontour.pyx":75
+        /* "esi_core/shakemap/c/pcontour.pyx":75
  *         for i in range(-1, <int>cres.ncarray, 1):
  *             if i == -1:
  *                 crlist = cres.contour0             # <<<<<<<<<<<<<<
@@ -2434,7 +2434,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_15 = __pyx_v_cres.contour0;
         __pyx_v_crlist = __pyx_t_15;
 
-        /* "shakemap/c/pcontour.pyx":74
+        /* "esi_core/shakemap/c/pcontour.pyx":74
  *     if outstyle == 3 or outstyle == 4:
  *         for i in range(-1, <int>cres.ncarray, 1):
  *             if i == -1:             # <<<<<<<<<<<<<<
@@ -2444,7 +2444,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         goto __pyx_L8;
       }
 
-      /* "shakemap/c/pcontour.pyx":77
+      /* "esi_core/shakemap/c/pcontour.pyx":77
  *                 crlist = cres.contour0
  *             else:
  *                 crlist = &(cres.carray[i])             # <<<<<<<<<<<<<<
@@ -2456,7 +2456,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       }
       __pyx_L8:;
 
-      /* "shakemap/c/pcontour.pyx":78
+      /* "esi_core/shakemap/c/pcontour.pyx":78
  *             else:
  *                 crlist = &(cres.carray[i])
  *             cv = crlist[0].cv             # <<<<<<<<<<<<<<
@@ -2466,7 +2466,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __pyx_t_8 = (__pyx_v_crlist[0]).cv;
       __pyx_v_cv = __pyx_t_8;
 
-      /* "shakemap/c/pcontour.pyx":79
+      /* "esi_core/shakemap/c/pcontour.pyx":79
  *                 crlist = &(cres.carray[i])
  *             cv = crlist[0].cv
  *             if fmt == 0:             # <<<<<<<<<<<<<<
@@ -2479,7 +2479,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       if (__pyx_t_12) {
 
-        /* "shakemap/c/pcontour.pyx":80
+        /* "esi_core/shakemap/c/pcontour.pyx":80
  *             cv = crlist[0].cv
  *             if fmt == 0:
  *                 feature = {"type": "Feature",             # <<<<<<<<<<<<<<
@@ -2490,7 +2490,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_GOTREF(__pyx_t_3);
         if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_type, __pyx_n_u_Feature) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
 
-        /* "shakemap/c/pcontour.pyx":81
+        /* "esi_core/shakemap/c/pcontour.pyx":81
  *             if fmt == 0:
  *                 feature = {"type": "Feature",
  *                            "properties": {"value": cv},             # <<<<<<<<<<<<<<
@@ -2506,7 +2506,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_properties, __pyx_t_1) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* "shakemap/c/pcontour.pyx":82
+        /* "esi_core/shakemap/c/pcontour.pyx":82
  *                 feature = {"type": "Feature",
  *                            "properties": {"value": cv},
  *                            "geometry": {"type": "MultiPolygon",             # <<<<<<<<<<<<<<
@@ -2517,7 +2517,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_GOTREF(__pyx_t_1);
         if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_type, __pyx_n_u_MultiPolygon) < 0) __PYX_ERR(0, 82, __pyx_L1_error)
 
-        /* "shakemap/c/pcontour.pyx":83
+        /* "esi_core/shakemap/c/pcontour.pyx":83
  *                            "properties": {"value": cv},
  *                            "geometry": {"type": "MultiPolygon",
  *                                         "coordinates": []} }             # <<<<<<<<<<<<<<
@@ -2533,7 +2533,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_XDECREF_SET(__pyx_v_feature, ((PyObject*)__pyx_t_3));
         __pyx_t_3 = 0;
 
-        /* "shakemap/c/pcontour.pyx":79
+        /* "esi_core/shakemap/c/pcontour.pyx":79
  *                 crlist = &(cres.carray[i])
  *             cv = crlist[0].cv
  *             if fmt == 0:             # <<<<<<<<<<<<<<
@@ -2543,7 +2543,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         goto __pyx_L9;
       }
 
-      /* "shakemap/c/pcontour.pyx":85
+      /* "esi_core/shakemap/c/pcontour.pyx":85
  *                                         "coordinates": []} }
  *             else:
  *                 feature = {"type": "Feature",             # <<<<<<<<<<<<<<
@@ -2555,7 +2555,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_GOTREF(__pyx_t_3);
         if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_type, __pyx_n_u_Feature) < 0) __PYX_ERR(0, 85, __pyx_L1_error)
 
-        /* "shakemap/c/pcontour.pyx":86
+        /* "esi_core/shakemap/c/pcontour.pyx":86
  *             else:
  *                 feature = {"type": "Feature",
  *                            "properties": {"AREA": 0,             # <<<<<<<<<<<<<<
@@ -2567,7 +2567,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_AREA, __pyx_int_0) < 0) __PYX_ERR(0, 86, __pyx_L1_error)
         if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_PERIMETER, __pyx_int_0) < 0) __PYX_ERR(0, 86, __pyx_L1_error)
 
-        /* "shakemap/c/pcontour.pyx":88
+        /* "esi_core/shakemap/c/pcontour.pyx":88
  *                            "properties": {"AREA": 0,
  *                                           "PERIMETER": 0,
  *                                           "PGAPOL_": i + 1,             # <<<<<<<<<<<<<<
@@ -2579,7 +2579,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_PGAPOL, __pyx_t_2) < 0) __PYX_ERR(0, 86, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "shakemap/c/pcontour.pyx":89
+        /* "esi_core/shakemap/c/pcontour.pyx":89
  *                                           "PERIMETER": 0,
  *                                           "PGAPOL_": i + 1,
  *                                           "PGAPOL_ID": i + 1,             # <<<<<<<<<<<<<<
@@ -2592,7 +2592,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_GRID_CODE, __pyx_int_0) < 0) __PYX_ERR(0, 86, __pyx_L1_error)
 
-        /* "shakemap/c/pcontour.pyx":91
+        /* "esi_core/shakemap/c/pcontour.pyx":91
  *                                           "PGAPOL_ID": i + 1,
  *                                           "GRID_CODE": 0,
  *                                           "PARAMVALUE": cv},             # <<<<<<<<<<<<<<
@@ -2606,7 +2606,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         if (PyDict_SetItem(__pyx_t_3, __pyx_n_u_properties, __pyx_t_1) < 0) __PYX_ERR(0, 85, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* "shakemap/c/pcontour.pyx":92
+        /* "esi_core/shakemap/c/pcontour.pyx":92
  *                                           "GRID_CODE": 0,
  *                                           "PARAMVALUE": cv},
  *                            "geometry": {"type": "MultiPolygon",             # <<<<<<<<<<<<<<
@@ -2617,7 +2617,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_GOTREF(__pyx_t_1);
         if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_type, __pyx_n_u_MultiPolygon) < 0) __PYX_ERR(0, 92, __pyx_L1_error)
 
-        /* "shakemap/c/pcontour.pyx":93
+        /* "esi_core/shakemap/c/pcontour.pyx":93
  *                                           "PARAMVALUE": cv},
  *                            "geometry": {"type": "MultiPolygon",
  *                                         "coordinates": []} }             # <<<<<<<<<<<<<<
@@ -2635,7 +2635,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       }
       __pyx_L9:;
 
-      /* "shakemap/c/pcontour.pyx":94
+      /* "esi_core/shakemap/c/pcontour.pyx":94
  *                            "geometry": {"type": "MultiPolygon",
  *                                         "coordinates": []} }
  *             cp = crlist[0].closed             # <<<<<<<<<<<<<<
@@ -2645,7 +2645,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __pyx_t_16 = (__pyx_v_crlist[0]).closed;
       __pyx_v_cp = __pyx_t_16;
 
-      /* "shakemap/c/pcontour.pyx":95
+      /* "esi_core/shakemap/c/pcontour.pyx":95
  *                                         "coordinates": []} }
  *             cp = crlist[0].closed
  *             while cp != NULL:             # <<<<<<<<<<<<<<
@@ -2656,7 +2656,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_12 = ((__pyx_v_cp != NULL) != 0);
         if (!__pyx_t_12) break;
 
-        /* "shakemap/c/pcontour.pyx":96
+        /* "esi_core/shakemap/c/pcontour.pyx":96
  *             cp = crlist[0].closed
  *             while cp != NULL:
  *                 clist = []             # <<<<<<<<<<<<<<
@@ -2668,7 +2668,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_XDECREF_SET(__pyx_v_clist, ((PyObject*)__pyx_t_3));
         __pyx_t_3 = 0;
 
-        /* "shakemap/c/pcontour.pyx":97
+        /* "esi_core/shakemap/c/pcontour.pyx":97
  *             while cp != NULL:
  *                 clist = []
  *                 plist = []             # <<<<<<<<<<<<<<
@@ -2680,7 +2680,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_XDECREF_SET(__pyx_v_plist, ((PyObject*)__pyx_t_3));
         __pyx_t_3 = 0;
 
-        /* "shakemap/c/pcontour.pyx":98
+        /* "esi_core/shakemap/c/pcontour.pyx":98
  *                 clist = []
  *                 plist = []
  *                 pt = cp[0].first             # <<<<<<<<<<<<<<
@@ -2690,7 +2690,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_17 = (__pyx_v_cp[0]).first;
         __pyx_v_pt = __pyx_t_17;
 
-        /* "shakemap/c/pcontour.pyx":99
+        /* "esi_core/shakemap/c/pcontour.pyx":99
  *                 plist = []
  *                 pt = cp[0].first
  *                 while pt != NULL:             # <<<<<<<<<<<<<<
@@ -2701,7 +2701,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_12 = ((__pyx_v_pt != NULL) != 0);
           if (!__pyx_t_12) break;
 
-          /* "shakemap/c/pcontour.pyx":100
+          /* "esi_core/shakemap/c/pcontour.pyx":100
  *                 pt = cp[0].first
  *                 while pt != NULL:
  *                     plist.append([round(pt.x, 6), round(pt.y, 6)])             # <<<<<<<<<<<<<<
@@ -2745,7 +2745,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_plist, __pyx_t_2); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 100, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-          /* "shakemap/c/pcontour.pyx":101
+          /* "esi_core/shakemap/c/pcontour.pyx":101
  *                 while pt != NULL:
  *                     plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                     pt = pt[0].next             # <<<<<<<<<<<<<<
@@ -2756,7 +2756,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_v_pt = __pyx_t_17;
         }
 
-        /* "shakemap/c/pcontour.pyx":102
+        /* "esi_core/shakemap/c/pcontour.pyx":102
  *                     plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                     pt = pt[0].next
  *                 clist.append(plist)             # <<<<<<<<<<<<<<
@@ -2765,7 +2765,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
         __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_clist, __pyx_v_plist); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 102, __pyx_L1_error)
 
-        /* "shakemap/c/pcontour.pyx":104
+        /* "esi_core/shakemap/c/pcontour.pyx":104
  *                 clist.append(plist)
  * 
  *                 hp = cp[0].neg_holes             # <<<<<<<<<<<<<<
@@ -2775,7 +2775,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_16 = (__pyx_v_cp[0]).neg_holes;
         __pyx_v_hp = __pyx_t_16;
 
-        /* "shakemap/c/pcontour.pyx":105
+        /* "esi_core/shakemap/c/pcontour.pyx":105
  * 
  *                 hp = cp[0].neg_holes
  *                 while hp != NULL:             # <<<<<<<<<<<<<<
@@ -2786,7 +2786,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_12 = ((__pyx_v_hp != NULL) != 0);
           if (!__pyx_t_12) break;
 
-          /* "shakemap/c/pcontour.pyx":106
+          /* "esi_core/shakemap/c/pcontour.pyx":106
  *                 hp = cp[0].neg_holes
  *                 while hp != NULL:
  *                     plist = []             # <<<<<<<<<<<<<<
@@ -2798,7 +2798,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __Pyx_DECREF_SET(__pyx_v_plist, ((PyObject*)__pyx_t_2));
           __pyx_t_2 = 0;
 
-          /* "shakemap/c/pcontour.pyx":107
+          /* "esi_core/shakemap/c/pcontour.pyx":107
  *                 while hp != NULL:
  *                     plist = []
  *                     pt = hp[0].first             # <<<<<<<<<<<<<<
@@ -2808,7 +2808,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_17 = (__pyx_v_hp[0]).first;
           __pyx_v_pt = __pyx_t_17;
 
-          /* "shakemap/c/pcontour.pyx":108
+          /* "esi_core/shakemap/c/pcontour.pyx":108
  *                     plist = []
  *                     pt = hp[0].first
  *                     while pt != NULL:             # <<<<<<<<<<<<<<
@@ -2819,7 +2819,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
             __pyx_t_12 = ((__pyx_v_pt != NULL) != 0);
             if (!__pyx_t_12) break;
 
-            /* "shakemap/c/pcontour.pyx":109
+            /* "esi_core/shakemap/c/pcontour.pyx":109
  *                     pt = hp[0].first
  *                     while pt != NULL:
  *                         plist.append([round(pt.x, 6), round(pt.y, 6)])             # <<<<<<<<<<<<<<
@@ -2863,7 +2863,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
             __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_plist, __pyx_t_3); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 109, __pyx_L1_error)
             __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-            /* "shakemap/c/pcontour.pyx":110
+            /* "esi_core/shakemap/c/pcontour.pyx":110
  *                     while pt != NULL:
  *                         plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                         pt = pt[0].next             # <<<<<<<<<<<<<<
@@ -2874,7 +2874,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
             __pyx_v_pt = __pyx_t_17;
           }
 
-          /* "shakemap/c/pcontour.pyx":111
+          /* "esi_core/shakemap/c/pcontour.pyx":111
  *                         plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                         pt = pt[0].next
  *                     clist.append(plist)             # <<<<<<<<<<<<<<
@@ -2883,7 +2883,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
           __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_clist, __pyx_v_plist); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 111, __pyx_L1_error)
 
-          /* "shakemap/c/pcontour.pyx":112
+          /* "esi_core/shakemap/c/pcontour.pyx":112
  *                         pt = pt[0].next
  *                     clist.append(plist)
  *                     hp = hp[0].neg_next             # <<<<<<<<<<<<<<
@@ -2894,7 +2894,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_v_hp = __pyx_t_16;
         }
 
-        /* "shakemap/c/pcontour.pyx":114
+        /* "esi_core/shakemap/c/pcontour.pyx":114
  *                     hp = hp[0].neg_next
  * 
  *                 hp = cp[0].pos_holes             # <<<<<<<<<<<<<<
@@ -2904,7 +2904,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_16 = (__pyx_v_cp[0]).pos_holes;
         __pyx_v_hp = __pyx_t_16;
 
-        /* "shakemap/c/pcontour.pyx":115
+        /* "esi_core/shakemap/c/pcontour.pyx":115
  * 
  *                 hp = cp[0].pos_holes
  *                 while hp != NULL:             # <<<<<<<<<<<<<<
@@ -2915,7 +2915,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_12 = ((__pyx_v_hp != NULL) != 0);
           if (!__pyx_t_12) break;
 
-          /* "shakemap/c/pcontour.pyx":116
+          /* "esi_core/shakemap/c/pcontour.pyx":116
  *                 hp = cp[0].pos_holes
  *                 while hp != NULL:
  *                     plist = []             # <<<<<<<<<<<<<<
@@ -2927,7 +2927,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __Pyx_DECREF_SET(__pyx_v_plist, ((PyObject*)__pyx_t_3));
           __pyx_t_3 = 0;
 
-          /* "shakemap/c/pcontour.pyx":117
+          /* "esi_core/shakemap/c/pcontour.pyx":117
  *                 while hp != NULL:
  *                     plist = []
  *                     pt = hp[0].first             # <<<<<<<<<<<<<<
@@ -2937,7 +2937,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_17 = (__pyx_v_hp[0]).first;
           __pyx_v_pt = __pyx_t_17;
 
-          /* "shakemap/c/pcontour.pyx":118
+          /* "esi_core/shakemap/c/pcontour.pyx":118
  *                     plist = []
  *                     pt = hp[0].first
  *                     while pt != NULL:             # <<<<<<<<<<<<<<
@@ -2948,7 +2948,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
             __pyx_t_12 = ((__pyx_v_pt != NULL) != 0);
             if (!__pyx_t_12) break;
 
-            /* "shakemap/c/pcontour.pyx":119
+            /* "esi_core/shakemap/c/pcontour.pyx":119
  *                     pt = hp[0].first
  *                     while pt != NULL:
  *                         plist.append([round(pt.x, 6), round(pt.y, 6)])             # <<<<<<<<<<<<<<
@@ -2992,7 +2992,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
             __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_plist, __pyx_t_2); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 119, __pyx_L1_error)
             __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-            /* "shakemap/c/pcontour.pyx":120
+            /* "esi_core/shakemap/c/pcontour.pyx":120
  *                     while pt != NULL:
  *                         plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                         pt = pt[0].next             # <<<<<<<<<<<<<<
@@ -3003,7 +3003,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
             __pyx_v_pt = __pyx_t_17;
           }
 
-          /* "shakemap/c/pcontour.pyx":121
+          /* "esi_core/shakemap/c/pcontour.pyx":121
  *                         plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                         pt = pt[0].next
  *                     clist.append(plist)             # <<<<<<<<<<<<<<
@@ -3012,7 +3012,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
           __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_clist, __pyx_v_plist); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 121, __pyx_L1_error)
 
-          /* "shakemap/c/pcontour.pyx":122
+          /* "esi_core/shakemap/c/pcontour.pyx":122
  *                         pt = pt[0].next
  *                     clist.append(plist)
  *                     hp = hp[0].pos_next             # <<<<<<<<<<<<<<
@@ -3023,7 +3023,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_v_hp = __pyx_t_16;
         }
 
-        /* "shakemap/c/pcontour.pyx":124
+        /* "esi_core/shakemap/c/pcontour.pyx":124
  *                     hp = hp[0].pos_next
  * 
  *                 feature['geometry']['coordinates'].append(clist)             # <<<<<<<<<<<<<<
@@ -3038,7 +3038,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_18 = __Pyx_PyObject_Append(__pyx_t_1, __pyx_v_clist); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 124, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* "shakemap/c/pcontour.pyx":125
+        /* "esi_core/shakemap/c/pcontour.pyx":125
  * 
  *                 feature['geometry']['coordinates'].append(clist)
  *                 cp = cp[0].next             # <<<<<<<<<<<<<<
@@ -3049,7 +3049,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_v_cp = __pyx_t_16;
       }
 
-      /* "shakemap/c/pcontour.pyx":126
+      /* "esi_core/shakemap/c/pcontour.pyx":126
  *                 feature['geometry']['coordinates'].append(clist)
  *                 cp = cp[0].next
  *             if len(feature['geometry']['coordinates']) > 0:             # <<<<<<<<<<<<<<
@@ -3066,7 +3066,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __pyx_t_12 = ((__pyx_t_19 > 0) != 0);
       if (__pyx_t_12) {
 
-        /* "shakemap/c/pcontour.pyx":127
+        /* "esi_core/shakemap/c/pcontour.pyx":127
  *                 cp = cp[0].next
  *             if len(feature['geometry']['coordinates']) > 0:
  *                 gjson['features'].append(feature)             # <<<<<<<<<<<<<<
@@ -3078,7 +3078,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_18 = __Pyx_PyObject_Append(__pyx_t_2, __pyx_v_feature); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 127, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "shakemap/c/pcontour.pyx":126
+        /* "esi_core/shakemap/c/pcontour.pyx":126
  *                 feature['geometry']['coordinates'].append(clist)
  *                 cp = cp[0].next
  *             if len(feature['geometry']['coordinates']) > 0:             # <<<<<<<<<<<<<<
@@ -3088,7 +3088,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       }
     }
 
-    /* "shakemap/c/pcontour.pyx":72
+    /* "esi_core/shakemap/c/pcontour.pyx":72
  *                         outstyle, verb)
  * 
  *     if outstyle == 3 or outstyle == 4:             # <<<<<<<<<<<<<<
@@ -3098,7 +3098,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
     goto __pyx_L3;
   }
 
-  /* "shakemap/c/pcontour.pyx":129
+  /* "esi_core/shakemap/c/pcontour.pyx":129
  *                 gjson['features'].append(feature)
  *     else:
  *         for i in range(-1, <int>cres.ncarray, 1):             # <<<<<<<<<<<<<<
@@ -3111,7 +3111,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
     for (__pyx_t_14 = -1; __pyx_t_14 < __pyx_t_10; __pyx_t_14+=1) {
       __pyx_v_i = __pyx_t_14;
 
-      /* "shakemap/c/pcontour.pyx":130
+      /* "esi_core/shakemap/c/pcontour.pyx":130
  *     else:
  *         for i in range(-1, <int>cres.ncarray, 1):
  *             if i == -1:             # <<<<<<<<<<<<<<
@@ -3121,7 +3121,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __pyx_t_12 = ((__pyx_v_i == -1L) != 0);
       if (__pyx_t_12) {
 
-        /* "shakemap/c/pcontour.pyx":132
+        /* "esi_core/shakemap/c/pcontour.pyx":132
  *             if i == -1:
  *                 # crlist = cres.contour0
  *                 continue             # <<<<<<<<<<<<<<
@@ -3130,7 +3130,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
         goto __pyx_L23_continue;
 
-        /* "shakemap/c/pcontour.pyx":130
+        /* "esi_core/shakemap/c/pcontour.pyx":130
  *     else:
  *         for i in range(-1, <int>cres.ncarray, 1):
  *             if i == -1:             # <<<<<<<<<<<<<<
@@ -3139,7 +3139,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
       }
 
-      /* "shakemap/c/pcontour.pyx":134
+      /* "esi_core/shakemap/c/pcontour.pyx":134
  *                 continue
  *             else:
  *                 crlist = &(cres.carray[i])             # <<<<<<<<<<<<<<
@@ -3150,7 +3150,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_v_crlist = (&(__pyx_v_cres.carray[__pyx_v_i]));
       }
 
-      /* "shakemap/c/pcontour.pyx":135
+      /* "esi_core/shakemap/c/pcontour.pyx":135
  *             else:
  *                 crlist = &(cres.carray[i])
  *             cv = crlist[0].cv             # <<<<<<<<<<<<<<
@@ -3160,7 +3160,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __pyx_t_8 = (__pyx_v_crlist[0]).cv;
       __pyx_v_cv = __pyx_t_8;
 
-      /* "shakemap/c/pcontour.pyx":136
+      /* "esi_core/shakemap/c/pcontour.pyx":136
  *                 crlist = &(cres.carray[i])
  *             cv = crlist[0].cv
  *             feature = {"type": "Feature",             # <<<<<<<<<<<<<<
@@ -3171,7 +3171,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __Pyx_GOTREF(__pyx_t_2);
       if (PyDict_SetItem(__pyx_t_2, __pyx_n_u_type, __pyx_n_u_Feature) < 0) __PYX_ERR(0, 136, __pyx_L1_error)
 
-      /* "shakemap/c/pcontour.pyx":138
+      /* "esi_core/shakemap/c/pcontour.pyx":138
  *             feature = {"type": "Feature",
  *                     "properties": {
  *                         "value": cv             # <<<<<<<<<<<<<<
@@ -3187,7 +3187,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       if (PyDict_SetItem(__pyx_t_2, __pyx_n_u_properties, __pyx_t_1) < 0) __PYX_ERR(0, 136, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-      /* "shakemap/c/pcontour.pyx":141
+      /* "esi_core/shakemap/c/pcontour.pyx":141
  *                         },
  *                     "geometry": {
  *                         "type": "MultiLineString",             # <<<<<<<<<<<<<<
@@ -3198,7 +3198,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __Pyx_GOTREF(__pyx_t_1);
       if (PyDict_SetItem(__pyx_t_1, __pyx_n_u_type, __pyx_n_u_MultiLineString) < 0) __PYX_ERR(0, 141, __pyx_L1_error)
 
-      /* "shakemap/c/pcontour.pyx":142
+      /* "esi_core/shakemap/c/pcontour.pyx":142
  *                     "geometry": {
  *                         "type": "MultiLineString",
  *                         "coordinates": []             # <<<<<<<<<<<<<<
@@ -3214,7 +3214,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __Pyx_XDECREF_SET(__pyx_v_feature, ((PyObject*)__pyx_t_2));
       __pyx_t_2 = 0;
 
-      /* "shakemap/c/pcontour.pyx":145
+      /* "esi_core/shakemap/c/pcontour.pyx":145
  *                         }
  *                     }
  *             clist = []             # <<<<<<<<<<<<<<
@@ -3226,7 +3226,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __Pyx_XDECREF_SET(__pyx_v_clist, ((PyObject*)__pyx_t_2));
       __pyx_t_2 = 0;
 
-      /* "shakemap/c/pcontour.pyx":146
+      /* "esi_core/shakemap/c/pcontour.pyx":146
  *                     }
  *             clist = []
  *             cp = crlist[0].closed             # <<<<<<<<<<<<<<
@@ -3236,7 +3236,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __pyx_t_16 = (__pyx_v_crlist[0]).closed;
       __pyx_v_cp = __pyx_t_16;
 
-      /* "shakemap/c/pcontour.pyx":147
+      /* "esi_core/shakemap/c/pcontour.pyx":147
  *             clist = []
  *             cp = crlist[0].closed
  *             while cp != NULL:             # <<<<<<<<<<<<<<
@@ -3247,7 +3247,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_12 = ((__pyx_v_cp != NULL) != 0);
         if (!__pyx_t_12) break;
 
-        /* "shakemap/c/pcontour.pyx":148
+        /* "esi_core/shakemap/c/pcontour.pyx":148
  *             cp = crlist[0].closed
  *             while cp != NULL:
  *                 plist = []             # <<<<<<<<<<<<<<
@@ -3259,7 +3259,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_XDECREF_SET(__pyx_v_plist, ((PyObject*)__pyx_t_2));
         __pyx_t_2 = 0;
 
-        /* "shakemap/c/pcontour.pyx":149
+        /* "esi_core/shakemap/c/pcontour.pyx":149
  *             while cp != NULL:
  *                 plist = []
  *                 pt = cp[0].first             # <<<<<<<<<<<<<<
@@ -3269,7 +3269,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_17 = (__pyx_v_cp[0]).first;
         __pyx_v_pt = __pyx_t_17;
 
-        /* "shakemap/c/pcontour.pyx":150
+        /* "esi_core/shakemap/c/pcontour.pyx":150
  *                 plist = []
  *                 pt = cp[0].first
  *                 while pt != NULL:             # <<<<<<<<<<<<<<
@@ -3280,7 +3280,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_12 = ((__pyx_v_pt != NULL) != 0);
           if (!__pyx_t_12) break;
 
-          /* "shakemap/c/pcontour.pyx":151
+          /* "esi_core/shakemap/c/pcontour.pyx":151
  *                 pt = cp[0].first
  *                 while pt != NULL:
  *                     plist.append([round(pt.x, 6), round(pt.y, 6)])             # <<<<<<<<<<<<<<
@@ -3324,7 +3324,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_plist, __pyx_t_3); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 151, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-          /* "shakemap/c/pcontour.pyx":152
+          /* "esi_core/shakemap/c/pcontour.pyx":152
  *                 while pt != NULL:
  *                     plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                     pt = pt[0].next             # <<<<<<<<<<<<<<
@@ -3335,7 +3335,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_v_pt = __pyx_t_17;
         }
 
-        /* "shakemap/c/pcontour.pyx":153
+        /* "esi_core/shakemap/c/pcontour.pyx":153
  *                     plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                     pt = pt[0].next
  *                 clist.append(plist)             # <<<<<<<<<<<<<<
@@ -3344,7 +3344,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
         __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_clist, __pyx_v_plist); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 153, __pyx_L1_error)
 
-        /* "shakemap/c/pcontour.pyx":154
+        /* "esi_core/shakemap/c/pcontour.pyx":154
  *                     pt = pt[0].next
  *                 clist.append(plist)
  *                 cp = cp[0].next             # <<<<<<<<<<<<<<
@@ -3355,7 +3355,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_v_cp = __pyx_t_16;
       }
 
-      /* "shakemap/c/pcontour.pyx":155
+      /* "esi_core/shakemap/c/pcontour.pyx":155
  *                 clist.append(plist)
  *                 cp = cp[0].next
  *             cp = crlist[0].open             # <<<<<<<<<<<<<<
@@ -3365,7 +3365,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __pyx_t_16 = (__pyx_v_crlist[0]).open;
       __pyx_v_cp = __pyx_t_16;
 
-      /* "shakemap/c/pcontour.pyx":156
+      /* "esi_core/shakemap/c/pcontour.pyx":156
  *                 cp = cp[0].next
  *             cp = crlist[0].open
  *             while cp != NULL:             # <<<<<<<<<<<<<<
@@ -3376,7 +3376,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_12 = ((__pyx_v_cp != NULL) != 0);
         if (!__pyx_t_12) break;
 
-        /* "shakemap/c/pcontour.pyx":157
+        /* "esi_core/shakemap/c/pcontour.pyx":157
  *             cp = crlist[0].open
  *             while cp != NULL:
  *                 plist = []             # <<<<<<<<<<<<<<
@@ -3388,7 +3388,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __Pyx_XDECREF_SET(__pyx_v_plist, ((PyObject*)__pyx_t_3));
         __pyx_t_3 = 0;
 
-        /* "shakemap/c/pcontour.pyx":158
+        /* "esi_core/shakemap/c/pcontour.pyx":158
  *             while cp != NULL:
  *                 plist = []
  *                 pt = cp[0].first             # <<<<<<<<<<<<<<
@@ -3398,7 +3398,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_17 = (__pyx_v_cp[0]).first;
         __pyx_v_pt = __pyx_t_17;
 
-        /* "shakemap/c/pcontour.pyx":159
+        /* "esi_core/shakemap/c/pcontour.pyx":159
  *                 plist = []
  *                 pt = cp[0].first
  *                 while pt != NULL:             # <<<<<<<<<<<<<<
@@ -3409,7 +3409,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_12 = ((__pyx_v_pt != NULL) != 0);
           if (!__pyx_t_12) break;
 
-          /* "shakemap/c/pcontour.pyx":160
+          /* "esi_core/shakemap/c/pcontour.pyx":160
  *                 pt = cp[0].first
  *                 while pt != NULL:
  *                     plist.append([round(pt.x, 6), round(pt.y, 6)])             # <<<<<<<<<<<<<<
@@ -3453,7 +3453,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_plist, __pyx_t_2); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 160, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-          /* "shakemap/c/pcontour.pyx":161
+          /* "esi_core/shakemap/c/pcontour.pyx":161
  *                 while pt != NULL:
  *                     plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                     pt = pt[0].next             # <<<<<<<<<<<<<<
@@ -3464,7 +3464,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
           __pyx_v_pt = __pyx_t_17;
         }
 
-        /* "shakemap/c/pcontour.pyx":162
+        /* "esi_core/shakemap/c/pcontour.pyx":162
  *                     plist.append([round(pt.x, 6), round(pt.y, 6)])
  *                     pt = pt[0].next
  *                 clist.append(plist)             # <<<<<<<<<<<<<<
@@ -3473,7 +3473,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
  */
         __pyx_t_18 = __Pyx_PyList_Append(__pyx_v_clist, __pyx_v_plist); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 162, __pyx_L1_error)
 
-        /* "shakemap/c/pcontour.pyx":163
+        /* "esi_core/shakemap/c/pcontour.pyx":163
  *                     pt = pt[0].next
  *                 clist.append(plist)
  *                 cp = cp[0].next             # <<<<<<<<<<<<<<
@@ -3484,7 +3484,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_v_cp = __pyx_t_16;
       }
 
-      /* "shakemap/c/pcontour.pyx":164
+      /* "esi_core/shakemap/c/pcontour.pyx":164
  *                 clist.append(plist)
  *                 cp = cp[0].next
  *             feature['geometry']['coordinates'] = clist             # <<<<<<<<<<<<<<
@@ -3496,7 +3496,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       if (unlikely(PyObject_SetItem(__pyx_t_2, __pyx_n_u_coordinates, __pyx_v_clist) < 0)) __PYX_ERR(0, 164, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "shakemap/c/pcontour.pyx":165
+      /* "esi_core/shakemap/c/pcontour.pyx":165
  *                 cp = cp[0].next
  *             feature['geometry']['coordinates'] = clist
  *             if len(feature['geometry']['coordinates']) > 0:             # <<<<<<<<<<<<<<
@@ -3513,7 +3513,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
       __pyx_t_12 = ((__pyx_t_19 > 0) != 0);
       if (__pyx_t_12) {
 
-        /* "shakemap/c/pcontour.pyx":166
+        /* "esi_core/shakemap/c/pcontour.pyx":166
  *             feature['geometry']['coordinates'] = clist
  *             if len(feature['geometry']['coordinates']) > 0:
  *                 gjson['features'].append(feature)             # <<<<<<<<<<<<<<
@@ -3525,7 +3525,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
         __pyx_t_18 = __Pyx_PyObject_Append(__pyx_t_1, __pyx_v_feature); if (unlikely(__pyx_t_18 == ((int)-1))) __PYX_ERR(0, 166, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-        /* "shakemap/c/pcontour.pyx":165
+        /* "esi_core/shakemap/c/pcontour.pyx":165
  *                 cp = cp[0].next
  *             feature['geometry']['coordinates'] = clist
  *             if len(feature['geometry']['coordinates']) > 0:             # <<<<<<<<<<<<<<
@@ -3538,7 +3538,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   }
   __pyx_L3:;
 
-  /* "shakemap/c/pcontour.pyx":168
+  /* "esi_core/shakemap/c/pcontour.pyx":168
  *                 gjson['features'].append(feature)
  * 
  *     return gjson             # <<<<<<<<<<<<<<
@@ -3548,7 +3548,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   __pyx_r = __pyx_v_gjson;
   goto __pyx_L0;
 
-  /* "shakemap/c/pcontour.pyx":50
+  /* "esi_core/shakemap/c/pcontour.pyx":50
  * 
  * 
  * def pcontour(np.ndarray[double, ndim=2, mode='c']grid, dx, dy, ul_x, ul_y,             # <<<<<<<<<<<<<<
@@ -3569,7 +3569,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_fg.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_grid.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("shakemap.c.pcontour.pcontour", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.shakemap.c.pcontour.pcontour", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -3587,7 +3587,7 @@ static PyObject *__pyx_pf_8shakemap_1c_8pcontour_pcontour(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":734
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -3604,7 +3604,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":735
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":735
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -3618,7 +3618,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":734
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -3637,7 +3637,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":737
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -3654,7 +3654,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":738
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":738
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -3668,7 +3668,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":737
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -3687,7 +3687,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":740
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -3704,7 +3704,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":741
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":741
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -3718,7 +3718,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":740
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -3737,7 +3737,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":743
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -3754,7 +3754,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":744
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":744
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -3768,7 +3768,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":743
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -3787,7 +3787,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":746
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -3804,7 +3804,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":747
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":747
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -3818,7 +3818,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":746
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -3837,7 +3837,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":749
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -3851,7 +3851,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":750
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -3861,7 +3861,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":751
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":751
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -3873,7 +3873,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":750
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -3882,7 +3882,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":753
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":753
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -3896,7 +3896,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":749
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -3911,7 +3911,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":928
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -3923,7 +3923,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":929
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":929
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -3932,7 +3932,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":930
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":930
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -3941,7 +3941,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":928
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -3953,7 +3953,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":932
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -3968,7 +3968,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":933
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":933
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -3977,7 +3977,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":934
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -3987,7 +3987,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":935
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":935
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -3998,7 +3998,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":934
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -4007,7 +4007,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":936
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":936
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -4019,7 +4019,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":932
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -4034,7 +4034,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":940
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4058,7 +4058,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":941
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4074,7 +4074,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":942
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":942
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -4083,7 +4083,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 942, __pyx_L3_error)
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":941
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4097,7 +4097,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":943
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":943
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4112,7 +4112,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":944
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -4128,7 +4128,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":941
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4143,7 +4143,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":940
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4166,7 +4166,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":946
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4190,7 +4190,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":947
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4206,7 +4206,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":948
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":948
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -4215,7 +4215,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 948, __pyx_L3_error)
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":947
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4229,7 +4229,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":949
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":949
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4244,7 +4244,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":950
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4260,7 +4260,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":947
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4275,7 +4275,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":946
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4298,7 +4298,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":952
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -4322,7 +4322,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":953
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4338,7 +4338,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":954
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":954
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -4347,7 +4347,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 954, __pyx_L3_error)
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":953
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4361,7 +4361,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":955
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":955
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4376,7 +4376,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":956
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":956
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4392,7 +4392,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":953
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4407,7 +4407,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":952
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -4430,7 +4430,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":966
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4443,7 +4443,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_timedelta64_object", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":978
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":978
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -4453,7 +4453,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":966
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4467,7 +4467,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":981
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4480,7 +4480,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_datetime64_object", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":993
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":993
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -4490,7 +4490,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":981
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -4504,7 +4504,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":996
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4515,7 +4515,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1003
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1003
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -4525,7 +4525,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":996
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4538,7 +4538,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1006
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4549,7 +4549,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1010
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1010
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -4559,7 +4559,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1006
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4572,7 +4572,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1013
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4583,7 +4583,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1017
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1017
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -4591,7 +4591,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -4673,6 +4673,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_cv, __pyx_k_cv, sizeof(__pyx_k_cv), 0, 0, 1, 1},
   {&__pyx_n_s_dx, __pyx_k_dx, sizeof(__pyx_k_dx), 0, 0, 1, 1},
   {&__pyx_n_s_dy, __pyx_k_dy, sizeof(__pyx_k_dy), 0, 0, 1, 1},
+  {&__pyx_n_s_esi_core_shakemap_c_pcontour, __pyx_k_esi_core_shakemap_c_pcontour, sizeof(__pyx_k_esi_core_shakemap_c_pcontour), 0, 0, 1, 1},
   {&__pyx_n_s_feature, __pyx_k_feature, sizeof(__pyx_k_feature), 0, 0, 1, 1},
   {&__pyx_n_u_features, __pyx_k_features, sizeof(__pyx_k_features), 0, 1, 0, 1},
   {&__pyx_n_s_fg, __pyx_k_fg, sizeof(__pyx_k_fg), 0, 0, 1, 1},
@@ -4700,9 +4701,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_pt, __pyx_k_pt, sizeof(__pyx_k_pt), 0, 0, 1, 1},
   {&__pyx_n_s_range, __pyx_k_range, sizeof(__pyx_k_range), 0, 0, 1, 1},
   {&__pyx_n_s_round, __pyx_k_round, sizeof(__pyx_k_round), 0, 0, 1, 1},
-  {&__pyx_n_s_shakemap_c_pcontour, __pyx_k_shakemap_c_pcontour, sizeof(__pyx_k_shakemap_c_pcontour), 0, 0, 1, 1},
   {&__pyx_n_s_size, __pyx_k_size, sizeof(__pyx_k_size), 0, 0, 1, 1},
-  {&__pyx_kp_s_src_shakemap_c_pcontour_pyx, __pyx_k_src_shakemap_c_pcontour_pyx, sizeof(__pyx_k_src_shakemap_c_pcontour_pyx), 0, 0, 1, 0},
+  {&__pyx_kp_s_src_esi_core_shakemap_c_pcontour, __pyx_k_src_esi_core_shakemap_c_pcontour, sizeof(__pyx_k_src_esi_core_shakemap_c_pcontour), 0, 0, 1, 0},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
   {&__pyx_n_u_type, __pyx_k_type, sizeof(__pyx_k_type), 0, 1, 0, 1},
   {&__pyx_n_s_ul_x, __pyx_k_ul_x, sizeof(__pyx_k_ul_x), 0, 0, 1, 1},
@@ -4724,7 +4724,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":944
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -4735,7 +4735,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":950
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4746,7 +4746,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "shakemap/c/pcontour.pyx":50
+  /* "esi_core/shakemap/c/pcontour.pyx":50
  * 
  * 
  * def pcontour(np.ndarray[double, ndim=2, mode='c']grid, dx, dy, ul_x, ul_y,             # <<<<<<<<<<<<<<
@@ -4756,7 +4756,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__3 = PyTuple_Pack(23, __pyx_n_s_grid, __pyx_n_s_dx, __pyx_n_s_dy, __pyx_n_s_ul_x, __pyx_n_s_ul_y, __pyx_n_s_contour_levels, __pyx_n_s_outstyle, __pyx_n_s_verb, __pyx_n_s_fmt, __pyx_n_s_ny, __pyx_n_s_nx, __pyx_n_s_fg, __pyx_n_s_cres, __pyx_n_s_crlist, __pyx_n_s_cv, __pyx_n_s_cp, __pyx_n_s_hp, __pyx_n_s_pt, __pyx_n_s_i, __pyx_n_s_gjson, __pyx_n_s_feature, __pyx_n_s_clist, __pyx_n_s_plist); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 50, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
-  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(9, 0, 23, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_shakemap_c_pcontour_pyx, __pyx_n_s_pcontour, 50, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) __PYX_ERR(0, 50, __pyx_L1_error)
+  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(9, 0, 23, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_esi_core_shakemap_c_pcontour, __pyx_n_s_pcontour, 50, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) __PYX_ERR(0, 50, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -5063,14 +5063,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_shakemap__c__pcontour) {
+  if (__pyx_module_is_main_esi_core__shakemap__c__pcontour) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "shakemap.c.pcontour")) {
-      if (unlikely(PyDict_SetItemString(modules, "shakemap.c.pcontour", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "esi_core.shakemap.c.pcontour")) {
+      if (unlikely(PyDict_SetItemString(modules, "esi_core.shakemap.c.pcontour", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -5091,7 +5091,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "shakemap/c/pcontour.pyx":2
+  /* "esi_core/shakemap/c/pcontour.pyx":2
  * #cython: language_level=3
  * import numpy as np             # <<<<<<<<<<<<<<
  * cimport numpy as np
@@ -5102,19 +5102,19 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "shakemap/c/pcontour.pyx":50
+  /* "esi_core/shakemap/c/pcontour.pyx":50
  * 
  * 
  * def pcontour(np.ndarray[double, ndim=2, mode='c']grid, dx, dy, ul_x, ul_y,             # <<<<<<<<<<<<<<
  *              np.ndarray[double, ndim=1, mode='c']contour_levels, outstyle,
  *              verb=0, fmt=0):
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8shakemap_1c_8pcontour_1pcontour, NULL, __pyx_n_s_shakemap_c_pcontour); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 50, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8esi_core_8shakemap_1c_8pcontour_1pcontour, NULL, __pyx_n_s_esi_core_shakemap_c_pcontour); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 50, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_pcontour, __pyx_t_1) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "shakemap/c/pcontour.pyx":1
+  /* "esi_core/shakemap/c/pcontour.pyx":1
  * #cython: language_level=3             # <<<<<<<<<<<<<<
  * import numpy as np
  * cimport numpy as np
@@ -5124,7 +5124,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5139,11 +5139,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_1);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init shakemap.c.pcontour", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init esi_core.shakemap.c.pcontour", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init shakemap.c.pcontour");
+    PyErr_SetString(PyExc_ImportError, "init esi_core.shakemap.c.pcontour");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
