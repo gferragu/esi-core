@@ -4,30 +4,30 @@
 {
     "distutils": {
         "depends": [
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/arrayscalars.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/ufuncobject.h",
-            "src/gmprocess/metrics/cfuncs.h"
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/arrayobject.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/arrayscalars.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/ndarrayobject.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/ndarraytypes.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/ufuncobject.h",
+            "src/esi_core/gmprocess/metrics/cfuncs.h"
         ],
         "extra_compile_args": [
             "-O1"
         ],
         "include_dirs": [
-            "src/gmprocess/metrics",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include"
+            "src/esi_core/gmprocess/metrics",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include"
         ],
         "libraries": [
             "m"
         ],
-        "name": "gmprocess.metrics.oscillators",
+        "name": "esi_core.gmprocess.metrics.oscillators",
         "sources": [
-            "src/gmprocess/metrics/oscillators.pyx",
-            "src/gmprocess/metrics/cfuncs.c"
+            "src/esi_core/gmprocess/metrics/oscillators.pyx",
+            "src/esi_core/gmprocess/metrics/cfuncs.c"
         ]
     },
-    "module_name": "gmprocess.metrics.oscillators"
+    "module_name": "esi_core.gmprocess.metrics.oscillators"
 }
 END: Cython Metadata */
 
@@ -769,8 +769,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gmprocess__metrics__oscillators
-#define __PYX_HAVE_API__gmprocess__metrics__oscillators
+#define __PYX_HAVE__esi_core__gmprocess__metrics__oscillators
+#define __PYX_HAVE_API__esi_core__gmprocess__metrics__oscillators
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1014,7 +1014,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "src/gmprocess/metrics/oscillators.pyx",
+  "src/esi_core/gmprocess/metrics/oscillators.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -1055,7 +1055,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":689
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":689
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1064,7 +1064,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":690
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":690
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1073,7 +1073,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":691
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":691
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1082,7 +1082,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":692
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":692
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1091,7 +1091,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":696
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":696
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1100,7 +1100,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":697
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":697
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1109,7 +1109,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":698
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":698
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1118,7 +1118,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":699
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":699
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1127,7 +1127,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":703
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":703
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1136,7 +1136,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":704
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":704
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1145,7 +1145,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":713
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":713
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1154,7 +1154,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":714
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":714
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1163,7 +1163,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":715
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":715
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1172,7 +1172,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":717
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":717
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1181,7 +1181,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":718
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":718
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1190,7 +1190,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":719
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":719
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1199,7 +1199,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":721
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":721
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1208,7 +1208,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":722
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":722
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1217,7 +1217,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":724
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":724
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1226,7 +1226,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":725
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":725
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1235,7 +1235,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":726
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":726
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1270,7 +1270,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 /*--- Type declarations ---*/
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":728
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":728
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1279,7 +1279,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":729
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":729
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1288,7 +1288,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":730
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":730
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1297,7 +1297,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":732
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":732
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1952,14 +1952,14 @@ static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 
 /* Module declarations from 'cython' */
 
-/* Module declarations from 'gmprocess.metrics.oscillators' */
-static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(PyObject *, PyObject *, PyObject *, int __pyx_skip_dispatch); /*proto*/
+/* Module declarations from 'esi_core.gmprocess.metrics.oscillators' */
+static PyObject *__pyx_f_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals(PyObject *, PyObject *, PyObject *, int __pyx_skip_dispatch); /*proto*/
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
-#define __Pyx_MODULE_NAME "gmprocess.metrics.oscillators"
-extern int __pyx_module_is_main_gmprocess__metrics__oscillators;
-int __pyx_module_is_main_gmprocess__metrics__oscillators = 0;
+#define __Pyx_MODULE_NAME "esi_core.gmprocess.metrics.oscillators"
+extern int __pyx_module_is_main_esi_core__gmprocess__metrics__oscillators;
+int __pyx_module_is_main_esi_core__gmprocess__metrics__oscillators = 0;
 
-/* Implementation of 'gmprocess.metrics.oscillators' */
+/* Implementation of 'esi_core.gmprocess.metrics.oscillators' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ImportError;
 static const char __pyx_k_g[] = "%%g";
@@ -2037,10 +2037,10 @@ static const char __pyx_k_obspy_signal_invsim[] = "obspy.signal.invsim";
 static const char __pyx_k_gmprocess_utils_constants[] = "gmprocess.utils.constants";
 static const char __pyx_k_gmprocess_core_stationtrace[] = "gmprocess.core.stationtrace";
 static const char __pyx_k_gmprocess_core_stationstream[] = "gmprocess.core.stationstream";
-static const char __pyx_k_gmprocess_metrics_oscillators[] = "gmprocess.metrics.oscillators";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
+static const char __pyx_k_esi_core_gmprocess_metrics_oscil[] = "esi_core.gmprocess.metrics.oscillators";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
-static const char __pyx_k_src_gmprocess_metrics_oscillator[] = "src/gmprocess/metrics/oscillators.pyx";
+static const char __pyx_k_src_esi_core_gmprocess_metrics_o[] = "src/esi_core/gmprocess/metrics/oscillators.pyx";
 static PyObject *__pyx_n_s_GAL_TO_PCTG;
 static PyObject *__pyx_n_s_ImportError;
 static PyObject *__pyx_n_s_StationStream;
@@ -2060,6 +2060,7 @@ static PyObject *__pyx_n_s_damping;
 static PyObject *__pyx_n_s_data;
 static PyObject *__pyx_n_s_delta;
 static PyObject *__pyx_n_s_dt;
+static PyObject *__pyx_n_s_esi_core_gmprocess_metrics_oscil;
 static PyObject *__pyx_kp_s_g;
 static PyObject *__pyx_n_s_getCached;
 static PyObject *__pyx_n_s_getStreamParam;
@@ -2068,7 +2069,6 @@ static PyObject *__pyx_n_s_get_acceleration;
 static PyObject *__pyx_n_s_get_spectral;
 static PyObject *__pyx_n_s_gmprocess_core_stationstream;
 static PyObject *__pyx_n_s_gmprocess_core_stationtrace;
-static PyObject *__pyx_n_s_gmprocess_metrics_oscillators;
 static PyObject *__pyx_n_s_gmprocess_utils_constants;
 static PyObject *__pyx_n_s_header;
 static PyObject *__pyx_n_s_idx;
@@ -2104,7 +2104,7 @@ static PyObject *__pyx_n_s_setStreamParam;
 static PyObject *__pyx_n_s_shape;
 static PyObject *__pyx_n_s_spect_stream;
 static PyObject *__pyx_n_s_spect_trace;
-static PyObject *__pyx_kp_s_src_gmprocess_metrics_oscillator;
+static PyObject *__pyx_kp_s_src_esi_core_gmprocess_metrics_o;
 static PyObject *__pyx_n_s_stats;
 static PyObject *__pyx_n_s_stream;
 static PyObject *__pyx_n_s_temp_trace;
@@ -2120,9 +2120,9 @@ static PyObject *__pyx_n_s_use_upsampled;
 static PyObject *__pyx_n_s_warnings;
 static PyObject *__pyx_n_s_window;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_calculate_spectrals(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_trace, PyObject *__pyx_v_period, PyObject *__pyx_v_damping); /* proto */
-static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_stream, PyObject *__pyx_v_units); /* proto */
-static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_period, PyObject *__pyx_v_stream, PyObject *__pyx_v_damping, CYTHON_UNUSED PyObject *__pyx_v_times, PyObject *__pyx_v_config); /* proto */
+static PyObject *__pyx_pf_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_trace, PyObject *__pyx_v_period, PyObject *__pyx_v_damping); /* proto */
+static PyObject *__pyx_pf_8esi_core_9gmprocess_7metrics_11oscillators_2get_acceleration(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_stream, PyObject *__pyx_v_units); /* proto */
+static PyObject *__pyx_pf_8esi_core_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_period, PyObject *__pyx_v_stream, PyObject *__pyx_v_damping, CYTHON_UNUSED PyObject *__pyx_v_times, PyObject *__pyx_v_config); /* proto */
 static PyObject *__pyx_float_1_0;
 static PyObject *__pyx_float_10_;
 static PyObject *__pyx_float_0_01;
@@ -2136,7 +2136,7 @@ static PyObject *__pyx_codeobj__4;
 static PyObject *__pyx_codeobj__6;
 /* Late includes */
 
-/* "gmprocess/metrics/oscillators.pyx":24
+/* "esi_core/gmprocess/metrics/oscillators.pyx":24
  *                                double *svel, double *sdis);
  * 
  * cpdef list calculate_spectrals(trace, period, damping):             # <<<<<<<<<<<<<<
@@ -2144,8 +2144,8 @@ static PyObject *__pyx_codeobj__6;
  *     Returns a list of spectral responses for acceleration, velocity,
  */
 
-static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_1calculate_spectrals(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(PyObject *__pyx_v_trace, PyObject *__pyx_v_period, PyObject *__pyx_v_damping, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static PyObject *__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_1calculate_spectrals(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyObject *__pyx_f_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals(PyObject *__pyx_v_trace, PyObject *__pyx_v_period, PyObject *__pyx_v_damping, CYTHON_UNUSED int __pyx_skip_dispatch) {
   int __pyx_v_new_np;
   double __pyx_v_new_dt;
   double __pyx_v_new_sample_rate;
@@ -2200,7 +2200,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_pybuffernd_acc.data = NULL;
   __pyx_pybuffernd_acc.rcbuffer = &__pyx_pybuffer_acc;
 
-  /* "gmprocess/metrics/oscillators.pyx":38
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":38
  *         list: List of spectral responses (np.ndarray).
  *     """
  *     cdef int new_np = trace.stats.npts             # <<<<<<<<<<<<<<
@@ -2216,7 +2216,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_new_np = __pyx_t_3;
 
-  /* "gmprocess/metrics/oscillators.pyx":39
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":39
  *     """
  *     cdef int new_np = trace.stats.npts
  *     cdef double new_dt = trace.stats.delta             # <<<<<<<<<<<<<<
@@ -2232,7 +2232,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_new_dt = __pyx_t_4;
 
-  /* "gmprocess/metrics/oscillators.pyx":40
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":40
  *     cdef int new_np = trace.stats.npts
  *     cdef double new_dt = trace.stats.delta
  *     cdef double new_sample_rate = trace.stats.sampling_rate             # <<<<<<<<<<<<<<
@@ -2248,7 +2248,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_new_sample_rate = __pyx_t_4;
 
-  /* "gmprocess/metrics/oscillators.pyx":42
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":42
  *     cdef double new_sample_rate = trace.stats.sampling_rate
  *     # The time length of the trace in seconds
  *     cdef double tlen = (new_np - 1) * new_dt             # <<<<<<<<<<<<<<
@@ -2257,7 +2257,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
  */
   __pyx_v_tlen = ((__pyx_v_new_np - 1) * __pyx_v_new_dt);
 
-  /* "gmprocess/metrics/oscillators.pyx":46
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":46
  * 
  *     # This is the resample factor for low-sample-rate/high-frequency
  *     ns = (int)(10. * new_dt / period - 0.01) + 1             # <<<<<<<<<<<<<<
@@ -2282,7 +2282,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_ns = __pyx_t_3;
 
-  /* "gmprocess/metrics/oscillators.pyx":47
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":47
  *     # This is the resample factor for low-sample-rate/high-frequency
  *     ns = (int)(10. * new_dt / period - 0.01) + 1
  *     if ns > 1:             # <<<<<<<<<<<<<<
@@ -2292,7 +2292,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_t_5 = ((__pyx_v_ns > 1) != 0);
   if (__pyx_t_5) {
 
-    /* "gmprocess/metrics/oscillators.pyx":49
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":49
  *     if ns > 1:
  *         # Increase the number of samples as necessary
  *         new_np = new_np * ns             # <<<<<<<<<<<<<<
@@ -2301,7 +2301,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
  */
     __pyx_v_new_np = (__pyx_v_new_np * __pyx_v_ns);
 
-    /* "gmprocess/metrics/oscillators.pyx":55
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":55
  *         # new_np = 1 if new_np == 0 else 2**(new_np - 1).bit_length()
  *         # The new sample interval
  *         new_dt = tlen / (new_np - 1)             # <<<<<<<<<<<<<<
@@ -2315,7 +2315,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
     }
     __pyx_v_new_dt = (__pyx_v_tlen / __pyx_t_6);
 
-    /* "gmprocess/metrics/oscillators.pyx":57
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":57
  *         new_dt = tlen / (new_np - 1)
  *         # The new sample rate
  *         new_sample_rate = 1.0 / new_dt             # <<<<<<<<<<<<<<
@@ -2328,7 +2328,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
     }
     __pyx_v_new_sample_rate = (1.0 / __pyx_v_new_dt);
 
-    /* "gmprocess/metrics/oscillators.pyx":59
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":59
  *         new_sample_rate = 1.0 / new_dt
  *         # Make a copy because resampling happens in place
  *         trace = trace.copy()             # <<<<<<<<<<<<<<
@@ -2355,7 +2355,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
     __Pyx_DECREF_SET(__pyx_v_trace, __pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "gmprocess/metrics/oscillators.pyx":61
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":61
  *         trace = trace.copy()
  *         # Resample the trace
  *         trace.resample(new_sample_rate, window=None)             # <<<<<<<<<<<<<<
@@ -2381,7 +2381,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "gmprocess/metrics/oscillators.pyx":47
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":47
  *     # This is the resample factor for low-sample-rate/high-frequency
  *     ns = (int)(10. * new_dt / period - 0.01) + 1
  *     if ns > 1:             # <<<<<<<<<<<<<<
@@ -2390,7 +2390,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
  */
   }
 
-  /* "gmprocess/metrics/oscillators.pyx":63
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":63
  *         trace.resample(new_sample_rate, window=None)
  * 
  *     cdef ndarray[double, ndim=1] spectral_acc = np.zeros(new_np)             # <<<<<<<<<<<<<<
@@ -2434,7 +2434,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_v_spectral_acc = ((PyArrayObject *)__pyx_t_8);
   __pyx_t_8 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":64
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":64
  * 
  *     cdef ndarray[double, ndim=1] spectral_acc = np.zeros(new_np)
  *     cdef ndarray[double, ndim=1] spectral_vel = np.zeros(new_np)             # <<<<<<<<<<<<<<
@@ -2478,7 +2478,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_v_spectral_vel = ((PyArrayObject *)__pyx_t_8);
   __pyx_t_8 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":65
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":65
  *     cdef ndarray[double, ndim=1] spectral_acc = np.zeros(new_np)
  *     cdef ndarray[double, ndim=1] spectral_vel = np.zeros(new_np)
  *     cdef ndarray[double, ndim=1] spectral_dis = np.zeros(new_np)             # <<<<<<<<<<<<<<
@@ -2522,7 +2522,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_v_spectral_dis = ((PyArrayObject *)__pyx_t_8);
   __pyx_t_8 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":66
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":66
  *     cdef ndarray[double, ndim=1] spectral_vel = np.zeros(new_np)
  *     cdef ndarray[double, ndim=1] spectral_dis = np.zeros(new_np)
  *     cdef ndarray[double, ndim=1] acc = trace.data             # <<<<<<<<<<<<<<
@@ -2545,7 +2545,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_v_acc = ((PyArrayObject *)__pyx_t_8);
   __pyx_t_8 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":69
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":69
  * 
  *     calculate_spectrals_c(<double *>acc.data, new_np, new_dt,
  *                           period, damping,             # <<<<<<<<<<<<<<
@@ -2555,7 +2555,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_t_4 = __pyx_PyFloat_AsDouble(__pyx_v_period); if (unlikely((__pyx_t_4 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 69, __pyx_L1_error)
   __pyx_t_13 = __pyx_PyFloat_AsDouble(__pyx_v_damping); if (unlikely((__pyx_t_13 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 69, __pyx_L1_error)
 
-  /* "gmprocess/metrics/oscillators.pyx":68
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":68
  *     cdef ndarray[double, ndim=1] acc = trace.data
  * 
  *     calculate_spectrals_c(<double *>acc.data, new_np, new_dt,             # <<<<<<<<<<<<<<
@@ -2564,7 +2564,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
  */
   calculate_spectrals_c(((double *)__pyx_v_acc->data), __pyx_v_new_np, __pyx_v_new_dt, __pyx_t_4, __pyx_t_13, ((double *)__pyx_v_spectral_acc->data), ((double *)__pyx_v_spectral_vel->data), ((double *)__pyx_v_spectral_dis->data));
 
-  /* "gmprocess/metrics/oscillators.pyx":73
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":73
  *                           <double *>spectral_vel.data,
  *                           <double *>spectral_dis.data)
  *     return [spectral_acc, spectral_vel, spectral_dis, new_np, new_dt,             # <<<<<<<<<<<<<<
@@ -2577,7 +2577,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_t_7 = PyFloat_FromDouble(__pyx_v_new_dt); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
 
-  /* "gmprocess/metrics/oscillators.pyx":74
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":74
  *                           <double *>spectral_dis.data)
  *     return [spectral_acc, spectral_vel, spectral_dis, new_np, new_dt,
  *             new_sample_rate]             # <<<<<<<<<<<<<<
@@ -2587,7 +2587,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_t_1 = PyFloat_FromDouble(__pyx_v_new_sample_rate); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 74, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
 
-  /* "gmprocess/metrics/oscillators.pyx":73
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":73
  *                           <double *>spectral_vel.data,
  *                           <double *>spectral_dis.data)
  *     return [spectral_acc, spectral_vel, spectral_dis, new_np, new_dt,             # <<<<<<<<<<<<<<
@@ -2618,7 +2618,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "gmprocess/metrics/oscillators.pyx":24
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":24
  *                                double *svel, double *sdis);
  * 
  * cpdef list calculate_spectrals(trace, period, damping):             # <<<<<<<<<<<<<<
@@ -2641,7 +2641,7 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_spectral_dis.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_spectral_vel.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("gmprocess.metrics.oscillators.calculate_spectrals", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.metrics.oscillators.calculate_spectrals", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = 0;
   goto __pyx_L2;
   __pyx_L0:;
@@ -2661,9 +2661,9 @@ static PyObject *__pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(P
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_1calculate_spectrals(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_9gmprocess_7metrics_11oscillators_calculate_spectrals[] = "\n    Returns a list of spectral responses for acceleration, velocity,\n            and displacement.\n    Args:\n        trace (StationTrace):\n            The trace to be acted upon\n        period (float):\n            Period in seconds.\n        damping (float):\n            Fraction of critical damping.\n    Returns:\n        list: List of spectral responses (np.ndarray).\n    ";
-static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_1calculate_spectrals(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_1calculate_spectrals(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals[] = "\n    Returns a list of spectral responses for acceleration, velocity,\n            and displacement.\n    Args:\n        trace (StationTrace):\n            The trace to be acted upon\n        period (float):\n            Period in seconds.\n        damping (float):\n            Fraction of critical damping.\n    Returns:\n        list: List of spectral responses (np.ndarray).\n    ";
+static PyObject *__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_1calculate_spectrals(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_trace = 0;
   PyObject *__pyx_v_period = 0;
   PyObject *__pyx_v_damping = 0;
@@ -2725,18 +2725,18 @@ static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_1calculate_spectrals
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("calculate_spectrals", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 24, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gmprocess.metrics.oscillators.calculate_spectrals", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.metrics.oscillators.calculate_spectrals", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_9gmprocess_7metrics_11oscillators_calculate_spectrals(__pyx_self, __pyx_v_trace, __pyx_v_period, __pyx_v_damping);
+  __pyx_r = __pyx_pf_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals(__pyx_self, __pyx_v_trace, __pyx_v_period, __pyx_v_damping);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_calculate_spectrals(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_trace, PyObject *__pyx_v_period, PyObject *__pyx_v_damping) {
+static PyObject *__pyx_pf_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_trace, PyObject *__pyx_v_period, PyObject *__pyx_v_damping) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -2745,7 +2745,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_calculate_spectrals(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("calculate_spectrals", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(__pyx_v_trace, __pyx_v_period, __pyx_v_damping, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals(__pyx_v_trace, __pyx_v_period, __pyx_v_damping, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -2754,7 +2754,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_calculate_spectrals(
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("gmprocess.metrics.oscillators.calculate_spectrals", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.metrics.oscillators.calculate_spectrals", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2762,7 +2762,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_calculate_spectrals(
   return __pyx_r;
 }
 
-/* "gmprocess/metrics/oscillators.pyx":77
+/* "esi_core/gmprocess/metrics/oscillators.pyx":77
  * 
  * 
  * def get_acceleration(stream, units='%%g'):             # <<<<<<<<<<<<<<
@@ -2771,10 +2771,10 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_calculate_spectrals(
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_3get_acceleration(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_9gmprocess_7metrics_11oscillators_2get_acceleration[] = "\n    Returns a stream of acceleration with specified units.\n\n    Args:\n        stream (obspy.core.stream.Stream):\n            Strong motion timeseries for one station. With units of g (cm/s/s).\n        units (str):\n            Units of accelearation for output. Default is %g.\n\n    Returns:\n        obpsy.core.stream.Stream: stream of acceleration.\n    ";
-static PyMethodDef __pyx_mdef_9gmprocess_7metrics_11oscillators_3get_acceleration = {"get_acceleration", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_9gmprocess_7metrics_11oscillators_3get_acceleration, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9gmprocess_7metrics_11oscillators_2get_acceleration};
-static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_3get_acceleration(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_3get_acceleration(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8esi_core_9gmprocess_7metrics_11oscillators_2get_acceleration[] = "\n    Returns a stream of acceleration with specified units.\n\n    Args:\n        stream (obspy.core.stream.Stream):\n            Strong motion timeseries for one station. With units of g (cm/s/s).\n        units (str):\n            Units of accelearation for output. Default is %g.\n\n    Returns:\n        obpsy.core.stream.Stream: stream of acceleration.\n    ";
+static PyMethodDef __pyx_mdef_8esi_core_9gmprocess_7metrics_11oscillators_3get_acceleration = {"get_acceleration", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_3get_acceleration, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8esi_core_9gmprocess_7metrics_11oscillators_2get_acceleration};
+static PyObject *__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_3get_acceleration(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_stream = 0;
   PyObject *__pyx_v_units = 0;
   int __pyx_lineno = 0;
@@ -2829,18 +2829,18 @@ static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_3get_acceleration(Py
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("get_acceleration", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 77, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gmprocess.metrics.oscillators.get_acceleration", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.metrics.oscillators.get_acceleration", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(__pyx_self, __pyx_v_stream, __pyx_v_units);
+  __pyx_r = __pyx_pf_8esi_core_9gmprocess_7metrics_11oscillators_2get_acceleration(__pyx_self, __pyx_v_stream, __pyx_v_units);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_stream, PyObject *__pyx_v_units) {
+static PyObject *__pyx_pf_8esi_core_9gmprocess_7metrics_11oscillators_2get_acceleration(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_stream, PyObject *__pyx_v_units) {
   int __pyx_v_idx;
   PyObject *__pyx_v_accel_stream = NULL;
   PyObject *__pyx_v_trace = NULL;
@@ -2860,7 +2860,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_acceleration", 0);
 
-  /* "gmprocess/metrics/oscillators.pyx":91
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":91
  *     """
  *     cdef int idx
  *     accel_stream = Stream()             # <<<<<<<<<<<<<<
@@ -2887,7 +2887,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
   __pyx_v_accel_stream = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":92
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":92
  *     cdef int idx
  *     accel_stream = Stream()
  *     for idx in range(len(stream)):             # <<<<<<<<<<<<<<
@@ -2899,7 +2899,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
   for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
     __pyx_v_idx = __pyx_t_6;
 
-    /* "gmprocess/metrics/oscillators.pyx":93
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":93
  *     accel_stream = Stream()
  *     for idx in range(len(stream)):
  *         trace = stream[idx]             # <<<<<<<<<<<<<<
@@ -2911,7 +2911,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
     __Pyx_XDECREF_SET(__pyx_v_trace, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gmprocess/metrics/oscillators.pyx":94
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":94
  *     for idx in range(len(stream)):
  *         trace = stream[idx]
  *         accel_trace = trace.copy()             # <<<<<<<<<<<<<<
@@ -2938,7 +2938,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
     __Pyx_XDECREF_SET(__pyx_v_accel_trace, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gmprocess/metrics/oscillators.pyx":95
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":95
  *         trace = stream[idx]
  *         accel_trace = trace.copy()
  *         if units == '%%g':             # <<<<<<<<<<<<<<
@@ -2948,7 +2948,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
     __pyx_t_7 = (__Pyx_PyString_Equals(__pyx_v_units, __pyx_kp_s_g, Py_EQ)); if (unlikely(__pyx_t_7 < 0)) __PYX_ERR(0, 95, __pyx_L1_error)
     if (__pyx_t_7) {
 
-      /* "gmprocess/metrics/oscillators.pyx":96
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":96
  *         accel_trace = trace.copy()
  *         if units == '%%g':
  *             accel_trace.data = trace.data * GAL_TO_PCTG             # <<<<<<<<<<<<<<
@@ -2966,7 +2966,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_accel_trace, __pyx_n_s_data, __pyx_t_3) < 0) __PYX_ERR(0, 96, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":97
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":97
  *         if units == '%%g':
  *             accel_trace.data = trace.data * GAL_TO_PCTG
  *             accel_trace.stats['units'] = '%%g'             # <<<<<<<<<<<<<<
@@ -2978,7 +2978,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
       if (unlikely(PyObject_SetItem(__pyx_t_3, __pyx_n_s_units, __pyx_kp_s_g) < 0)) __PYX_ERR(0, 97, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":95
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":95
  *         trace = stream[idx]
  *         accel_trace = trace.copy()
  *         if units == '%%g':             # <<<<<<<<<<<<<<
@@ -2988,7 +2988,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
       goto __pyx_L5;
     }
 
-    /* "gmprocess/metrics/oscillators.pyx":98
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":98
  *             accel_trace.data = trace.data * GAL_TO_PCTG
  *             accel_trace.stats['units'] = '%%g'
  *         elif units == 'm/s/s':             # <<<<<<<<<<<<<<
@@ -2998,7 +2998,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
     __pyx_t_7 = (__Pyx_PyString_Equals(__pyx_v_units, __pyx_kp_s_m_s_s, Py_EQ)); if (unlikely(__pyx_t_7 < 0)) __PYX_ERR(0, 98, __pyx_L1_error)
     if (__pyx_t_7) {
 
-      /* "gmprocess/metrics/oscillators.pyx":99
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":99
  *             accel_trace.stats['units'] = '%%g'
  *         elif units == 'm/s/s':
  *             accel_trace.data = trace.data * 0.01             # <<<<<<<<<<<<<<
@@ -3013,7 +3013,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_accel_trace, __pyx_n_s_data, __pyx_t_2) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":100
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":100
  *         elif units == 'm/s/s':
  *             accel_trace.data = trace.data * 0.01
  *             accel_trace.stats['units'] = 'm/s/s'             # <<<<<<<<<<<<<<
@@ -3025,7 +3025,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
       if (unlikely(PyObject_SetItem(__pyx_t_2, __pyx_n_s_units, __pyx_kp_s_m_s_s) < 0)) __PYX_ERR(0, 100, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":98
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":98
  *             accel_trace.data = trace.data * GAL_TO_PCTG
  *             accel_trace.stats['units'] = '%%g'
  *         elif units == 'm/s/s':             # <<<<<<<<<<<<<<
@@ -3035,7 +3035,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
       goto __pyx_L5;
     }
 
-    /* "gmprocess/metrics/oscillators.pyx":102
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":102
  *             accel_trace.stats['units'] = 'm/s/s'
  *         else:
  *             accel_trace.data = trace.data             # <<<<<<<<<<<<<<
@@ -3048,7 +3048,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_accel_trace, __pyx_n_s_data, __pyx_t_2) < 0) __PYX_ERR(0, 102, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":103
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":103
  *         else:
  *             accel_trace.data = trace.data
  *             accel_trace.stats['units'] = 'cm/s/s'             # <<<<<<<<<<<<<<
@@ -3062,7 +3062,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
     }
     __pyx_L5:;
 
-    /* "gmprocess/metrics/oscillators.pyx":104
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":104
  *             accel_trace.data = trace.data
  *             accel_trace.stats['units'] = 'cm/s/s'
  *         accel_stream.append(accel_trace)             # <<<<<<<<<<<<<<
@@ -3072,7 +3072,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
     __pyx_t_8 = __Pyx_PyObject_Append(__pyx_v_accel_stream, __pyx_v_accel_trace); if (unlikely(__pyx_t_8 == ((int)-1))) __PYX_ERR(0, 104, __pyx_L1_error)
   }
 
-  /* "gmprocess/metrics/oscillators.pyx":105
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":105
  *             accel_trace.stats['units'] = 'cm/s/s'
  *         accel_stream.append(accel_trace)
  *     return accel_stream             # <<<<<<<<<<<<<<
@@ -3084,7 +3084,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
   __pyx_r = __pyx_v_accel_stream;
   goto __pyx_L0;
 
-  /* "gmprocess/metrics/oscillators.pyx":77
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":77
  * 
  * 
  * def get_acceleration(stream, units='%%g'):             # <<<<<<<<<<<<<<
@@ -3097,7 +3097,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_AddTraceback("gmprocess.metrics.oscillators.get_acceleration", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.metrics.oscillators.get_acceleration", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_accel_stream);
@@ -3108,7 +3108,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
   return __pyx_r;
 }
 
-/* "gmprocess/metrics/oscillators.pyx":108
+/* "esi_core/gmprocess/metrics/oscillators.pyx":108
  * 
  * 
  * def get_spectral(period, stream, damping=0.05, times=None, config=None):             # <<<<<<<<<<<<<<
@@ -3117,10 +3117,10 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_2get_acceleration(CY
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_5get_spectral(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_9gmprocess_7metrics_11oscillators_4get_spectral[] = "\n    Returns a stream of spectral response with units of %%g.\n\n    Args:\n        period (float):\n            Period for spectral response.\n        stream (StationStream):\n            Strong motion timeseries for one station.\n        damping (float):\n            Damping of oscillator.\n        times (np.ndarray):\n            Array of times for the horizontal channels. Default is None.\n        config (dict):\n            StationStream.\n\n    Returns:\n        StationStream.\n    ";
-static PyMethodDef __pyx_mdef_9gmprocess_7metrics_11oscillators_5get_spectral = {"get_spectral", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_9gmprocess_7metrics_11oscillators_5get_spectral, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9gmprocess_7metrics_11oscillators_4get_spectral};
-static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_5get_spectral(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_5get_spectral(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_8esi_core_9gmprocess_7metrics_11oscillators_4get_spectral[] = "\n    Returns a stream of spectral response with units of %%g.\n\n    Args:\n        period (float):\n            Period for spectral response.\n        stream (StationStream):\n            Strong motion timeseries for one station.\n        damping (float):\n            Damping of oscillator.\n        times (np.ndarray):\n            Array of times for the horizontal channels. Default is None.\n        config (dict):\n            StationStream.\n\n    Returns:\n        StationStream.\n    ";
+static PyMethodDef __pyx_mdef_8esi_core_9gmprocess_7metrics_11oscillators_5get_spectral = {"get_spectral", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_5get_spectral, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8esi_core_9gmprocess_7metrics_11oscillators_4get_spectral};
+static PyObject *__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_5get_spectral(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_period = 0;
   PyObject *__pyx_v_stream = 0;
   PyObject *__pyx_v_damping = 0;
@@ -3212,18 +3212,18 @@ static PyObject *__pyx_pw_9gmprocess_7metrics_11oscillators_5get_spectral(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("get_spectral", 0, 2, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 108, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("gmprocess.metrics.oscillators.get_spectral", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.metrics.oscillators.get_spectral", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(__pyx_self, __pyx_v_period, __pyx_v_stream, __pyx_v_damping, __pyx_v_times, __pyx_v_config);
+  __pyx_r = __pyx_pf_8esi_core_9gmprocess_7metrics_11oscillators_4get_spectral(__pyx_self, __pyx_v_period, __pyx_v_stream, __pyx_v_damping, __pyx_v_times, __pyx_v_config);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_period, PyObject *__pyx_v_stream, PyObject *__pyx_v_damping, CYTHON_UNUSED PyObject *__pyx_v_times, PyObject *__pyx_v_config) {
+static PyObject *__pyx_pf_8esi_core_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_period, PyObject *__pyx_v_stream, PyObject *__pyx_v_damping, CYTHON_UNUSED PyObject *__pyx_v_times, PyObject *__pyx_v_config) {
   CYTHON_UNUSED int __pyx_v_len_data;
   int __pyx_v_use_upsampled;
   PyObject *__pyx_v_dt = NULL;
@@ -3266,7 +3266,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_spectral", 0);
 
-  /* "gmprocess/metrics/oscillators.pyx":127
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":127
  *         StationStream.
  *     """
  *     cdef int len_data = stream[0].data.shape[0]             # <<<<<<<<<<<<<<
@@ -3288,7 +3288,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_len_data = __pyx_t_3;
 
-  /* "gmprocess/metrics/oscillators.pyx":130
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":130
  * 
  *     # Use as-recorded or upsampled record?
  *     use_upsampled = False             # <<<<<<<<<<<<<<
@@ -3297,7 +3297,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
  */
   __pyx_v_use_upsampled = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":131
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":131
  *     # Use as-recorded or upsampled record?
  *     use_upsampled = False
  *     dt = stream[0].stats.delta             # <<<<<<<<<<<<<<
@@ -3315,7 +3315,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
   __pyx_v_dt = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":132
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":132
  *     use_upsampled = False
  *     dt = stream[0].stats.delta
  *     ns = (int)(10. * dt / period - 0.01) + 1             # <<<<<<<<<<<<<<
@@ -3339,7 +3339,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
   __pyx_v_ns = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":133
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":133
  *     dt = stream[0].stats.delta
  *     ns = (int)(10. * dt / period - 0.01) + 1
  *     if ns > 1:             # <<<<<<<<<<<<<<
@@ -3351,7 +3351,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_4) {
 
-    /* "gmprocess/metrics/oscillators.pyx":134
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":134
  *     ns = (int)(10. * dt / period - 0.01) + 1
  *     if ns > 1:
  *         use_upsampled = True             # <<<<<<<<<<<<<<
@@ -3360,7 +3360,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
  */
     __pyx_v_use_upsampled = 1;
 
-    /* "gmprocess/metrics/oscillators.pyx":135
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":135
  *     if ns > 1:
  *         use_upsampled = True
  *         dt = stream[0].getCached('upsampled')['dt']             # <<<<<<<<<<<<<<
@@ -3393,7 +3393,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     __Pyx_DECREF_SET(__pyx_v_dt, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "gmprocess/metrics/oscillators.pyx":133
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":133
  *     dt = stream[0].stats.delta
  *     ns = (int)(10. * dt / period - 0.01) + 1
  *     if ns > 1:             # <<<<<<<<<<<<<<
@@ -3402,7 +3402,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
  */
   }
 
-  /* "gmprocess/metrics/oscillators.pyx":137
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":137
  *         dt = stream[0].getCached('upsampled')['dt']
  * 
  *     if 'rotated' in stream.getStreamParamKeys():             # <<<<<<<<<<<<<<
@@ -3431,7 +3431,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
   __pyx_t_6 = (__pyx_t_4 != 0);
   if (__pyx_t_6) {
 
-    /* "gmprocess/metrics/oscillators.pyx":139
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":139
  *     if 'rotated' in stream.getStreamParamKeys():
  *         # For ROTD and GMROTD
  *         rotated = []             # <<<<<<<<<<<<<<
@@ -3443,7 +3443,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     __pyx_v_rotated = ((PyObject*)__pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "gmprocess/metrics/oscillators.pyx":140
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":140
  *         # For ROTD and GMROTD
  *         rotated = []
  *         if use_upsampled:             # <<<<<<<<<<<<<<
@@ -3453,7 +3453,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     __pyx_t_6 = (__pyx_v_use_upsampled != 0);
     if (__pyx_t_6) {
 
-      /* "gmprocess/metrics/oscillators.pyx":141
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":141
  *         rotated = []
  *         if use_upsampled:
  *             rotated_data = stream.getStreamParam('upsampled_rotated')             # <<<<<<<<<<<<<<
@@ -3480,7 +3480,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __pyx_v_rotated_data = __pyx_t_5;
       __pyx_t_5 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":140
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":140
  *         # For ROTD and GMROTD
  *         rotated = []
  *         if use_upsampled:             # <<<<<<<<<<<<<<
@@ -3490,7 +3490,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       goto __pyx_L5;
     }
 
-    /* "gmprocess/metrics/oscillators.pyx":143
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":143
  *             rotated_data = stream.getStreamParam('upsampled_rotated')
  *         else:
  *             rotated_data = stream.getStreamParam('rotated')             # <<<<<<<<<<<<<<
@@ -3520,7 +3520,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     }
     __pyx_L5:;
 
-    /* "gmprocess/metrics/oscillators.pyx":145
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":145
  *             rotated_data = stream.getStreamParam('rotated')
  * 
  *         for idx in range(len(rotated_data)):             # <<<<<<<<<<<<<<
@@ -3532,7 +3532,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_idx = __pyx_t_9;
 
-      /* "gmprocess/metrics/oscillators.pyx":146
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":146
  * 
  *         for idx in range(len(rotated_data)):
  *             rot_matrix = rotated_data[idx]             # <<<<<<<<<<<<<<
@@ -3544,7 +3544,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __Pyx_XDECREF_SET(__pyx_v_rot_matrix, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":147
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":147
  *         for idx in range(len(rotated_data)):
  *             rot_matrix = rotated_data[idx]
  *             rotated_spectrals = []             # <<<<<<<<<<<<<<
@@ -3556,7 +3556,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __Pyx_XDECREF_SET(__pyx_v_rotated_spectrals, ((PyObject*)__pyx_t_5));
       __pyx_t_5 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":149
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":149
  *             rotated_spectrals = []
  *             # This is the loop over rotation angles
  *             for idy in range(0, len(rot_matrix)):             # <<<<<<<<<<<<<<
@@ -3568,7 +3568,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
         __pyx_v_idy = __pyx_t_12;
 
-        /* "gmprocess/metrics/oscillators.pyx":151
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":151
  *             for idy in range(0, len(rot_matrix)):
  *                 stats = {
  *                     'npts': len(rot_matrix[idy]),             # <<<<<<<<<<<<<<
@@ -3586,7 +3586,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_npts, __pyx_t_2) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":152
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":152
  *                 stats = {
  *                     'npts': len(rot_matrix[idy]),
  *                     'delta': dt,             # <<<<<<<<<<<<<<
@@ -3595,7 +3595,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
  */
         if (PyDict_SetItem(__pyx_t_5, __pyx_n_s_delta, __pyx_v_dt) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
 
-        /* "gmprocess/metrics/oscillators.pyx":153
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":153
  *                     'npts': len(rot_matrix[idy]),
  *                     'delta': dt,
  *                     'sampling_rate': 1.0 / dt             # <<<<<<<<<<<<<<
@@ -3609,7 +3609,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         __Pyx_XDECREF_SET(__pyx_v_stats, __pyx_t_5);
         __pyx_t_5 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":155
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":155
  *                     'sampling_rate': 1.0 / dt
  *                 }
  *                 new_trace = Trace(data=rot_matrix[idy], header=stats)             # <<<<<<<<<<<<<<
@@ -3632,19 +3632,19 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         __Pyx_XDECREF_SET(__pyx_v_new_trace, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":156
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":156
  *                 }
  *                 new_trace = Trace(data=rot_matrix[idy], header=stats)
  *                 sa_list = calculate_spectrals(new_trace, period, damping)             # <<<<<<<<<<<<<<
  *                 acc_sa = sa_list[0]
  *                 acc_sa *= GAL_TO_PCTG
  */
-        __pyx_t_1 = __pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(__pyx_v_new_trace, __pyx_v_period, __pyx_v_damping, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
+        __pyx_t_1 = __pyx_f_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals(__pyx_v_new_trace, __pyx_v_period, __pyx_v_damping, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_1);
         __Pyx_XDECREF_SET(__pyx_v_sa_list, ((PyObject*)__pyx_t_1));
         __pyx_t_1 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":157
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":157
  *                 new_trace = Trace(data=rot_matrix[idy], header=stats)
  *                 sa_list = calculate_spectrals(new_trace, period, damping)
  *                 acc_sa = sa_list[0]             # <<<<<<<<<<<<<<
@@ -3660,7 +3660,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         __Pyx_XDECREF_SET(__pyx_v_acc_sa, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":158
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":158
  *                 sa_list = calculate_spectrals(new_trace, period, damping)
  *                 acc_sa = sa_list[0]
  *                 acc_sa *= GAL_TO_PCTG             # <<<<<<<<<<<<<<
@@ -3675,7 +3675,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         __Pyx_DECREF_SET(__pyx_v_acc_sa, __pyx_t_2);
         __pyx_t_2 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":159
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":159
  *                 acc_sa = sa_list[0]
  *                 acc_sa *= GAL_TO_PCTG
  *                 rotated_spectrals.append(acc_sa)             # <<<<<<<<<<<<<<
@@ -3685,7 +3685,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         __pyx_t_14 = __Pyx_PyList_Append(__pyx_v_rotated_spectrals, __pyx_v_acc_sa); if (unlikely(__pyx_t_14 == ((int)-1))) __PYX_ERR(0, 159, __pyx_L1_error)
       }
 
-      /* "gmprocess/metrics/oscillators.pyx":160
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":160
  *                 acc_sa *= GAL_TO_PCTG
  *                 rotated_spectrals.append(acc_sa)
  *             rotated += [rotated_spectrals]             # <<<<<<<<<<<<<<
@@ -3704,7 +3704,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __pyx_t_1 = 0;
     }
 
-    /* "gmprocess/metrics/oscillators.pyx":163
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":163
  * 
  *         # Add rotated data to stream parameters
  *         stream.setStreamParam('rotated_oscillator', rotated)             # <<<<<<<<<<<<<<
@@ -3760,7 +3760,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gmprocess/metrics/oscillators.pyx":164
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":164
  *         # Add rotated data to stream parameters
  *         stream.setStreamParam('rotated_oscillator', rotated)
  *         return stream             # <<<<<<<<<<<<<<
@@ -3772,7 +3772,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     __pyx_r = __pyx_v_stream;
     goto __pyx_L0;
 
-    /* "gmprocess/metrics/oscillators.pyx":137
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":137
  *         dt = stream[0].getCached('upsampled')['dt']
  * 
  *     if 'rotated' in stream.getStreamParamKeys():             # <<<<<<<<<<<<<<
@@ -3781,7 +3781,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
  */
   }
 
-  /* "gmprocess/metrics/oscillators.pyx":166
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":166
  *         return stream
  *     else:
  *         traces = []             # <<<<<<<<<<<<<<
@@ -3794,7 +3794,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     __pyx_v_traces = ((PyObject*)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "gmprocess/metrics/oscillators.pyx":168
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":168
  *         traces = []
  *         # For anything but ROTD and GMROTD
  *         for idx in range(len(stream)):             # <<<<<<<<<<<<<<
@@ -3806,7 +3806,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     for (__pyx_t_9 = 0; __pyx_t_9 < __pyx_t_8; __pyx_t_9+=1) {
       __pyx_v_idx = __pyx_t_9;
 
-      /* "gmprocess/metrics/oscillators.pyx":169
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":169
  *         # For anything but ROTD and GMROTD
  *         for idx in range(len(stream)):
  *             trace = stream[idx]             # <<<<<<<<<<<<<<
@@ -3818,7 +3818,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __Pyx_XDECREF_SET(__pyx_v_trace, __pyx_t_1);
       __pyx_t_1 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":170
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":170
  *         for idx in range(len(stream)):
  *             trace = stream[idx]
  *             if use_upsampled:             # <<<<<<<<<<<<<<
@@ -3828,7 +3828,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __pyx_t_6 = (__pyx_v_use_upsampled != 0);
       if (__pyx_t_6) {
 
-        /* "gmprocess/metrics/oscillators.pyx":171
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":171
  *             trace = stream[idx]
  *             if use_upsampled:
  *                 trace_dict = stream[idx].getCached('upsampled')             # <<<<<<<<<<<<<<
@@ -3858,7 +3858,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         __Pyx_XDECREF_SET(__pyx_v_trace_dict, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":173
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":173
  *                 trace_dict = stream[idx].getCached('upsampled')
  *                 stats = {
  *                     'npts': trace_dict['np'],             # <<<<<<<<<<<<<<
@@ -3872,7 +3872,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_npts, __pyx_t_15) < 0) __PYX_ERR(0, 173, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":174
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":174
  *                 stats = {
  *                     'npts': trace_dict['np'],
  *                     'delta': dt,             # <<<<<<<<<<<<<<
@@ -3881,7 +3881,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
  */
         if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_delta, __pyx_v_dt) < 0) __PYX_ERR(0, 173, __pyx_L1_error)
 
-        /* "gmprocess/metrics/oscillators.pyx":175
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":175
  *                     'npts': trace_dict['np'],
  *                     'delta': dt,
  *                     'sampling_rate': 1.0 / dt             # <<<<<<<<<<<<<<
@@ -3895,7 +3895,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         __Pyx_XDECREF_SET(__pyx_v_stats, __pyx_t_1);
         __pyx_t_1 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":177
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":177
  *                     'sampling_rate': 1.0 / dt
  *                 }
  *                 temp_trace = Trace(data=trace_dict['data'], header=stats)             # <<<<<<<<<<<<<<
@@ -3918,7 +3918,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         __Pyx_XDECREF_SET(__pyx_v_temp_trace, __pyx_t_2);
         __pyx_t_2 = 0;
 
-        /* "gmprocess/metrics/oscillators.pyx":170
+        /* "esi_core/gmprocess/metrics/oscillators.pyx":170
  *         for idx in range(len(stream)):
  *             trace = stream[idx]
  *             if use_upsampled:             # <<<<<<<<<<<<<<
@@ -3928,7 +3928,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
         goto __pyx_L12;
       }
 
-      /* "gmprocess/metrics/oscillators.pyx":179
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":179
  *                 temp_trace = Trace(data=trace_dict['data'], header=stats)
  *             else:
  *                 temp_trace = trace             # <<<<<<<<<<<<<<
@@ -3941,19 +3941,19 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       }
       __pyx_L12:;
 
-      /* "gmprocess/metrics/oscillators.pyx":180
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":180
  *             else:
  *                 temp_trace = trace
  *             sa_list = calculate_spectrals(temp_trace, period, damping)             # <<<<<<<<<<<<<<
  *             acc_sa = sa_list[0]
  *             acc_sa *= GAL_TO_PCTG
  */
-      __pyx_t_2 = __pyx_f_9gmprocess_7metrics_11oscillators_calculate_spectrals(__pyx_v_temp_trace, __pyx_v_period, __pyx_v_damping, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 180, __pyx_L1_error)
+      __pyx_t_2 = __pyx_f_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals(__pyx_v_temp_trace, __pyx_v_period, __pyx_v_damping, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 180, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
       __Pyx_XDECREF_SET(__pyx_v_sa_list, ((PyObject*)__pyx_t_2));
       __pyx_t_2 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":181
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":181
  *                 temp_trace = trace
  *             sa_list = calculate_spectrals(temp_trace, period, damping)
  *             acc_sa = sa_list[0]             # <<<<<<<<<<<<<<
@@ -3969,7 +3969,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __Pyx_XDECREF_SET(__pyx_v_acc_sa, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":182
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":182
  *             sa_list = calculate_spectrals(temp_trace, period, damping)
  *             acc_sa = sa_list[0]
  *             acc_sa *= GAL_TO_PCTG             # <<<<<<<<<<<<<<
@@ -3984,7 +3984,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __Pyx_DECREF_SET(__pyx_v_acc_sa, __pyx_t_15);
       __pyx_t_15 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":183
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":183
  *             acc_sa = sa_list[0]
  *             acc_sa *= GAL_TO_PCTG
  *             stats = trace.stats.copy()             # <<<<<<<<<<<<<<
@@ -4014,7 +4014,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __Pyx_XDECREF_SET(__pyx_v_stats, __pyx_t_15);
       __pyx_t_15 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":184
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":184
  *             acc_sa *= GAL_TO_PCTG
  *             stats = trace.stats.copy()
  *             stats.npts = sa_list[3]             # <<<<<<<<<<<<<<
@@ -4030,7 +4030,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_stats, __pyx_n_s_npts, __pyx_t_15) < 0) __PYX_ERR(0, 184, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":185
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":185
  *             stats = trace.stats.copy()
  *             stats.npts = sa_list[3]
  *             stats.delta = sa_list[4]             # <<<<<<<<<<<<<<
@@ -4046,7 +4046,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_stats, __pyx_n_s_delta, __pyx_t_15) < 0) __PYX_ERR(0, 185, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":186
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":186
  *             stats.npts = sa_list[3]
  *             stats.delta = sa_list[4]
  *             stats.sampling_rate = sa_list[5]             # <<<<<<<<<<<<<<
@@ -4062,7 +4062,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       if (__Pyx_PyObject_SetAttrStr(__pyx_v_stats, __pyx_n_s_sampling_rate, __pyx_t_15) < 0) __PYX_ERR(0, 186, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":187
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":187
  *             stats.delta = sa_list[4]
  *             stats.sampling_rate = sa_list[5]
  *             stats['units'] = '%%g'             # <<<<<<<<<<<<<<
@@ -4071,7 +4071,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
  */
       if (unlikely(PyObject_SetItem(__pyx_v_stats, __pyx_n_s_units, __pyx_kp_s_g) < 0)) __PYX_ERR(0, 187, __pyx_L1_error)
 
-      /* "gmprocess/metrics/oscillators.pyx":188
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":188
  *             stats.sampling_rate = sa_list[5]
  *             stats['units'] = '%%g'
  *             spect_trace = StationTrace(data=acc_sa, header=stats, config=config)             # <<<<<<<<<<<<<<
@@ -4092,7 +4092,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __Pyx_XDECREF_SET(__pyx_v_spect_trace, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "gmprocess/metrics/oscillators.pyx":189
+      /* "esi_core/gmprocess/metrics/oscillators.pyx":189
  *             stats['units'] = '%%g'
  *             spect_trace = StationTrace(data=acc_sa, header=stats, config=config)
  *             traces += [spect_trace]             # <<<<<<<<<<<<<<
@@ -4111,7 +4111,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
       __pyx_t_1 = 0;
     }
 
-    /* "gmprocess/metrics/oscillators.pyx":190
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":190
  *             spect_trace = StationTrace(data=acc_sa, header=stats, config=config)
  *             traces += [spect_trace]
  *         spect_stream = StationStream(traces)             # <<<<<<<<<<<<<<
@@ -4137,7 +4137,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     __pyx_v_spect_stream = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "gmprocess/metrics/oscillators.pyx":191
+    /* "esi_core/gmprocess/metrics/oscillators.pyx":191
  *             traces += [spect_trace]
  *         spect_stream = StationStream(traces)
  *         return spect_stream             # <<<<<<<<<<<<<<
@@ -4148,7 +4148,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
     goto __pyx_L0;
   }
 
-  /* "gmprocess/metrics/oscillators.pyx":108
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":108
  * 
  * 
  * def get_spectral(period, stream, damping=0.05, times=None, config=None):             # <<<<<<<<<<<<<<
@@ -4162,7 +4162,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_15);
-  __Pyx_AddTraceback("gmprocess.metrics.oscillators.get_spectral", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.metrics.oscillators.get_spectral", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_dt);
@@ -4186,7 +4186,7 @@ static PyObject *__pyx_pf_9gmprocess_7metrics_11oscillators_4get_spectral(CYTHON
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":734
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -4203,7 +4203,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":735
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":735
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -4217,7 +4217,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":734
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -4236,7 +4236,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":737
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -4253,7 +4253,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":738
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":738
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -4267,7 +4267,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":737
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -4286,7 +4286,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":740
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -4303,7 +4303,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":741
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":741
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -4317,7 +4317,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":740
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -4336,7 +4336,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":743
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4353,7 +4353,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":744
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":744
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -4367,7 +4367,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":743
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -4386,7 +4386,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":746
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4403,7 +4403,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":747
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":747
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -4417,7 +4417,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":746
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -4436,7 +4436,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":749
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -4450,7 +4450,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":750
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -4460,7 +4460,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":751
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":751
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -4472,7 +4472,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":750
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -4481,7 +4481,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":753
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":753
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -4495,7 +4495,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":749
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -4510,7 +4510,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":928
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -4522,7 +4522,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":929
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":929
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -4531,7 +4531,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":930
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":930
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -4540,7 +4540,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":928
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -4552,7 +4552,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":932
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -4567,7 +4567,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":933
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":933
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -4576,7 +4576,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":934
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -4586,7 +4586,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":935
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":935
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -4597,7 +4597,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":934
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -4606,7 +4606,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":936
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":936
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -4618,7 +4618,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":932
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -4633,7 +4633,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":940
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4657,7 +4657,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":941
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4673,7 +4673,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":942
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":942
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -4682,7 +4682,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 942, __pyx_L3_error)
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":941
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4696,7 +4696,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":943
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":943
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4711,7 +4711,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":944
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -4727,7 +4727,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":941
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4742,7 +4742,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":940
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -4765,7 +4765,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":946
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4789,7 +4789,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":947
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4805,7 +4805,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":948
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":948
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -4814,7 +4814,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 948, __pyx_L3_error)
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":947
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4828,7 +4828,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":949
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":949
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4843,7 +4843,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":950
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4859,7 +4859,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":947
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4874,7 +4874,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":946
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -4897,7 +4897,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":952
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -4921,7 +4921,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":953
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4937,7 +4937,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":954
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":954
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -4946,7 +4946,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 954, __pyx_L3_error)
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":953
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -4960,7 +4960,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":955
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":955
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -4975,7 +4975,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":956
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":956
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -4991,7 +4991,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":953
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -5006,7 +5006,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":952
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -5029,7 +5029,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":966
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -5042,7 +5042,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_timedelta64_object", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":978
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":978
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -5052,7 +5052,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":966
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -5066,7 +5066,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":981
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -5079,7 +5079,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_datetime64_object", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":993
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":993
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -5089,7 +5089,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":981
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -5103,7 +5103,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":996
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5114,7 +5114,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1003
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1003
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -5124,7 +5124,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":996
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5137,7 +5137,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1006
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5148,7 +5148,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1010
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1010
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -5158,7 +5158,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1006
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5171,7 +5171,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1013
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5182,7 +5182,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1017
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1017
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -5190,7 +5190,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5204,7 +5204,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
 }
 
 static PyMethodDef __pyx_methods[] = {
-  {"calculate_spectrals", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_9gmprocess_7metrics_11oscillators_1calculate_spectrals, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9gmprocess_7metrics_11oscillators_calculate_spectrals},
+  {"calculate_spectrals", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_9gmprocess_7metrics_11oscillators_1calculate_spectrals, METH_VARARGS|METH_KEYWORDS, __pyx_doc_8esi_core_9gmprocess_7metrics_11oscillators_calculate_spectrals},
   {0, 0, 0, 0}
 };
 
@@ -5269,6 +5269,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_data, __pyx_k_data, sizeof(__pyx_k_data), 0, 0, 1, 1},
   {&__pyx_n_s_delta, __pyx_k_delta, sizeof(__pyx_k_delta), 0, 0, 1, 1},
   {&__pyx_n_s_dt, __pyx_k_dt, sizeof(__pyx_k_dt), 0, 0, 1, 1},
+  {&__pyx_n_s_esi_core_gmprocess_metrics_oscil, __pyx_k_esi_core_gmprocess_metrics_oscil, sizeof(__pyx_k_esi_core_gmprocess_metrics_oscil), 0, 0, 1, 1},
   {&__pyx_kp_s_g, __pyx_k_g, sizeof(__pyx_k_g), 0, 0, 1, 0},
   {&__pyx_n_s_getCached, __pyx_k_getCached, sizeof(__pyx_k_getCached), 0, 0, 1, 1},
   {&__pyx_n_s_getStreamParam, __pyx_k_getStreamParam, sizeof(__pyx_k_getStreamParam), 0, 0, 1, 1},
@@ -5277,7 +5278,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_get_spectral, __pyx_k_get_spectral, sizeof(__pyx_k_get_spectral), 0, 0, 1, 1},
   {&__pyx_n_s_gmprocess_core_stationstream, __pyx_k_gmprocess_core_stationstream, sizeof(__pyx_k_gmprocess_core_stationstream), 0, 0, 1, 1},
   {&__pyx_n_s_gmprocess_core_stationtrace, __pyx_k_gmprocess_core_stationtrace, sizeof(__pyx_k_gmprocess_core_stationtrace), 0, 0, 1, 1},
-  {&__pyx_n_s_gmprocess_metrics_oscillators, __pyx_k_gmprocess_metrics_oscillators, sizeof(__pyx_k_gmprocess_metrics_oscillators), 0, 0, 1, 1},
   {&__pyx_n_s_gmprocess_utils_constants, __pyx_k_gmprocess_utils_constants, sizeof(__pyx_k_gmprocess_utils_constants), 0, 0, 1, 1},
   {&__pyx_n_s_header, __pyx_k_header, sizeof(__pyx_k_header), 0, 0, 1, 1},
   {&__pyx_n_s_idx, __pyx_k_idx, sizeof(__pyx_k_idx), 0, 0, 1, 1},
@@ -5313,7 +5313,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_shape, __pyx_k_shape, sizeof(__pyx_k_shape), 0, 0, 1, 1},
   {&__pyx_n_s_spect_stream, __pyx_k_spect_stream, sizeof(__pyx_k_spect_stream), 0, 0, 1, 1},
   {&__pyx_n_s_spect_trace, __pyx_k_spect_trace, sizeof(__pyx_k_spect_trace), 0, 0, 1, 1},
-  {&__pyx_kp_s_src_gmprocess_metrics_oscillator, __pyx_k_src_gmprocess_metrics_oscillator, sizeof(__pyx_k_src_gmprocess_metrics_oscillator), 0, 0, 1, 0},
+  {&__pyx_kp_s_src_esi_core_gmprocess_metrics_o, __pyx_k_src_esi_core_gmprocess_metrics_o, sizeof(__pyx_k_src_esi_core_gmprocess_metrics_o), 0, 0, 1, 0},
   {&__pyx_n_s_stats, __pyx_k_stats, sizeof(__pyx_k_stats), 0, 0, 1, 1},
   {&__pyx_n_s_stream, __pyx_k_stream, sizeof(__pyx_k_stream), 0, 0, 1, 1},
   {&__pyx_n_s_temp_trace, __pyx_k_temp_trace, sizeof(__pyx_k_temp_trace), 0, 0, 1, 1},
@@ -5343,7 +5343,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":944
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -5354,7 +5354,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":950
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -5365,7 +5365,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__2);
   __Pyx_GIVEREF(__pyx_tuple__2);
 
-  /* "gmprocess/metrics/oscillators.pyx":77
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":77
  * 
  * 
  * def get_acceleration(stream, units='%%g'):             # <<<<<<<<<<<<<<
@@ -5375,9 +5375,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__3 = PyTuple_Pack(6, __pyx_n_s_stream, __pyx_n_s_units, __pyx_n_s_idx, __pyx_n_s_accel_stream, __pyx_n_s_trace, __pyx_n_s_accel_trace); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 77, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
-  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gmprocess_metrics_oscillator, __pyx_n_s_get_acceleration, 77, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_esi_core_gmprocess_metrics_o, __pyx_n_s_get_acceleration, 77, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) __PYX_ERR(0, 77, __pyx_L1_error)
 
-  /* "gmprocess/metrics/oscillators.pyx":108
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":108
  * 
  * 
  * def get_spectral(period, stream, damping=0.05, times=None, config=None):             # <<<<<<<<<<<<<<
@@ -5387,7 +5387,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__5 = PyTuple_Pack(25, __pyx_n_s_period, __pyx_n_s_stream, __pyx_n_s_damping, __pyx_n_s_times, __pyx_n_s_config, __pyx_n_s_len_data, __pyx_n_s_use_upsampled, __pyx_n_s_dt, __pyx_n_s_ns, __pyx_n_s_rotated, __pyx_n_s_rotated_data, __pyx_n_s_idx, __pyx_n_s_rot_matrix, __pyx_n_s_rotated_spectrals, __pyx_n_s_idy, __pyx_n_s_stats, __pyx_n_s_new_trace, __pyx_n_s_sa_list, __pyx_n_s_acc_sa, __pyx_n_s_traces, __pyx_n_s_trace, __pyx_n_s_trace_dict, __pyx_n_s_temp_trace, __pyx_n_s_spect_trace, __pyx_n_s_spect_stream); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
-  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(5, 0, 25, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gmprocess_metrics_oscillator, __pyx_n_s_get_spectral, 108, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 108, __pyx_L1_error)
+  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(5, 0, 25, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_esi_core_gmprocess_metrics_o, __pyx_n_s_get_spectral, 108, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -5696,14 +5696,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gmprocess__metrics__oscillators) {
+  if (__pyx_module_is_main_esi_core__gmprocess__metrics__oscillators) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gmprocess.metrics.oscillators")) {
-      if (unlikely(PyDict_SetItemString(modules, "gmprocess.metrics.oscillators", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "esi_core.gmprocess.metrics.oscillators")) {
+      if (unlikely(PyDict_SetItemString(modules, "esi_core.gmprocess.metrics.oscillators", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -5724,7 +5724,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gmprocess/metrics/oscillators.pyx":2
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":2
  * # stdlib imports
  * import warnings             # <<<<<<<<<<<<<<
  * 
@@ -5735,7 +5735,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_warnings, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":5
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":5
  * 
  * # third party imports
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -5747,7 +5747,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":9
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":9
  * cimport numpy as np
  * cimport cython
  * from obspy.core.stream import Stream             # <<<<<<<<<<<<<<
@@ -5768,7 +5768,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":10
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":10
  * cimport cython
  * from obspy.core.stream import Stream
  * from obspy.core.trace import Trace             # <<<<<<<<<<<<<<
@@ -5789,7 +5789,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":11
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":11
  * from obspy.core.stream import Stream
  * from obspy.core.trace import Trace
  * from gmprocess.core.stationstream import StationStream             # <<<<<<<<<<<<<<
@@ -5810,7 +5810,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":12
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":12
  * from obspy.core.trace import Trace
  * from gmprocess.core.stationstream import StationStream
  * from gmprocess.core.stationtrace import StationTrace             # <<<<<<<<<<<<<<
@@ -5831,7 +5831,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":13
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":13
  * from gmprocess.core.stationstream import StationStream
  * from gmprocess.core.stationtrace import StationTrace
  * from obspy.signal.invsim import corn_freq_2_paz             # <<<<<<<<<<<<<<
@@ -5852,7 +5852,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":14
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":14
  * from gmprocess.core.stationtrace import StationTrace
  * from obspy.signal.invsim import corn_freq_2_paz
  * from obspy import read             # <<<<<<<<<<<<<<
@@ -5873,7 +5873,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":17
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":17
  * 
  * # local imports
  * from gmprocess.utils.constants import GAL_TO_PCTG             # <<<<<<<<<<<<<<
@@ -5894,31 +5894,31 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":77
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":77
  * 
  * 
  * def get_acceleration(stream, units='%%g'):             # <<<<<<<<<<<<<<
  *     """
  *     Returns a stream of acceleration with specified units.
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9gmprocess_7metrics_11oscillators_3get_acceleration, NULL, __pyx_n_s_gmprocess_metrics_oscillators); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8esi_core_9gmprocess_7metrics_11oscillators_3get_acceleration, NULL, __pyx_n_s_esi_core_gmprocess_metrics_oscil); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_acceleration, __pyx_t_2) < 0) __PYX_ERR(0, 77, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":108
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":108
  * 
  * 
  * def get_spectral(period, stream, damping=0.05, times=None, config=None):             # <<<<<<<<<<<<<<
  *     """
  *     Returns a stream of spectral response with units of %%g.
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9gmprocess_7metrics_11oscillators_5get_spectral, NULL, __pyx_n_s_gmprocess_metrics_oscillators); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 108, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8esi_core_9gmprocess_7metrics_11oscillators_5get_spectral, NULL, __pyx_n_s_esi_core_gmprocess_metrics_oscil); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_spectral, __pyx_t_2) < 0) __PYX_ERR(0, 108, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gmprocess/metrics/oscillators.pyx":1
+  /* "esi_core/gmprocess/metrics/oscillators.pyx":1
  * # stdlib imports             # <<<<<<<<<<<<<<
  * import warnings
  * 
@@ -5928,7 +5928,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -5944,11 +5944,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gmprocess.metrics.oscillators", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init esi_core.gmprocess.metrics.oscillators", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gmprocess.metrics.oscillators");
+    PyErr_SetString(PyExc_ImportError, "init esi_core.gmprocess.metrics.oscillators");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

@@ -4,27 +4,27 @@
 {
     "distutils": {
         "depends": [
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/arrayobject.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/arrayscalars.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/ndarrayobject.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/ndarraytypes.h",
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include/numpy/ufuncobject.h"
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/arrayobject.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/arrayscalars.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/ndarrayobject.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/ndarraytypes.h",
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include/numpy/ufuncobject.h"
         ],
         "extra_compile_args": [
             "-O2"
         ],
         "include_dirs": [
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include"
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include"
         ],
         "libraries": [
             "m"
         ],
-        "name": "gmprocess.waveform_processing.auto_fchp",
+        "name": "esi_core.gmprocess.waveform_processing.auto_fchp",
         "sources": [
-            "src/gmprocess/waveform_processing/auto_fchp.pyx"
+            "src/esi_core/gmprocess/waveform_processing/auto_fchp.pyx"
         ]
     },
-    "module_name": "gmprocess.waveform_processing.auto_fchp"
+    "module_name": "esi_core.gmprocess.waveform_processing.auto_fchp"
 }
 END: Cython Metadata */
 
@@ -766,8 +766,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__gmprocess__waveform_processing__auto_fchp
-#define __PYX_HAVE_API__gmprocess__waveform_processing__auto_fchp
+#define __PYX_HAVE__esi_core__gmprocess__waveform_processing__auto_fchp
+#define __PYX_HAVE_API__esi_core__gmprocess__waveform_processing__auto_fchp
 /* Early includes */
 #include <string.h>
 #include <stdio.h>
@@ -1014,7 +1014,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "src/gmprocess/waveform_processing/auto_fchp.pyx",
+  "src/esi_core/gmprocess/waveform_processing/auto_fchp.pyx",
   "__init__.pxd",
   "stringsource",
   "type.pxd",
@@ -1124,7 +1124,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":689
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":689
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1133,7 +1133,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":690
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":690
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1142,7 +1142,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":691
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":691
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1151,7 +1151,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":692
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":692
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1160,7 +1160,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":696
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":696
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1169,7 +1169,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":697
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":697
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1178,7 +1178,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":698
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":698
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1187,7 +1187,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":699
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":699
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1196,7 +1196,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":703
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":703
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1205,7 +1205,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":704
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":704
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1214,7 +1214,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":713
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":713
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1223,7 +1223,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":714
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":714
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1232,7 +1232,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":715
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":715
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1241,7 +1241,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":717
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":717
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1250,7 +1250,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":718
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":718
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1259,7 +1259,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":719
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":719
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1268,7 +1268,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":721
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":721
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1277,7 +1277,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":722
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":722
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1286,7 +1286,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":724
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":724
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1295,7 +1295,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":725
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":725
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1304,7 +1304,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":726
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":726
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1343,7 +1343,7 @@ struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":728
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":728
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1352,7 +1352,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":729
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":729
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1361,7 +1361,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":730
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":730
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1370,7 +1370,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":732
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":732
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -2438,7 +2438,7 @@ static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 
 /* Module declarations from 'libc.math' */
 
-/* Module declarations from 'gmprocess.waveform_processing.auto_fchp' */
+/* Module declarations from 'esi_core.gmprocess.waveform_processing.auto_fchp' */
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
@@ -2450,10 +2450,10 @@ static PyObject *contiguous = 0;
 static PyObject *indirect_contiguous = 0;
 static int __pyx_memoryview_thread_locks_used;
 static PyThread_type_lock __pyx_memoryview_thread_locks[8];
-static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_memviewslice); /*proto*/
-static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__Pyx_memviewslice, __Pyx_memviewslice, double, double); /*proto*/
-static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__Pyx_memviewslice, __Pyx_memviewslice); /*proto*/
-static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__Pyx_memviewslice, __Pyx_memviewslice, double, int); /*proto*/
+static double __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_memviewslice); /*proto*/
+static __Pyx_memviewslice __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__Pyx_memviewslice, __Pyx_memviewslice, double, double); /*proto*/
+static __Pyx_memviewslice __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__Pyx_memviewslice, __Pyx_memviewslice); /*proto*/
+static double __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__Pyx_memviewslice, __Pyx_memviewslice, double, int); /*proto*/
 static struct __pyx_array_obj *__pyx_array_new(PyObject *, Py_ssize_t, char *, char *, char *); /*proto*/
 static void *__pyx_align_pointer(void *, size_t); /*proto*/
 static PyObject *__pyx_memoryview_new(PyObject *, int, int, __Pyx_TypeInfo *); /*proto*/
@@ -2489,11 +2489,11 @@ static void __pyx_memoryview__slice_assign_scalar(char *, Py_ssize_t *, Py_ssize
 static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *, PyObject *); /*proto*/
 static __Pyx_TypeInfo __Pyx_TypeInfo___pyx_t_double_complex = { "double complex", NULL, sizeof(__pyx_t_double_complex), { 0 }, 0, 'C', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
-#define __Pyx_MODULE_NAME "gmprocess.waveform_processing.auto_fchp"
-extern int __pyx_module_is_main_gmprocess__waveform_processing__auto_fchp;
-int __pyx_module_is_main_gmprocess__waveform_processing__auto_fchp = 0;
+#define __Pyx_MODULE_NAME "esi_core.gmprocess.waveform_processing.auto_fchp"
+extern int __pyx_module_is_main_esi_core__gmprocess__waveform_processing__auto_fchp;
+int __pyx_module_is_main_esi_core__gmprocess__waveform_processing__auto_fchp = 0;
 
-/* Implementation of 'gmprocess.waveform_processing.auto_fchp' */
+/* Implementation of 'esi_core.gmprocess.waveform_processing.auto_fchp' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ImportError;
 static PyObject *__pyx_builtin_ValueError;
@@ -2651,6 +2651,7 @@ static const char __pyx_k_unable_to_allocate_array_data[] = "unable to allocate 
 static const char __pyx_k_is_not_a_valid_argument_Please[] = " is not a valid argument. Please see documentation. Using default values for all parameters that are not specified.";
 static const char __pyx_k_strided_and_direct_or_indirect[] = "<strided and direct or indirect>";
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
+static const char __pyx_k_src_esi_core_gmprocess_waveform[] = "src/esi_core/gmprocess/waveform_processing/auto_fchp.pyx";
 static const char __pyx_k_Buffer_view_does_not_expose_stri[] = "Buffer view does not expose strides";
 static const char __pyx_k_Can_only_create_a_buffer_that_is[] = "Can only create a buffer that is contiguous in memory.";
 static const char __pyx_k_Cannot_assign_to_read_only_memor[] = "Cannot assign to read-only memoryview";
@@ -2661,11 +2662,10 @@ static const char __pyx_k_Indirect_dimensions_not_supporte[] = "Indirect dimensi
 static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, expected 'c' or 'fortran', got %s";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis %d)";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
-static const char __pyx_k_gmprocess_waveform_processing_au[] = "gmprocess.waveform_processing.auto_fchp";
+static const char __pyx_k_esi_core_gmprocess_waveform_proc[] = "esi_core.gmprocess.waveform_processing.auto_fchp";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension %d (got %d and %d)";
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
-static const char __pyx_k_src_gmprocess_waveform_processin[] = "src/gmprocess/waveform_processing/auto_fchp.pyx";
 static const char __pyx_k_unable_to_allocate_shape_and_str[] = "unable to allocate shape and strides.";
 static PyObject *__pyx_n_s_ASCII;
 static PyObject *__pyx_kp_s_Buffer_view_does_not_expose_stri;
@@ -2724,6 +2724,7 @@ static PyObject *__pyx_n_s_encode;
 static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_enumerate;
 static PyObject *__pyx_n_s_error;
+static PyObject *__pyx_n_s_esi_core_gmprocess_waveform_proc;
 static PyObject *__pyx_n_s_exp;
 static PyObject *__pyx_n_s_fc0;
 static PyObject *__pyx_n_s_fc1;
@@ -2744,7 +2745,6 @@ static PyObject *__pyx_n_u_fortran;
 static PyObject *__pyx_n_s_freq;
 static PyObject *__pyx_n_s_get_fchp;
 static PyObject *__pyx_n_s_getstate;
-static PyObject *__pyx_n_s_gmprocess_waveform_processing_au;
 static PyObject *__pyx_kp_s_got_differing_extents_in_dimensi;
 static PyObject *__pyx_n_s_header;
 static PyObject *__pyx_n_s_highpass;
@@ -2808,7 +2808,7 @@ static PyObject *__pyx_n_s_sign;
 static PyObject *__pyx_n_s_signal;
 static PyObject *__pyx_n_s_size;
 static PyObject *__pyx_n_s_sqrt;
-static PyObject *__pyx_kp_s_src_gmprocess_waveform_processin;
+static PyObject *__pyx_kp_s_src_esi_core_gmprocess_waveform;
 static PyObject *__pyx_n_s_start;
 static PyObject *__pyx_n_s_step;
 static PyObject *__pyx_n_s_stop;
@@ -2833,7 +2833,7 @@ static PyObject *__pyx_n_s_value;
 static PyObject *__pyx_n_s_window;
 static PyObject *__pyx_n_s_zerophase;
 static PyObject *__pyx_n_s_zeros;
-static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_kwargs); /* proto */
+static PyObject *__pyx_pf_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_kwargs); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(struct __pyx_array_obj *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_array___pyx_pf_15View_dot_MemoryView_5array_4__dealloc__(struct __pyx_array_obj *__pyx_v_self); /* proto */
@@ -2926,7 +2926,7 @@ static PyObject *__pyx_codeobj__23;
 static PyObject *__pyx_codeobj__30;
 /* Late includes */
 
-/* "gmprocess/waveform_processing/auto_fchp.pyx":11
+/* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":11
  * @boundscheck(False)
  * @wraparound(False)
  * cdef double maxabs(double[:] vx):             # <<<<<<<<<<<<<<
@@ -2934,7 +2934,7 @@ static PyObject *__pyx_codeobj__30;
  *     cdef int N = vx.shape[0]
  */
 
-static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_memviewslice __pyx_v_vx) {
+static double __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_memviewslice __pyx_v_vx) {
   int __pyx_v_i;
   int __pyx_v_N;
   double __pyx_v_output;
@@ -2947,7 +2947,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
   int __pyx_t_5;
   __Pyx_RefNannySetupContext("maxabs", 0);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":13
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":13
  * cdef double maxabs(double[:] vx):
  *     cdef int i
  *     cdef int N = vx.shape[0]             # <<<<<<<<<<<<<<
@@ -2956,7 +2956,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
  */
   __pyx_v_N = (__pyx_v_vx.shape[0]);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":14
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":14
  *     cdef int i
  *     cdef int N = vx.shape[0]
  *     cdef double output = 0.0             # <<<<<<<<<<<<<<
@@ -2965,7 +2965,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
  */
   __pyx_v_output = 0.0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":15
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":15
  *     cdef int N = vx.shape[0]
  *     cdef double output = 0.0
  *     for i in range(N):             # <<<<<<<<<<<<<<
@@ -2977,7 +2977,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":16
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":16
  *     cdef double output = 0.0
  *     for i in range(N):
  *         if fabs(vx[i]) > output:             # <<<<<<<<<<<<<<
@@ -2988,7 +2988,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
     __pyx_t_5 = ((fabs((*((double *) ( /* dim=0 */ (__pyx_v_vx.data + __pyx_t_4 * __pyx_v_vx.strides[0]) )))) > __pyx_v_output) != 0);
     if (__pyx_t_5) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":17
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":17
  *     for i in range(N):
  *         if fabs(vx[i]) > output:
  *             output = fabs(vx[i])             # <<<<<<<<<<<<<<
@@ -2998,7 +2998,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
       __pyx_t_4 = __pyx_v_i;
       __pyx_v_output = fabs((*((double *) ( /* dim=0 */ (__pyx_v_vx.data + __pyx_t_4 * __pyx_v_vx.strides[0]) ))));
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":16
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":16
  *     cdef double output = 0.0
  *     for i in range(N):
  *         if fabs(vx[i]) > output:             # <<<<<<<<<<<<<<
@@ -3008,7 +3008,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
     }
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":18
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":18
  *         if fabs(vx[i]) > output:
  *             output = fabs(vx[i])
  *     return output             # <<<<<<<<<<<<<<
@@ -3018,7 +3018,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
   __pyx_r = __pyx_v_output;
   goto __pyx_L0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":11
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":11
  * @boundscheck(False)
  * @wraparound(False)
  * cdef double maxabs(double[:] vx):             # <<<<<<<<<<<<<<
@@ -3032,7 +3032,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
   return __pyx_r;
 }
 
-/* "gmprocess/waveform_processing/auto_fchp.pyx":22
+/* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":22
  * @boundscheck(False)
  * @wraparound(False)
  * cdef complex[:] filtered_Facc(complex[:] Facc, double[:] freq, double fc, double order):             # <<<<<<<<<<<<<<
@@ -3040,7 +3040,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__Pyx_m
  *     cdef int u
  */
 
-static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__Pyx_memviewslice __pyx_v_Facc, __Pyx_memviewslice __pyx_v_freq, double __pyx_v_fc, double __pyx_v_order) {
+static __Pyx_memviewslice __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__Pyx_memviewslice __pyx_v_Facc, __Pyx_memviewslice __pyx_v_freq, double __pyx_v_fc, double __pyx_v_order) {
   __Pyx_memviewslice __pyx_v_filtered_Facc = { 0, 0, { 0 }, { 0 }, { 0 } };
   int __pyx_v_u;
   __Pyx_memviewslice __pyx_r = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -3063,7 +3063,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("filtered_Facc", 0);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":23
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":23
  * @wraparound(False)
  * cdef complex[:] filtered_Facc(complex[:] Facc, double[:] freq, double fc, double order):
  *     cdef complex[:] filtered_Facc = np.zeros(len(freq), dtype="complex")             # <<<<<<<<<<<<<<
@@ -3097,7 +3097,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":25
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":25
  *     cdef complex[:] filtered_Facc = np.zeros(len(freq), dtype="complex")
  *     cdef int u
  *     for u in range(len(freq)):             # <<<<<<<<<<<<<<
@@ -3109,7 +3109,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
   for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
     __pyx_v_u = __pyx_t_8;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":26
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":26
  *     cdef int u
  *     for u in range(len(freq)):
  *         if freq[u] == 0:             # <<<<<<<<<<<<<<
@@ -3120,7 +3120,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
     __pyx_t_10 = (((*((double *) ( /* dim=0 */ (__pyx_v_freq.data + __pyx_t_9 * __pyx_v_freq.strides[0]) ))) == 0.0) != 0);
     if (__pyx_t_10) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":27
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":27
  *     for u in range(len(freq)):
  *         if freq[u] == 0:
  *             filtered_Facc[u] = 0.0             # <<<<<<<<<<<<<<
@@ -3130,7 +3130,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
       __pyx_t_9 = __pyx_v_u;
       *((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_filtered_Facc.data + __pyx_t_9 * __pyx_v_filtered_Facc.strides[0]) )) = __pyx_t_double_complex_from_parts(0.0, 0);
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":26
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":26
  *     cdef int u
  *     for u in range(len(freq)):
  *         if freq[u] == 0:             # <<<<<<<<<<<<<<
@@ -3140,7 +3140,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
       goto __pyx_L5;
     }
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":29
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":29
  *             filtered_Facc[u] = 0.0
  *         else:
  *             filtered_Facc[u] = Facc[u] / (sqrt(1.0 + pow(fc/freq[u], 2.0*order)))             # <<<<<<<<<<<<<<
@@ -3167,7 +3167,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
     __pyx_L5:;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":30
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":30
  *         else:
  *             filtered_Facc[u] = Facc[u] / (sqrt(1.0 + pow(fc/freq[u], 2.0*order)))
  *     return filtered_Facc             # <<<<<<<<<<<<<<
@@ -3178,7 +3178,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
   __pyx_r = __pyx_v_filtered_Facc;
   goto __pyx_L0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":22
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":22
  * @boundscheck(False)
  * @wraparound(False)
  * cdef complex[:] filtered_Facc(complex[:] Facc, double[:] freq, double fc, double order):             # <<<<<<<<<<<<<<
@@ -3195,7 +3195,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
   __PYX_XDEC_MEMVIEW(&__pyx_t_6, 1);
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("gmprocess.waveform_processing.auto_fchp.filtered_Facc", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.waveform_processing.auto_fchp.filtered_Facc", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   if (unlikely(!__pyx_r.memview)) {
@@ -3207,7 +3207,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
   return __pyx_r;
 }
 
-/* "gmprocess/waveform_processing/auto_fchp.pyx":34
+/* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":34
  * @boundscheck(False)
  * @wraparound(False)
  * cdef double[:] get_vel(double[:] freq, complex[:] Facc):             # <<<<<<<<<<<<<<
@@ -3215,7 +3215,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_fi
  *     cdef int u
  */
 
-static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_vel(__Pyx_memviewslice __pyx_v_freq, __Pyx_memviewslice __pyx_v_Facc) {
+static __Pyx_memviewslice __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_vel(__Pyx_memviewslice __pyx_v_freq, __Pyx_memviewslice __pyx_v_Facc) {
   __Pyx_memviewslice __pyx_v_Fvel = { 0, 0, { 0 }, { 0 }, { 0 } };
   int __pyx_v_u;
   __Pyx_memviewslice __pyx_r = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -3238,7 +3238,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_vel", 0);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":35
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":35
  * @wraparound(False)
  * cdef double[:] get_vel(double[:] freq, complex[:] Facc):
  *     cdef complex[:] Fvel = np.zeros(len(freq), dtype="complex")             # <<<<<<<<<<<<<<
@@ -3272,7 +3272,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":37
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":37
  *     cdef complex[:] Fvel = np.zeros(len(freq), dtype="complex")
  *     cdef int u
  *     for u in range(len(freq)):             # <<<<<<<<<<<<<<
@@ -3284,7 +3284,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
     __pyx_v_u = __pyx_t_8;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":38
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":38
  *     cdef int u
  *     for u in range(len(freq)):
  *         if freq[u]==0:             # <<<<<<<<<<<<<<
@@ -3295,7 +3295,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
     __pyx_t_10 = (((*((double *) ( /* dim=0 */ (__pyx_v_freq.data + __pyx_t_9 * __pyx_v_freq.strides[0]) ))) == 0.0) != 0);
     if (__pyx_t_10) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":39
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":39
  *     for u in range(len(freq)):
  *         if freq[u]==0:
  *             Fvel[u] = 0.0             # <<<<<<<<<<<<<<
@@ -3305,7 +3305,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
       __pyx_t_9 = __pyx_v_u;
       *((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_Fvel.data + __pyx_t_9 * __pyx_v_Fvel.strides[0]) )) = __pyx_t_double_complex_from_parts(0.0, 0);
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":38
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":38
  *     cdef int u
  *     for u in range(len(freq)):
  *         if freq[u]==0:             # <<<<<<<<<<<<<<
@@ -3315,7 +3315,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
       goto __pyx_L5;
     }
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":41
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":41
  *             Fvel[u] = 0.0
  *         else:
  *             Fvel[u] = Facc[u]*9.81/(2.0j*M_PI*freq[u])             # <<<<<<<<<<<<<<
@@ -3337,7 +3337,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
     __pyx_L5:;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":42
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":42
  *         else:
  *             Fvel[u] = Facc[u]*9.81/(2.0j*M_PI*freq[u])
  *     return np.fft.irfft(Fvel)             # <<<<<<<<<<<<<<
@@ -3377,7 +3377,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   __pyx_t_13.data = NULL;
   goto __pyx_L0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":34
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":34
  * @boundscheck(False)
  * @wraparound(False)
  * cdef double[:] get_vel(double[:] freq, complex[:] Facc):             # <<<<<<<<<<<<<<
@@ -3395,7 +3395,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   __PYX_XDEC_MEMVIEW(&__pyx_t_13, 1);
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("gmprocess.waveform_processing.auto_fchp.get_vel", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.waveform_processing.auto_fchp.get_vel", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   if (unlikely(!__pyx_r.memview)) {
@@ -3407,7 +3407,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   return __pyx_r;
 }
 
-/* "gmprocess/waveform_processing/auto_fchp.pyx":46
+/* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":46
  * @boundscheck(False)
  * @wraparound(False)
  * cdef double[:] get_disp(double[:] freq, complex[:] Facc):             # <<<<<<<<<<<<<<
@@ -3415,7 +3415,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
  *     for u in range(len(freq)):
  */
 
-static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__Pyx_memviewslice __pyx_v_freq, __Pyx_memviewslice __pyx_v_Facc) {
+static __Pyx_memviewslice __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__Pyx_memviewslice __pyx_v_freq, __Pyx_memviewslice __pyx_v_Facc) {
   __Pyx_memviewslice __pyx_v_Fdisp = { 0, 0, { 0 }, { 0 }, { 0 } };
   Py_ssize_t __pyx_v_u;
   __Pyx_memviewslice __pyx_r = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -3439,7 +3439,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_disp", 0);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":47
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":47
  * @wraparound(False)
  * cdef double[:] get_disp(double[:] freq, complex[:] Facc):
  *     cdef complex[:] Fdisp = np.zeros(len(freq), dtype="complex")             # <<<<<<<<<<<<<<
@@ -3473,7 +3473,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   __pyx_t_6.memview = NULL;
   __pyx_t_6.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":48
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":48
  * cdef double[:] get_disp(double[:] freq, complex[:] Facc):
  *     cdef complex[:] Fdisp = np.zeros(len(freq), dtype="complex")
  *     for u in range(len(freq)):             # <<<<<<<<<<<<<<
@@ -3485,7 +3485,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
     __pyx_v_u = __pyx_t_8;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":49
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":49
  *     cdef complex[:] Fdisp = np.zeros(len(freq), dtype="complex")
  *     for u in range(len(freq)):
  *         if freq[u]==0:             # <<<<<<<<<<<<<<
@@ -3496,7 +3496,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
     __pyx_t_10 = (((*((double *) ( /* dim=0 */ (__pyx_v_freq.data + __pyx_t_9 * __pyx_v_freq.strides[0]) ))) == 0.0) != 0);
     if (__pyx_t_10) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":50
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":50
  *     for u in range(len(freq)):
  *         if freq[u]==0:
  *             Fdisp[u] = 0.0             # <<<<<<<<<<<<<<
@@ -3506,7 +3506,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
       __pyx_t_9 = __pyx_v_u;
       *((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_Fdisp.data + __pyx_t_9 * __pyx_v_Fdisp.strides[0]) )) = __pyx_t_double_complex_from_parts(0.0, 0);
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":49
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":49
  *     cdef complex[:] Fdisp = np.zeros(len(freq), dtype="complex")
  *     for u in range(len(freq)):
  *         if freq[u]==0:             # <<<<<<<<<<<<<<
@@ -3516,7 +3516,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
       goto __pyx_L5;
     }
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":52
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":52
  *             Fdisp[u] = 0.0
  *         else:
  *             Fdisp[u] = Facc[u]*9.81/(-4.0*M_PI*M_PI*freq[u]*freq[u])             # <<<<<<<<<<<<<<
@@ -3539,7 +3539,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
     __pyx_L5:;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":53
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":53
  *         else:
  *             Fdisp[u] = Facc[u]*9.81/(-4.0*M_PI*M_PI*freq[u]*freq[u])
  *     return np.fft.irfft(Fdisp)             # <<<<<<<<<<<<<<
@@ -3579,7 +3579,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   __pyx_t_14.data = NULL;
   goto __pyx_L0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":46
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":46
  * @boundscheck(False)
  * @wraparound(False)
  * cdef double[:] get_disp(double[:] freq, complex[:] Facc):             # <<<<<<<<<<<<<<
@@ -3597,7 +3597,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   __PYX_XDEC_MEMVIEW(&__pyx_t_14, 1);
   __pyx_r.data = NULL;
   __pyx_r.memview = NULL;
-  __Pyx_AddTraceback("gmprocess.waveform_processing.auto_fchp.get_disp", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.waveform_processing.auto_fchp.get_disp", __pyx_clineno, __pyx_lineno, __pyx_filename);
   goto __pyx_L2;
   __pyx_L0:;
   if (unlikely(!__pyx_r.memview)) {
@@ -3609,7 +3609,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
   return __pyx_r;
 }
 
-/* "gmprocess/waveform_processing/auto_fchp.pyx":58
+/* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":58
  * @boundscheck(False)
  * @wraparound(False)
  * cdef double get_residual(double[:] time, double[:] disp, double target, int poly_order):             # <<<<<<<<<<<<<<
@@ -3617,7 +3617,7 @@ static __Pyx_memviewslice __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_ge
  *     cdef double [:] disp_fit = np.zeros(len(disp))
  */
 
-static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__Pyx_memviewslice __pyx_v_time, __Pyx_memviewslice __pyx_v_disp, double __pyx_v_target, int __pyx_v_poly_order) {
+static double __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__Pyx_memviewslice __pyx_v_time, __Pyx_memviewslice __pyx_v_disp, double __pyx_v_target, int __pyx_v_poly_order) {
   __Pyx_memviewslice __pyx_v_coef = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_disp_fit = { 0, 0, { 0 }, { 0 }, { 0 } };
   Py_ssize_t __pyx_v_i;
@@ -3643,7 +3643,7 @@ static double __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_residual(_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_residual", 0);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":59
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":59
  * @wraparound(False)
  * cdef double get_residual(double[:] time, double[:] disp, double target, int poly_order):
  *     cdef double [:] coef = np.polyfit(time[0:len(disp)], disp, poly_order)             # <<<<<<<<<<<<<<
@@ -3746,7 +3746,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_5, 1, (PyObject *(*)(char *)) __p
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":60
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":60
  * cdef double get_residual(double[:] time, double[:] disp, double target, int poly_order):
  *     cdef double [:] coef = np.polyfit(time[0:len(disp)], disp, poly_order)
  *     cdef double [:] disp_fit = np.zeros(len(disp))             # <<<<<<<<<<<<<<
@@ -3783,7 +3783,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_5, 1, (PyObject *(*)(char *)) __p
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":61
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":61
  *     cdef double [:] coef = np.polyfit(time[0:len(disp)], disp, poly_order)
  *     cdef double [:] disp_fit = np.zeros(len(disp))
  *     for i in range(len(disp)):             # <<<<<<<<<<<<<<
@@ -3795,7 +3795,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_5, 1, (PyObject *(*)(char *)) __p
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
     __pyx_v_i = __pyx_t_12;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":62
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":62
  *     cdef double [:] disp_fit = np.zeros(len(disp))
  *     for i in range(len(disp)):
  *         disp_fit[i] = np.polyval(coef,time[i])             # <<<<<<<<<<<<<<
@@ -3867,15 +3867,15 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_5, 1, (PyObject *(*)(char *)) __p
     *((double *) ( /* dim=0 */ (__pyx_v_disp_fit.data + __pyx_t_13 * __pyx_v_disp_fit.strides[0]) )) = __pyx_t_14;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":63
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":63
  *     for i in range(len(disp)):
  *         disp_fit[i] = np.polyval(coef,time[i])
  *     return maxabs(disp_fit)/maxabs(disp) - target             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_14 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__pyx_v_disp_fit);
-  __pyx_t_15 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__pyx_v_disp);
+  __pyx_t_14 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__pyx_v_disp_fit);
+  __pyx_t_15 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_maxabs(__pyx_v_disp);
   if (unlikely(__pyx_t_15 == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "float division");
     __PYX_ERR(0, 63, __pyx_L1_error)
@@ -3883,7 +3883,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_5, 1, (PyObject *(*)(char *)) __p
   __pyx_r = ((__pyx_t_14 / __pyx_t_15) - __pyx_v_target);
   goto __pyx_L0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":58
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":58
  * @boundscheck(False)
  * @wraparound(False)
  * cdef double get_residual(double[:] time, double[:] disp, double target, int poly_order):             # <<<<<<<<<<<<<<
@@ -3901,7 +3901,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_5, 1, (PyObject *(*)(char *)) __p
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_WriteUnraisable("gmprocess.waveform_processing.auto_fchp.get_residual", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
+  __Pyx_WriteUnraisable("esi_core.gmprocess.waveform_processing.auto_fchp.get_residual", __pyx_clineno, __pyx_lineno, __pyx_filename, 1, 0);
   __pyx_r = 0;
   __pyx_L0:;
   __PYX_XDEC_MEMVIEW(&__pyx_v_coef, 1);
@@ -3910,7 +3910,7 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_5, 1, (PyObject *(*)(char *)) __p
   return __pyx_r;
 }
 
-/* "gmprocess/waveform_processing/auto_fchp.pyx":66
+/* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":66
  * 
  * 
  * def get_fchp(**kwargs):             # <<<<<<<<<<<<<<
@@ -3919,9 +3919,9 @@ __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_5, 1, (PyObject *(*)(char *)) __p
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp = {"get_fchp", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp = {"get_fchp", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_kwargs = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
@@ -3931,7 +3931,7 @@ static PyObject *__pyx_pw_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp(
   if (__pyx_kwds && unlikely(!__Pyx_CheckKeywordStrings(__pyx_kwds, "get_fchp", 1))) return NULL;
   __pyx_v_kwargs = (__pyx_kwds) ? PyDict_Copy(__pyx_kwds) : PyDict_New(); if (unlikely(!__pyx_v_kwargs)) return NULL;
   __Pyx_GOTREF(__pyx_v_kwargs);
-  __pyx_r = __pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(__pyx_self, __pyx_v_kwargs);
+  __pyx_r = __pyx_pf_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(__pyx_self, __pyx_v_kwargs);
 
   /* function exit code */
   __Pyx_XDECREF(__pyx_v_kwargs);
@@ -3939,7 +3939,7 @@ static PyObject *__pyx_pw_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp(
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_kwargs) {
+static PyObject *__pyx_pf_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_kwargs) {
   PyObject *__pyx_v_options = NULL;
   PyObject *__pyx_v_key = NULL;
   CYTHON_UNUSED PyObject *__pyx_v_value = NULL;
@@ -4002,7 +4002,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("get_fchp", 0);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":67
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":67
  * 
  * def get_fchp(**kwargs):
  *     options = [             # <<<<<<<<<<<<<<
@@ -4047,7 +4047,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_v_options = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":71
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":71
  *         "fchp_max", "filter_order", "tukey_alpha", "filter_type"]
  * 
  *     for key, value in kwargs.items():             # <<<<<<<<<<<<<<
@@ -4147,7 +4147,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_XDECREF_SET(__pyx_v_value, __pyx_t_6);
     __pyx_t_6 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":72
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":72
  * 
  *     for key, value in kwargs.items():
  *         if key not in options:             # <<<<<<<<<<<<<<
@@ -4158,7 +4158,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_t_10 = (__pyx_t_9 != 0);
     if (__pyx_t_10) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":73
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":73
  *     for key, value in kwargs.items():
  *         if key not in options:
  *             print(f"{key} is not a valid argument. Please see documentation. Using "             # <<<<<<<<<<<<<<
@@ -4173,7 +4173,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       if (__Pyx_PrintOne(0, __pyx_t_6) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":72
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":72
  * 
  *     for key, value in kwargs.items():
  *         if key not in options:             # <<<<<<<<<<<<<<
@@ -4182,7 +4182,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
     }
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":71
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":71
  *         "fchp_max", "filter_order", "tukey_alpha", "filter_type"]
  * 
  *     for key, value in kwargs.items():             # <<<<<<<<<<<<<<
@@ -4192,7 +4192,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":76
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":76
  *                   "default values for all parameters that are not specified.")
  * 
  *     if "dt" in kwargs :             # <<<<<<<<<<<<<<
@@ -4203,7 +4203,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_9 = (__pyx_t_10 != 0);
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":77
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":77
  * 
  *     if "dt" in kwargs :
  *         dt = kwargs["dt"]             # <<<<<<<<<<<<<<
@@ -4215,7 +4215,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_dt = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":76
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":76
  *                   "default values for all parameters that are not specified.")
  * 
  *     if "dt" in kwargs :             # <<<<<<<<<<<<<<
@@ -4225,7 +4225,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L8;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":79
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":79
  *         dt = kwargs["dt"]
  *     else:
  *         print("You must specify dt")             # <<<<<<<<<<<<<<
@@ -4235,7 +4235,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   /*else*/ {
     if (__Pyx_PrintOne(0, __pyx_kp_s_You_must_specify_dt) < 0) __PYX_ERR(0, 79, __pyx_L1_error)
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":80
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":80
  *     else:
  *         print("You must specify dt")
  *         return             # <<<<<<<<<<<<<<
@@ -4248,7 +4248,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L8:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":82
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":82
  *         return
  * 
  *     if "acc" in kwargs:             # <<<<<<<<<<<<<<
@@ -4259,7 +4259,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_10 = (__pyx_t_9 != 0);
   if (__pyx_t_10) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":83
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":83
  * 
  *     if "acc" in kwargs:
  *         acc = np.asarray(kwargs["acc"], dtype="float64")             # <<<<<<<<<<<<<<
@@ -4289,7 +4289,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_acc = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":82
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":82
  *         return
  * 
  *     if "acc" in kwargs:             # <<<<<<<<<<<<<<
@@ -4299,7 +4299,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L9;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":85
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":85
  *         acc = np.asarray(kwargs["acc"], dtype="float64")
  *     else:
  *         print("You must specify acc")             # <<<<<<<<<<<<<<
@@ -4309,7 +4309,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   /*else*/ {
     if (__Pyx_PrintOne(0, __pyx_kp_s_You_must_specify_acc) < 0) __PYX_ERR(0, 85, __pyx_L1_error)
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":86
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":86
  *     else:
  *         print("You must specify acc")
  *         return             # <<<<<<<<<<<<<<
@@ -4322,7 +4322,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L9:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":88
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":88
  *         return
  * 
  *     if "target" in kwargs:             # <<<<<<<<<<<<<<
@@ -4333,7 +4333,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_9 = (__pyx_t_10 != 0);
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":89
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":89
  * 
  *     if "target" in kwargs:
  *         target = kwargs["target"]             # <<<<<<<<<<<<<<
@@ -4345,7 +4345,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_target = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":88
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":88
  *         return
  * 
  *     if "target" in kwargs:             # <<<<<<<<<<<<<<
@@ -4355,7 +4355,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L10;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":91
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":91
  *         target = kwargs["target"]
  *     else:
  *         target = 0.02             # <<<<<<<<<<<<<<
@@ -4368,7 +4368,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L10:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":93
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":93
  *         target = 0.02
  * 
  *     if "tol" in kwargs:             # <<<<<<<<<<<<<<
@@ -4379,7 +4379,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_10 = (__pyx_t_9 != 0);
   if (__pyx_t_10) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":94
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":94
  * 
  *     if "tol" in kwargs:
  *         tol = kwargs["tol"]             # <<<<<<<<<<<<<<
@@ -4391,7 +4391,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_tol = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":93
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":93
  *         target = 0.02
  * 
  *     if "tol" in kwargs:             # <<<<<<<<<<<<<<
@@ -4401,7 +4401,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L11;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":96
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":96
  *         tol = kwargs["tol"]
  *     else:
  *         tol = 0.001             # <<<<<<<<<<<<<<
@@ -4414,7 +4414,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L11:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":98
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":98
  *         tol = 0.001
  * 
  *     if "poly_order" in kwargs:             # <<<<<<<<<<<<<<
@@ -4425,7 +4425,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_9 = (__pyx_t_10 != 0);
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":99
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":99
  * 
  *     if "poly_order" in kwargs:
  *         poly_order = kwargs["poly_order"]             # <<<<<<<<<<<<<<
@@ -4437,7 +4437,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_poly_order = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":98
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":98
  *         tol = 0.001
  * 
  *     if "poly_order" in kwargs:             # <<<<<<<<<<<<<<
@@ -4447,7 +4447,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L12;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":101
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":101
  *         poly_order = kwargs["poly_order"]
  *     else:
  *         poly_order = 6             # <<<<<<<<<<<<<<
@@ -4460,7 +4460,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L12:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":103
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":103
  *         poly_order = 6
  * 
  *     if "maxiter" in kwargs:             # <<<<<<<<<<<<<<
@@ -4471,7 +4471,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_10 = (__pyx_t_9 != 0);
   if (__pyx_t_10) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":104
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":104
  * 
  *     if "maxiter" in kwargs:
  *         maxiter = kwargs["maxiter"]             # <<<<<<<<<<<<<<
@@ -4483,7 +4483,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_maxiter = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":103
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":103
  *         poly_order = 6
  * 
  *     if "maxiter" in kwargs:             # <<<<<<<<<<<<<<
@@ -4493,7 +4493,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L13;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":106
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":106
  *         maxiter = kwargs["maxiter"]
  *     else:
  *         maxiter = 30             # <<<<<<<<<<<<<<
@@ -4506,7 +4506,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L13:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":108
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":108
  *         maxiter = 30
  * 
  *     if "fchp_min" in kwargs:             # <<<<<<<<<<<<<<
@@ -4517,7 +4517,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_9 = (__pyx_t_10 != 0);
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":109
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":109
  * 
  *     if "fchp_min" in kwargs:
  *         minfc = kwargs["fchp_min"]             # <<<<<<<<<<<<<<
@@ -4529,7 +4529,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_minfc = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":108
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":108
  *         maxiter = 30
  * 
  *     if "fchp_min" in kwargs:             # <<<<<<<<<<<<<<
@@ -4539,7 +4539,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L14;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":111
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":111
  *         minfc = kwargs["fchp_min"]
  *     else:
  *         minfc = 0.001             # <<<<<<<<<<<<<<
@@ -4552,7 +4552,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L14:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":113
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":113
  *         minfc = 0.001
  * 
  *     if "fchp_max" in kwargs:             # <<<<<<<<<<<<<<
@@ -4563,7 +4563,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_10 = (__pyx_t_9 != 0);
   if (__pyx_t_10) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":114
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":114
  * 
  *     if "fchp_max" in kwargs:
  *         maxfc = kwargs["fchp_max"]             # <<<<<<<<<<<<<<
@@ -4575,7 +4575,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_maxfc = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":113
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":113
  *         minfc = 0.001
  * 
  *     if "fchp_max" in kwargs:             # <<<<<<<<<<<<<<
@@ -4585,7 +4585,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L15;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":116
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":116
  *         maxfc = kwargs["fchp_max"]
  *     else:
  *         maxfc = 0.5             # <<<<<<<<<<<<<<
@@ -4598,7 +4598,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L15:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":118
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":118
  *         maxfc = 0.5
  * 
  *     if "filter_order" in kwargs:             # <<<<<<<<<<<<<<
@@ -4609,7 +4609,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_9 = (__pyx_t_10 != 0);
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":119
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":119
  * 
  *     if "filter_order" in kwargs:
  *         filter_order = kwargs["filter_order"]             # <<<<<<<<<<<<<<
@@ -4621,7 +4621,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_filter_order = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":118
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":118
  *         maxfc = 0.5
  * 
  *     if "filter_order" in kwargs:             # <<<<<<<<<<<<<<
@@ -4631,7 +4631,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L16;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":121
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":121
  *         filter_order = kwargs["filter_order"]
  *     else:
  *         filter_order = 5.0             # <<<<<<<<<<<<<<
@@ -4644,7 +4644,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L16:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":123
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":123
  *         filter_order = 5.0
  * 
  *     if "tukey_alpha" in kwargs:             # <<<<<<<<<<<<<<
@@ -4655,7 +4655,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_10 = (__pyx_t_9 != 0);
   if (__pyx_t_10) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":124
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":124
  * 
  *     if "tukey_alpha" in kwargs:
  *         tukey_alpha = kwargs["tukey_alpha"]             # <<<<<<<<<<<<<<
@@ -4667,7 +4667,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_tukey_alpha = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":123
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":123
  *         filter_order = 5.0
  * 
  *     if "tukey_alpha" in kwargs:             # <<<<<<<<<<<<<<
@@ -4677,7 +4677,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L17;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":126
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":126
  *         tukey_alpha = kwargs["tukey_alpha"]
  *     else:
  *         tukey_alpha = 0.05             # <<<<<<<<<<<<<<
@@ -4690,7 +4690,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L17:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":128
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":128
  *         tukey_alpha = 0.05
  * 
  *     if "filter_type" in kwargs:             # <<<<<<<<<<<<<<
@@ -4701,7 +4701,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_9 = (__pyx_t_10 != 0);
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":129
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":129
  * 
  *     if "filter_type" in kwargs:
  *         filter_type = kwargs["filter_type"]             # <<<<<<<<<<<<<<
@@ -4713,7 +4713,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_filter_type = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":128
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":128
  *         tukey_alpha = 0.05
  * 
  *     if "filter_type" in kwargs:             # <<<<<<<<<<<<<<
@@ -4723,7 +4723,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L18;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":131
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":131
  *         filter_type = kwargs["filter_type"]
  *     else:
  *         filter_type = 0             # <<<<<<<<<<<<<<
@@ -4736,7 +4736,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L18:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":135
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":135
  *     # subtract mean and apply Tukey window
  *     cdef int i
  *     cdef double meanacc = 0.0             # <<<<<<<<<<<<<<
@@ -4745,7 +4745,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
   __pyx_v_meanacc = 0.0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":136
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":136
  *     cdef int i
  *     cdef double meanacc = 0.0
  *     for i in range(len(acc)):             # <<<<<<<<<<<<<<
@@ -4757,7 +4757,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
     __pyx_v_i = __pyx_t_12;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":137
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":137
  *     cdef double meanacc = 0.0
  *     for i in range(len(acc)):
  *         meanacc += acc[i]/len(acc)             # <<<<<<<<<<<<<<
@@ -4784,7 +4784,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_meanacc = __pyx_t_14;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":138
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":138
  *     for i in range(len(acc)):
  *         meanacc += acc[i]/len(acc)
  *     cdef double[:] window = signal.tukey(len(acc), alpha=tukey_alpha)             # <<<<<<<<<<<<<<
@@ -4818,7 +4818,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_15.memview = NULL;
   __pyx_t_15.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":139
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":139
  *         meanacc += acc[i]/len(acc)
  *     cdef double[:] window = signal.tukey(len(acc), alpha=tukey_alpha)
  *     for i in range(len(acc)):             # <<<<<<<<<<<<<<
@@ -4830,7 +4830,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_11; __pyx_t_12+=1) {
     __pyx_v_i = __pyx_t_12;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":140
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":140
  *     cdef double[:] window = signal.tukey(len(acc), alpha=tukey_alpha)
  *     for i in range(len(acc)):
  *         acc[i] = window[i] * (acc[i] - meanacc)             # <<<<<<<<<<<<<<
@@ -4865,7 +4865,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":141
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":141
  *     for i in range(len(acc)):
  *         acc[i] = window[i] * (acc[i] - meanacc)
  *     cdef double[:] time = np.linspace(0, dt * len(acc), len(acc))             # <<<<<<<<<<<<<<
@@ -4944,7 +4944,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_15.memview = NULL;
   __pyx_t_15.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":142
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":142
  *         acc[i] = window[i] * (acc[i] - meanacc)
  *     cdef double[:] time = np.linspace(0, dt * len(acc), len(acc))
  *     cdef complex[:] Facc = np.fft.rfft(acc)             # <<<<<<<<<<<<<<
@@ -4980,7 +4980,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_19.memview = NULL;
   __pyx_t_19.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":143
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":143
  *     cdef double[:] time = np.linspace(0, dt * len(acc), len(acc))
  *     cdef complex[:] Facc = np.fft.rfft(acc)
  *     cdef double[:] freq = np.fft.rfftfreq(len(acc), dt)             # <<<<<<<<<<<<<<
@@ -5051,7 +5051,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_15.memview = NULL;
   __pyx_t_15.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":145
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":145
  *     cdef double[:] freq = np.fft.rfftfreq(len(acc), dt)
  * 
  *     cdef double fc0 = minfc             # <<<<<<<<<<<<<<
@@ -5061,7 +5061,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_14 = __pyx_PyFloat_AsDouble(__pyx_v_minfc); if (unlikely((__pyx_t_14 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 145, __pyx_L1_error)
   __pyx_v_fc0 = __pyx_t_14;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":146
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":146
  * 
  *     cdef double fc0 = minfc
  *     cdef complex[:] FiltFacc = filtered_Facc(Facc, freq, fc0, filter_order)             # <<<<<<<<<<<<<<
@@ -5069,24 +5069,24 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  *     cdef double R0 = get_residual(time, disp, target, poly_order)
  */
   __pyx_t_14 = __pyx_PyFloat_AsDouble(__pyx_v_filter_order); if (unlikely((__pyx_t_14 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 146, __pyx_L1_error)
-  __pyx_t_19 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__pyx_v_Facc, __pyx_v_freq, __pyx_v_fc0, __pyx_t_14); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 146, __pyx_L1_error)
+  __pyx_t_19 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__pyx_v_Facc, __pyx_v_freq, __pyx_v_fc0, __pyx_t_14); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 146, __pyx_L1_error)
   __pyx_v_FiltFacc = __pyx_t_19;
   __pyx_t_19.memview = NULL;
   __pyx_t_19.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":147
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":147
  *     cdef double fc0 = minfc
  *     cdef complex[:] FiltFacc = filtered_Facc(Facc, freq, fc0, filter_order)
  *     cdef double[:] disp = get_disp(freq, FiltFacc)             # <<<<<<<<<<<<<<
  *     cdef double R0 = get_residual(time, disp, target, poly_order)
  *     if(np.sign(R0) < 0):
  */
-  __pyx_t_15 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__pyx_v_freq, __pyx_v_FiltFacc); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 147, __pyx_L1_error)
+  __pyx_t_15 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__pyx_v_freq, __pyx_v_FiltFacc); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 147, __pyx_L1_error)
   __pyx_v_disp = __pyx_t_15;
   __pyx_t_15.memview = NULL;
   __pyx_t_15.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":148
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":148
  *     cdef complex[:] FiltFacc = filtered_Facc(Facc, freq, fc0, filter_order)
  *     cdef double[:] disp = get_disp(freq, FiltFacc)
  *     cdef double R0 = get_residual(time, disp, target, poly_order)             # <<<<<<<<<<<<<<
@@ -5095,9 +5095,9 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
   __pyx_t_14 = __pyx_PyFloat_AsDouble(__pyx_v_target); if (unlikely((__pyx_t_14 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 148, __pyx_L1_error)
   __pyx_t_12 = __Pyx_PyInt_As_int(__pyx_v_poly_order); if (unlikely((__pyx_t_12 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 148, __pyx_L1_error)
-  __pyx_v_R0 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__pyx_v_time, __pyx_v_disp, __pyx_t_14, __pyx_t_12);
+  __pyx_v_R0 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__pyx_v_time, __pyx_v_disp, __pyx_t_14, __pyx_t_12);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":149
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":149
  *     cdef double[:] disp = get_disp(freq, FiltFacc)
  *     cdef double R0 = get_residual(time, disp, target, poly_order)
  *     if(np.sign(R0) < 0):             # <<<<<<<<<<<<<<
@@ -5133,7 +5133,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":150
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":150
  *     cdef double R0 = get_residual(time, disp, target, poly_order)
  *     if(np.sign(R0) < 0):
  *         return fc0             # <<<<<<<<<<<<<<
@@ -5147,7 +5147,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_t_1 = 0;
     goto __pyx_L0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":149
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":149
  *     cdef double[:] disp = get_disp(freq, FiltFacc)
  *     cdef double R0 = get_residual(time, disp, target, poly_order)
  *     if(np.sign(R0) < 0):             # <<<<<<<<<<<<<<
@@ -5156,7 +5156,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":152
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":152
  *         return fc0
  * 
  *     cdef double fc2 = maxfc             # <<<<<<<<<<<<<<
@@ -5166,7 +5166,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __pyx_t_14 = __pyx_PyFloat_AsDouble(__pyx_v_maxfc); if (unlikely((__pyx_t_14 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 152, __pyx_L1_error)
   __pyx_v_fc2 = __pyx_t_14;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":153
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":153
  * 
  *     cdef double fc2 = maxfc
  *     if filter_type == 1:             # <<<<<<<<<<<<<<
@@ -5179,7 +5179,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":154
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":154
  *     cdef double fc2 = maxfc
  *     if filter_type == 1:
  *         FiltFacc = filtered_Facc(Facc, freq, maxfc, filter_order)             # <<<<<<<<<<<<<<
@@ -5188,13 +5188,13 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
     __pyx_t_14 = __pyx_PyFloat_AsDouble(__pyx_v_maxfc); if (unlikely((__pyx_t_14 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 154, __pyx_L1_error)
     __pyx_t_20 = __pyx_PyFloat_AsDouble(__pyx_v_filter_order); if (unlikely((__pyx_t_20 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 154, __pyx_L1_error)
-    __pyx_t_19 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__pyx_v_Facc, __pyx_v_freq, __pyx_t_14, __pyx_t_20); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 154, __pyx_L1_error)
+    __pyx_t_19 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__pyx_v_Facc, __pyx_v_freq, __pyx_t_14, __pyx_t_20); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 154, __pyx_L1_error)
     __PYX_XDEC_MEMVIEW(&__pyx_v_FiltFacc, 1);
     __pyx_v_FiltFacc = __pyx_t_19;
     __pyx_t_19.memview = NULL;
     __pyx_t_19.data = NULL;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":153
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":153
  * 
  *     cdef double fc2 = maxfc
  *     if filter_type == 1:             # <<<<<<<<<<<<<<
@@ -5204,7 +5204,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     goto __pyx_L24;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":155
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":155
  *     if filter_type == 1:
  *         FiltFacc = filtered_Facc(Facc, freq, maxfc, filter_order)
  *     elif filter_type==0:             # <<<<<<<<<<<<<<
@@ -5217,7 +5217,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":156
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":156
  *         FiltFacc = filtered_Facc(Facc, freq, maxfc, filter_order)
  *     elif filter_type==0:
  *         tr = obs.Trace(acc, header={"dt":dt})             # <<<<<<<<<<<<<<
@@ -5249,7 +5249,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_v_tr = __pyx_t_18;
     __pyx_t_18 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":157
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":157
  *     elif filter_type==0:
  *         tr = obs.Trace(acc, header={"dt":dt})
  *         tr.filter(             # <<<<<<<<<<<<<<
@@ -5259,7 +5259,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_v_tr, __pyx_n_s_filter); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 157, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":158
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":158
  *         tr = obs.Trace(acc, header={"dt":dt})
  *         tr.filter(
  *             type="highpass",             # <<<<<<<<<<<<<<
@@ -5270,7 +5270,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_GOTREF(__pyx_t_2);
     if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_type, __pyx_n_s_highpass) < 0) __PYX_ERR(0, 158, __pyx_L1_error)
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":159
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":159
  *         tr.filter(
  *             type="highpass",
  *             freq=maxfc/(0.5/dt),             # <<<<<<<<<<<<<<
@@ -5285,7 +5285,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_freq, __pyx_t_5) < 0) __PYX_ERR(0, 158, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":160
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":160
  *             type="highpass",
  *             freq=maxfc/(0.5/dt),
  *             corners=filter_order,             # <<<<<<<<<<<<<<
@@ -5294,7 +5294,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
     if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_corners, __pyx_v_filter_order) < 0) __PYX_ERR(0, 158, __pyx_L1_error)
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":161
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":161
  *             freq=maxfc/(0.5/dt),
  *             corners=filter_order,
  *             zerophase=True,             # <<<<<<<<<<<<<<
@@ -5303,7 +5303,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
     if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_zerophase, Py_True) < 0) __PYX_ERR(0, 158, __pyx_L1_error)
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":157
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":157
  *     elif filter_type==0:
  *         tr = obs.Trace(acc, header={"dt":dt})
  *         tr.filter(             # <<<<<<<<<<<<<<
@@ -5316,7 +5316,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":163
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":163
  *             zerophase=True,
  *         )
  *         FiltFacc = np.fft.rfft(tr.data)             # <<<<<<<<<<<<<<
@@ -5356,7 +5356,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_t_19.memview = NULL;
     __pyx_t_19.data = NULL;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":155
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":155
  *     if filter_type == 1:
  *         FiltFacc = filtered_Facc(Facc, freq, maxfc, filter_order)
  *     elif filter_type==0:             # <<<<<<<<<<<<<<
@@ -5366,20 +5366,20 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   }
   __pyx_L24:;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":164
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":164
  *         )
  *         FiltFacc = np.fft.rfft(tr.data)
  *     disp = get_disp(freq, FiltFacc)             # <<<<<<<<<<<<<<
  *     cdef double R2 = get_residual(time, disp, target, poly_order)
  *     if(np.sign(R2) > 0):
  */
-  __pyx_t_15 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__pyx_v_freq, __pyx_v_FiltFacc); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 164, __pyx_L1_error)
+  __pyx_t_15 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__pyx_v_freq, __pyx_v_FiltFacc); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 164, __pyx_L1_error)
   __PYX_XDEC_MEMVIEW(&__pyx_v_disp, 1);
   __pyx_v_disp = __pyx_t_15;
   __pyx_t_15.memview = NULL;
   __pyx_t_15.data = NULL;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":165
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":165
  *         FiltFacc = np.fft.rfft(tr.data)
  *     disp = get_disp(freq, FiltFacc)
  *     cdef double R2 = get_residual(time, disp, target, poly_order)             # <<<<<<<<<<<<<<
@@ -5388,9 +5388,9 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
   __pyx_t_20 = __pyx_PyFloat_AsDouble(__pyx_v_target); if (unlikely((__pyx_t_20 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 165, __pyx_L1_error)
   __pyx_t_12 = __Pyx_PyInt_As_int(__pyx_v_poly_order); if (unlikely((__pyx_t_12 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 165, __pyx_L1_error)
-  __pyx_v_R2 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__pyx_v_time, __pyx_v_disp, __pyx_t_20, __pyx_t_12);
+  __pyx_v_R2 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__pyx_v_time, __pyx_v_disp, __pyx_t_20, __pyx_t_12);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":166
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":166
  *     disp = get_disp(freq, FiltFacc)
  *     cdef double R2 = get_residual(time, disp, target, poly_order)
  *     if(np.sign(R2) > 0):             # <<<<<<<<<<<<<<
@@ -5426,7 +5426,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
   if (__pyx_t_9) {
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":167
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":167
  *     cdef double R2 = get_residual(time, disp, target, poly_order)
  *     if(np.sign(R2) > 0):
  *         return fc2             # <<<<<<<<<<<<<<
@@ -5440,7 +5440,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_t_18 = 0;
     goto __pyx_L0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":166
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":166
  *     disp = get_disp(freq, FiltFacc)
  *     cdef double R2 = get_residual(time, disp, target, poly_order)
  *     if(np.sign(R2) > 0):             # <<<<<<<<<<<<<<
@@ -5449,7 +5449,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":170
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":170
  * 
  *     cdef double fc1, R1, fc3, R3
  *     for i in range(maxiter):             # <<<<<<<<<<<<<<
@@ -5461,7 +5461,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   for (__pyx_t_12 = 0; __pyx_t_12 < __pyx_t_22; __pyx_t_12+=1) {
     __pyx_v_i = __pyx_t_12;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":171
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":171
  *     cdef double fc1, R1, fc3, R3
  *     for i in range(maxiter):
  *         fc1 = np.exp(0.5 * (np.log(fc0) + np.log(fc2)))             # <<<<<<<<<<<<<<
@@ -5546,7 +5546,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_v_fc1 = __pyx_t_20;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":172
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":172
  *     for i in range(maxiter):
  *         fc1 = np.exp(0.5 * (np.log(fc0) + np.log(fc2)))
  *         if filter_type==1:             # <<<<<<<<<<<<<<
@@ -5559,7 +5559,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     if (__pyx_t_9) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":173
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":173
  *         fc1 = np.exp(0.5 * (np.log(fc0) + np.log(fc2)))
  *         if filter_type==1:
  *             FiltFacc = filtered_Facc(Facc, freq, fc1, filter_order)             # <<<<<<<<<<<<<<
@@ -5567,13 +5567,13 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  *             tr = obs.Trace(acc, header={"dt":dt})
  */
       __pyx_t_20 = __pyx_PyFloat_AsDouble(__pyx_v_filter_order); if (unlikely((__pyx_t_20 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 173, __pyx_L1_error)
-      __pyx_t_19 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__pyx_v_Facc, __pyx_v_freq, __pyx_v_fc1, __pyx_t_20); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 173, __pyx_L1_error)
+      __pyx_t_19 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__pyx_v_Facc, __pyx_v_freq, __pyx_v_fc1, __pyx_t_20); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 173, __pyx_L1_error)
       __PYX_XDEC_MEMVIEW(&__pyx_v_FiltFacc, 1);
       __pyx_v_FiltFacc = __pyx_t_19;
       __pyx_t_19.memview = NULL;
       __pyx_t_19.data = NULL;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":172
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":172
  *     for i in range(maxiter):
  *         fc1 = np.exp(0.5 * (np.log(fc0) + np.log(fc2)))
  *         if filter_type==1:             # <<<<<<<<<<<<<<
@@ -5583,7 +5583,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       goto __pyx_L28;
     }
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":174
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":174
  *         if filter_type==1:
  *             FiltFacc = filtered_Facc(Facc, freq, fc1, filter_order)
  *         elif filter_type==0:             # <<<<<<<<<<<<<<
@@ -5596,7 +5596,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     if (__pyx_t_9) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":175
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":175
  *             FiltFacc = filtered_Facc(Facc, freq, fc1, filter_order)
  *         elif filter_type==0:
  *             tr = obs.Trace(acc, header={"dt":dt})             # <<<<<<<<<<<<<<
@@ -5628,7 +5628,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __Pyx_XDECREF_SET(__pyx_v_tr, __pyx_t_7);
       __pyx_t_7 = 0;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":176
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":176
  *         elif filter_type==0:
  *             tr = obs.Trace(acc, header={"dt":dt})
  *             tr.filter(             # <<<<<<<<<<<<<<
@@ -5638,7 +5638,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_tr, __pyx_n_s_filter); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 176, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":177
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":177
  *             tr = obs.Trace(acc, header={"dt":dt})
  *             tr.filter(
  *                 type="highpass",             # <<<<<<<<<<<<<<
@@ -5649,7 +5649,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __Pyx_GOTREF(__pyx_t_6);
       if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_type, __pyx_n_s_highpass) < 0) __PYX_ERR(0, 177, __pyx_L1_error)
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":178
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":178
  *             tr.filter(
  *                 type="highpass",
  *                 freq=fc1/(0.5/dt),             # <<<<<<<<<<<<<<
@@ -5667,7 +5667,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_freq, __pyx_t_5) < 0) __PYX_ERR(0, 177, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":179
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":179
  *                 type="highpass",
  *                 freq=fc1/(0.5/dt),
  *                 corners=filter_order,             # <<<<<<<<<<<<<<
@@ -5676,7 +5676,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_corners, __pyx_v_filter_order) < 0) __PYX_ERR(0, 177, __pyx_L1_error)
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":180
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":180
  *                 freq=fc1/(0.5/dt),
  *                 corners=filter_order,
  *                 zerophase=True,             # <<<<<<<<<<<<<<
@@ -5685,7 +5685,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       if (PyDict_SetItem(__pyx_t_6, __pyx_n_s_zerophase, Py_True) < 0) __PYX_ERR(0, 177, __pyx_L1_error)
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":176
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":176
  *         elif filter_type==0:
  *             tr = obs.Trace(acc, header={"dt":dt})
  *             tr.filter(             # <<<<<<<<<<<<<<
@@ -5698,7 +5698,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":182
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":182
  *                 zerophase=True,
  *             )
  *             FiltFacc = np.fft.rfft(tr.data)             # <<<<<<<<<<<<<<
@@ -5738,7 +5738,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __pyx_t_19.memview = NULL;
       __pyx_t_19.data = NULL;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":174
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":174
  *         if filter_type==1:
  *             FiltFacc = filtered_Facc(Facc, freq, fc1, filter_order)
  *         elif filter_type==0:             # <<<<<<<<<<<<<<
@@ -5748,20 +5748,20 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     }
     __pyx_L28:;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":183
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":183
  *             )
  *             FiltFacc = np.fft.rfft(tr.data)
  *         disp = get_disp(freq, FiltFacc)             # <<<<<<<<<<<<<<
  *         R1 = get_residual(time, disp, target, poly_order)
  *         fc3 = (np.exp(np.log(fc1) + (np.log(fc1) - np.log(fc0)) * np.sign(R0) * R1 /
  */
-    __pyx_t_15 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__pyx_v_freq, __pyx_v_FiltFacc); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 183, __pyx_L1_error)
+    __pyx_t_15 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__pyx_v_freq, __pyx_v_FiltFacc); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 183, __pyx_L1_error)
     __PYX_XDEC_MEMVIEW(&__pyx_v_disp, 1);
     __pyx_v_disp = __pyx_t_15;
     __pyx_t_15.memview = NULL;
     __pyx_t_15.data = NULL;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":184
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":184
  *             FiltFacc = np.fft.rfft(tr.data)
  *         disp = get_disp(freq, FiltFacc)
  *         R1 = get_residual(time, disp, target, poly_order)             # <<<<<<<<<<<<<<
@@ -5770,9 +5770,9 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
     __pyx_t_20 = __pyx_PyFloat_AsDouble(__pyx_v_target); if (unlikely((__pyx_t_20 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 184, __pyx_L1_error)
     __pyx_t_17 = __Pyx_PyInt_As_int(__pyx_v_poly_order); if (unlikely((__pyx_t_17 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 184, __pyx_L1_error)
-    __pyx_v_R1 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__pyx_v_time, __pyx_v_disp, __pyx_t_20, __pyx_t_17);
+    __pyx_v_R1 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__pyx_v_time, __pyx_v_disp, __pyx_t_20, __pyx_t_17);
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":185
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":185
  *         disp = get_disp(freq, FiltFacc)
  *         R1 = get_residual(time, disp, target, poly_order)
  *         fc3 = (np.exp(np.log(fc1) + (np.log(fc1) - np.log(fc0)) * np.sign(R0) * R1 /             # <<<<<<<<<<<<<<
@@ -5891,7 +5891,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":186
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":186
  *         R1 = get_residual(time, disp, target, poly_order)
  *         fc3 = (np.exp(np.log(fc1) + (np.log(fc1) - np.log(fc0)) * np.sign(R0) * R1 /
  *                (np.sqrt(R1*R1 - R0*R2))))             # <<<<<<<<<<<<<<
@@ -5922,7 +5922,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":185
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":185
  *         disp = get_disp(freq, FiltFacc)
  *         R1 = get_residual(time, disp, target, poly_order)
  *         fc3 = (np.exp(np.log(fc1) + (np.log(fc1) - np.log(fc0)) * np.sign(R0) * R1 /             # <<<<<<<<<<<<<<
@@ -5957,7 +5957,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_v_fc3 = __pyx_t_20;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":187
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":187
  *         fc3 = (np.exp(np.log(fc1) + (np.log(fc1) - np.log(fc0)) * np.sign(R0) * R1 /
  *                (np.sqrt(R1*R1 - R0*R2))))
  *         if filter_type==1:             # <<<<<<<<<<<<<<
@@ -5970,7 +5970,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     if (__pyx_t_9) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":188
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":188
  *                (np.sqrt(R1*R1 - R0*R2))))
  *         if filter_type==1:
  *             FiltFacc = filtered_Facc(Facc, freq, fc3, filter_order)             # <<<<<<<<<<<<<<
@@ -5978,13 +5978,13 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  *             tr = obs.Trace(acc, header={"dt":dt})
  */
       __pyx_t_20 = __pyx_PyFloat_AsDouble(__pyx_v_filter_order); if (unlikely((__pyx_t_20 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 188, __pyx_L1_error)
-      __pyx_t_19 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__pyx_v_Facc, __pyx_v_freq, __pyx_v_fc3, __pyx_t_20); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 188, __pyx_L1_error)
+      __pyx_t_19 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_filtered_Facc(__pyx_v_Facc, __pyx_v_freq, __pyx_v_fc3, __pyx_t_20); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 188, __pyx_L1_error)
       __PYX_XDEC_MEMVIEW(&__pyx_v_FiltFacc, 1);
       __pyx_v_FiltFacc = __pyx_t_19;
       __pyx_t_19.memview = NULL;
       __pyx_t_19.data = NULL;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":187
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":187
  *         fc3 = (np.exp(np.log(fc1) + (np.log(fc1) - np.log(fc0)) * np.sign(R0) * R1 /
  *                (np.sqrt(R1*R1 - R0*R2))))
  *         if filter_type==1:             # <<<<<<<<<<<<<<
@@ -5994,7 +5994,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       goto __pyx_L29;
     }
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":189
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":189
  *         if filter_type==1:
  *             FiltFacc = filtered_Facc(Facc, freq, fc3, filter_order)
  *         elif filter_type==0:             # <<<<<<<<<<<<<<
@@ -6007,7 +6007,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     if (__pyx_t_9) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":190
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":190
  *             FiltFacc = filtered_Facc(Facc, freq, fc3, filter_order)
  *         elif filter_type==0:
  *             tr = obs.Trace(acc, header={"dt":dt})             # <<<<<<<<<<<<<<
@@ -6039,7 +6039,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __Pyx_XDECREF_SET(__pyx_v_tr, __pyx_t_18);
       __pyx_t_18 = 0;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":191
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":191
  *         elif filter_type==0:
  *             tr = obs.Trace(acc, header={"dt":dt})
  *             tr.filter(             # <<<<<<<<<<<<<<
@@ -6049,7 +6049,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_v_tr, __pyx_n_s_filter); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 191, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":192
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":192
  *             tr = obs.Trace(acc, header={"dt":dt})
  *             tr.filter(
  *                 type="highpass",             # <<<<<<<<<<<<<<
@@ -6060,7 +6060,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __Pyx_GOTREF(__pyx_t_1);
       if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_type, __pyx_n_s_highpass) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":193
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":193
  *             tr.filter(
  *                 type="highpass",
  *                 freq=fc3/(0.5/dt),             # <<<<<<<<<<<<<<
@@ -6078,7 +6078,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_freq, __pyx_t_6) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":194
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":194
  *                 type="highpass",
  *                 freq=fc3/(0.5/dt),
  *                 corners=filter_order,             # <<<<<<<<<<<<<<
@@ -6087,7 +6087,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_corners, __pyx_v_filter_order) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":195
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":195
  *                 freq=fc3/(0.5/dt),
  *                 corners=filter_order,
  *                 zerophase=True             # <<<<<<<<<<<<<<
@@ -6096,7 +6096,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_zerophase, Py_True) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":191
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":191
  *         elif filter_type==0:
  *             tr = obs.Trace(acc, header={"dt":dt})
  *             tr.filter(             # <<<<<<<<<<<<<<
@@ -6109,7 +6109,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":197
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":197
  *                 zerophase=True
  *             )
  *             FiltFacc = np.fft.rfft(tr.data)             # <<<<<<<<<<<<<<
@@ -6149,7 +6149,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __pyx_t_19.memview = NULL;
       __pyx_t_19.data = NULL;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":189
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":189
  *         if filter_type==1:
  *             FiltFacc = filtered_Facc(Facc, freq, fc3, filter_order)
  *         elif filter_type==0:             # <<<<<<<<<<<<<<
@@ -6159,20 +6159,20 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     }
     __pyx_L29:;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":198
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":198
  *             )
  *             FiltFacc = np.fft.rfft(tr.data)
  *         disp = get_disp(freq, FiltFacc)             # <<<<<<<<<<<<<<
  *         R3 = get_residual(time, disp, target, poly_order)
  *         if (np.abs(R3) <= tol) or (i == maxiter - 1):
  */
-    __pyx_t_15 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__pyx_v_freq, __pyx_v_FiltFacc); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 198, __pyx_L1_error)
+    __pyx_t_15 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_disp(__pyx_v_freq, __pyx_v_FiltFacc); if (unlikely(!__pyx_t_15.memview)) __PYX_ERR(0, 198, __pyx_L1_error)
     __PYX_XDEC_MEMVIEW(&__pyx_v_disp, 1);
     __pyx_v_disp = __pyx_t_15;
     __pyx_t_15.memview = NULL;
     __pyx_t_15.data = NULL;
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":199
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":199
  *             FiltFacc = np.fft.rfft(tr.data)
  *         disp = get_disp(freq, FiltFacc)
  *         R3 = get_residual(time, disp, target, poly_order)             # <<<<<<<<<<<<<<
@@ -6181,9 +6181,9 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
     __pyx_t_20 = __pyx_PyFloat_AsDouble(__pyx_v_target); if (unlikely((__pyx_t_20 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 199, __pyx_L1_error)
     __pyx_t_17 = __Pyx_PyInt_As_int(__pyx_v_poly_order); if (unlikely((__pyx_t_17 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 199, __pyx_L1_error)
-    __pyx_v_R3 = __pyx_f_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__pyx_v_time, __pyx_v_disp, __pyx_t_20, __pyx_t_17);
+    __pyx_v_R3 = __pyx_f_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_get_residual(__pyx_v_time, __pyx_v_disp, __pyx_t_20, __pyx_t_17);
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":200
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":200
  *         disp = get_disp(freq, FiltFacc)
  *         R3 = get_residual(time, disp, target, poly_order)
  *         if (np.abs(R3) <= tol) or (i == maxiter - 1):             # <<<<<<<<<<<<<<
@@ -6235,7 +6235,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_L31_bool_binop_done:;
     if (__pyx_t_9) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":201
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":201
  *         R3 = get_residual(time, disp, target, poly_order)
  *         if (np.abs(R3) <= tol) or (i == maxiter - 1):
  *             return fc3             # <<<<<<<<<<<<<<
@@ -6249,7 +6249,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       __pyx_t_1 = 0;
       goto __pyx_L0;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":200
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":200
  *         disp = get_disp(freq, FiltFacc)
  *         R3 = get_residual(time, disp, target, poly_order)
  *         if (np.abs(R3) <= tol) or (i == maxiter - 1):             # <<<<<<<<<<<<<<
@@ -6258,7 +6258,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
     }
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":202
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":202
  *         if (np.abs(R3) <= tol) or (i == maxiter - 1):
  *             return fc3
  *         if R1 * R3 < 0:             # <<<<<<<<<<<<<<
@@ -6268,7 +6268,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_t_9 = (((__pyx_v_R1 * __pyx_v_R3) < 0.0) != 0);
     if (__pyx_t_9) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":203
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":203
  *             return fc3
  *         if R1 * R3 < 0:
  *             fc0 = fc1             # <<<<<<<<<<<<<<
@@ -6277,7 +6277,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       __pyx_v_fc0 = __pyx_v_fc1;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":204
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":204
  *         if R1 * R3 < 0:
  *             fc0 = fc1
  *             fc2 = fc3             # <<<<<<<<<<<<<<
@@ -6286,7 +6286,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       __pyx_v_fc2 = __pyx_v_fc3;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":205
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":205
  *             fc0 = fc1
  *             fc2 = fc3
  *             R0 = R1             # <<<<<<<<<<<<<<
@@ -6295,7 +6295,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       __pyx_v_R0 = __pyx_v_R1;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":206
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":206
  *             fc2 = fc3
  *             R0 = R1
  *             R2 = R3             # <<<<<<<<<<<<<<
@@ -6304,7 +6304,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       __pyx_v_R2 = __pyx_v_R3;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":202
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":202
  *         if (np.abs(R3) <= tol) or (i == maxiter - 1):
  *             return fc3
  *         if R1 * R3 < 0:             # <<<<<<<<<<<<<<
@@ -6314,7 +6314,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       goto __pyx_L33;
     }
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":207
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":207
  *             R0 = R1
  *             R2 = R3
  *         elif np.sign(R2) != np.sign(R3):             # <<<<<<<<<<<<<<
@@ -6374,7 +6374,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     if (__pyx_t_9) {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":208
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":208
  *             R2 = R3
  *         elif np.sign(R2) != np.sign(R3):
  *             fc0 = fc2             # <<<<<<<<<<<<<<
@@ -6383,7 +6383,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       __pyx_v_fc0 = __pyx_v_fc2;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":209
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":209
  *         elif np.sign(R2) != np.sign(R3):
  *             fc0 = fc2
  *             fc2 = fc3             # <<<<<<<<<<<<<<
@@ -6392,7 +6392,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       __pyx_v_fc2 = __pyx_v_fc3;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":210
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":210
  *             fc0 = fc2
  *             fc2 = fc3
  *             R0 = R2             # <<<<<<<<<<<<<<
@@ -6401,7 +6401,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       __pyx_v_R0 = __pyx_v_R2;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":211
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":211
  *             fc2 = fc3
  *             R0 = R2
  *             R2 = R3             # <<<<<<<<<<<<<<
@@ -6410,7 +6410,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       __pyx_v_R2 = __pyx_v_R3;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":207
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":207
  *             R0 = R1
  *             R2 = R3
  *         elif np.sign(R2) != np.sign(R3):             # <<<<<<<<<<<<<<
@@ -6420,7 +6420,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
       goto __pyx_L33;
     }
 
-    /* "gmprocess/waveform_processing/auto_fchp.pyx":213
+    /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":213
  *             R2 = R3
  *         else:
  *             fc0 = fc0             # <<<<<<<<<<<<<<
@@ -6429,7 +6429,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
     /*else*/ {
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":214
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":214
  *         else:
  *             fc0 = fc0
  *             fc2 = fc3             # <<<<<<<<<<<<<<
@@ -6438,7 +6438,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
  */
       __pyx_v_fc2 = __pyx_v_fc3;
 
-      /* "gmprocess/waveform_processing/auto_fchp.pyx":216
+      /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":216
  *             fc2 = fc3
  *             R0 = R0
  *             R2 = R3             # <<<<<<<<<<<<<<
@@ -6448,7 +6448,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
     __pyx_L33:;
   }
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":66
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":66
  * 
  * 
  * def get_fchp(**kwargs):             # <<<<<<<<<<<<<<
@@ -6470,7 +6470,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   __PYX_XDEC_MEMVIEW(&__pyx_t_19, 1);
   __Pyx_XDECREF(__pyx_t_23);
   __Pyx_XDECREF(__pyx_t_24);
-  __Pyx_AddTraceback("gmprocess.waveform_processing.auto_fchp.get_fchp", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.gmprocess.waveform_processing.auto_fchp.get_fchp", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_options);
@@ -6499,7 +6499,7 @@ static PyObject *__pyx_pf_9gmprocess_19waveform_processing_9auto_fchp_get_fchp(C
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":734
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -6516,7 +6516,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":735
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":735
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -6530,7 +6530,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":734
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":734
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -6549,7 +6549,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":737
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -6566,7 +6566,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":738
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":738
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -6580,7 +6580,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":737
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":737
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -6599,7 +6599,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":740
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -6616,7 +6616,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":741
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":741
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -6630,7 +6630,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":740
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":740
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -6649,7 +6649,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":743
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -6666,7 +6666,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":744
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":744
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -6680,7 +6680,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":743
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":743
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -6699,7 +6699,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":746
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -6716,7 +6716,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":747
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":747
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -6730,7 +6730,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":746
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":746
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -6749,7 +6749,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":749
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -6763,7 +6763,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":750
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -6773,7 +6773,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":751
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":751
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -6785,7 +6785,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":750
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":750
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -6794,7 +6794,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":753
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":753
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -6808,7 +6808,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":749
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":749
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -6823,7 +6823,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":928
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -6835,7 +6835,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":929
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":929
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -6844,7 +6844,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":930
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":930
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -6853,7 +6853,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":928
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":928
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -6865,7 +6865,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":932
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -6880,7 +6880,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":933
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":933
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -6889,7 +6889,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":934
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -6899,7 +6899,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":935
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":935
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -6910,7 +6910,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":934
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":934
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -6919,7 +6919,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":936
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":936
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -6931,7 +6931,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":932
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":932
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -6946,7 +6946,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":940
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -6970,7 +6970,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":941
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -6986,7 +6986,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":942
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":942
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -6995,7 +6995,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 942, __pyx_L3_error)
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":941
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7009,7 +7009,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":943
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":943
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -7024,7 +7024,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":944
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -7040,7 +7040,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":941
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":941
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7055,7 +7055,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":940
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":940
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -7078,7 +7078,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":946
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -7102,7 +7102,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":947
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7118,7 +7118,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":948
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":948
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -7127,7 +7127,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 948, __pyx_L3_error)
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":947
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7141,7 +7141,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":949
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":949
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -7156,7 +7156,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":950
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -7172,7 +7172,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":947
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":947
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7187,7 +7187,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":946
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":946
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -7210,7 +7210,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":952
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -7234,7 +7234,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":953
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7250,7 +7250,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":954
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":954
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -7259,7 +7259,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 954, __pyx_L3_error)
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":953
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7273,7 +7273,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":955
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":955
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -7288,7 +7288,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":956
+      /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":956
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -7304,7 +7304,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":953
+    /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":953
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -7319,7 +7319,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":952
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":952
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -7342,7 +7342,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":966
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -7355,7 +7355,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_timedelta64_object", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":978
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":978
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -7365,7 +7365,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":966
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":966
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj):             # <<<<<<<<<<<<<<
@@ -7379,7 +7379,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":981
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -7392,7 +7392,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("is_datetime64_object", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":993
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":993
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -7402,7 +7402,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":981
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":981
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj):             # <<<<<<<<<<<<<<
@@ -7416,7 +7416,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":996
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -7427,7 +7427,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1003
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1003
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -7437,7 +7437,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":996
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":996
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -7450,7 +7450,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1006
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -7461,7 +7461,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1010
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1010
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -7471,7 +7471,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1006
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1006
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -7484,7 +7484,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1013
+/* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -7495,7 +7495,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1017
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1017
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -7503,7 +7503,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":1013
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":1013
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) nogil:             # <<<<<<<<<<<<<<
@@ -20679,7 +20679,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gmprocess.waveform_processing.auto_fchp.array", /*tp_name*/
+  "esi_core.gmprocess.waveform_processing.auto_fchp.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -20801,7 +20801,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gmprocess.waveform_processing.auto_fchp.Enum", /*tp_name*/
+  "esi_core.gmprocess.waveform_processing.auto_fchp.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -21065,7 +21065,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gmprocess.waveform_processing.auto_fchp.memoryview", /*tp_name*/
+  "esi_core.gmprocess.waveform_processing.auto_fchp.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -21206,7 +21206,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "gmprocess.waveform_processing.auto_fchp._memoryviewslice", /*tp_name*/
+  "esi_core.gmprocess.waveform_processing.auto_fchp._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -21387,6 +21387,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_end, __pyx_k_end, sizeof(__pyx_k_end), 0, 0, 1, 1},
   {&__pyx_n_s_enumerate, __pyx_k_enumerate, sizeof(__pyx_k_enumerate), 0, 0, 1, 1},
   {&__pyx_n_s_error, __pyx_k_error, sizeof(__pyx_k_error), 0, 0, 1, 1},
+  {&__pyx_n_s_esi_core_gmprocess_waveform_proc, __pyx_k_esi_core_gmprocess_waveform_proc, sizeof(__pyx_k_esi_core_gmprocess_waveform_proc), 0, 0, 1, 1},
   {&__pyx_n_s_exp, __pyx_k_exp, sizeof(__pyx_k_exp), 0, 0, 1, 1},
   {&__pyx_n_s_fc0, __pyx_k_fc0, sizeof(__pyx_k_fc0), 0, 0, 1, 1},
   {&__pyx_n_s_fc1, __pyx_k_fc1, sizeof(__pyx_k_fc1), 0, 0, 1, 1},
@@ -21407,7 +21408,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_freq, __pyx_k_freq, sizeof(__pyx_k_freq), 0, 0, 1, 1},
   {&__pyx_n_s_get_fchp, __pyx_k_get_fchp, sizeof(__pyx_k_get_fchp), 0, 0, 1, 1},
   {&__pyx_n_s_getstate, __pyx_k_getstate, sizeof(__pyx_k_getstate), 0, 0, 1, 1},
-  {&__pyx_n_s_gmprocess_waveform_processing_au, __pyx_k_gmprocess_waveform_processing_au, sizeof(__pyx_k_gmprocess_waveform_processing_au), 0, 0, 1, 1},
   {&__pyx_kp_s_got_differing_extents_in_dimensi, __pyx_k_got_differing_extents_in_dimensi, sizeof(__pyx_k_got_differing_extents_in_dimensi), 0, 0, 1, 0},
   {&__pyx_n_s_header, __pyx_k_header, sizeof(__pyx_k_header), 0, 0, 1, 1},
   {&__pyx_n_s_highpass, __pyx_k_highpass, sizeof(__pyx_k_highpass), 0, 0, 1, 1},
@@ -21471,7 +21471,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_signal, __pyx_k_signal, sizeof(__pyx_k_signal), 0, 0, 1, 1},
   {&__pyx_n_s_size, __pyx_k_size, sizeof(__pyx_k_size), 0, 0, 1, 1},
   {&__pyx_n_s_sqrt, __pyx_k_sqrt, sizeof(__pyx_k_sqrt), 0, 0, 1, 1},
-  {&__pyx_kp_s_src_gmprocess_waveform_processin, __pyx_k_src_gmprocess_waveform_processin, sizeof(__pyx_k_src_gmprocess_waveform_processin), 0, 0, 1, 0},
+  {&__pyx_kp_s_src_esi_core_gmprocess_waveform, __pyx_k_src_esi_core_gmprocess_waveform, sizeof(__pyx_k_src_esi_core_gmprocess_waveform), 0, 0, 1, 0},
   {&__pyx_n_s_start, __pyx_k_start, sizeof(__pyx_k_start), 0, 0, 1, 1},
   {&__pyx_n_s_step, __pyx_k_step, sizeof(__pyx_k_step), 0, 0, 1, 1},
   {&__pyx_n_s_stop, __pyx_k_stop, sizeof(__pyx_k_stop), 0, 0, 1, 1},
@@ -21517,7 +21517,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":944
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -21528,7 +21528,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
 
-  /* "../../../../../private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/__init__.pxd":950
+  /* "../../../../../private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -21734,7 +21734,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":66
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":66
  * 
  * 
  * def get_fchp(**kwargs):             # <<<<<<<<<<<<<<
@@ -21744,7 +21744,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__22 = PyTuple_Pack(32, __pyx_n_s_kwargs, __pyx_n_s_options, __pyx_n_s_key, __pyx_n_s_value, __pyx_n_s_dt, __pyx_n_s_acc, __pyx_n_s_target, __pyx_n_s_tol, __pyx_n_s_poly_order, __pyx_n_s_maxiter, __pyx_n_s_minfc, __pyx_n_s_maxfc, __pyx_n_s_filter_order, __pyx_n_s_tukey_alpha, __pyx_n_s_filter_type, __pyx_n_s_i, __pyx_n_s_meanacc, __pyx_n_s_window, __pyx_n_s_time, __pyx_n_s_Facc, __pyx_n_s_freq, __pyx_n_s_fc0, __pyx_n_s_FiltFacc, __pyx_n_s_disp, __pyx_n_s_R0, __pyx_n_s_fc2, __pyx_n_s_tr, __pyx_n_s_R2, __pyx_n_s_fc1, __pyx_n_s_R1, __pyx_n_s_fc3, __pyx_n_s_R3); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
-  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(0, 0, 32, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARKEYWORDS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_gmprocess_waveform_processin, __pyx_n_s_get_fchp, 66, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 66, __pyx_L1_error)
+  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(0, 0, 32, 0, CO_OPTIMIZED|CO_NEWLOCALS|CO_VARKEYWORDS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_esi_core_gmprocess_waveform, __pyx_n_s_get_fchp, 66, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 66, __pyx_L1_error)
 
   /* "View.MemoryView":287
  *         return self.name
@@ -22190,14 +22190,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_gmprocess__waveform_processing__auto_fchp) {
+  if (__pyx_module_is_main_esi_core__gmprocess__waveform_processing__auto_fchp) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "gmprocess.waveform_processing.auto_fchp")) {
-      if (unlikely(PyDict_SetItemString(modules, "gmprocess.waveform_processing.auto_fchp", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "esi_core.gmprocess.waveform_processing.auto_fchp")) {
+      if (unlikely(PyDict_SetItemString(modules, "esi_core.gmprocess.waveform_processing.auto_fchp", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -22218,7 +22218,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":1
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * import obspy as obs
  * cimport numpy as np
@@ -22228,7 +22228,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":2
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":2
  * import numpy as np
  * import obspy as obs             # <<<<<<<<<<<<<<
  * cimport numpy as np
@@ -22239,7 +22239,7 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_obs, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":7
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":7
  * from cython cimport boundscheck, wraparound
  * from libc.math cimport fabs, sqrt, pow, M_PI
  * from scipy import signal             # <<<<<<<<<<<<<<
@@ -22260,19 +22260,19 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":66
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":66
  * 
  * 
  * def get_fchp(**kwargs):             # <<<<<<<<<<<<<<
  *     options = [
  *         "dt", "acc", "target", "tol", "poly_order", "maxiter", "fchp_min",
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp, NULL, __pyx_n_s_gmprocess_waveform_processing_au); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 66, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_8esi_core_9gmprocess_19waveform_processing_9auto_fchp_1get_fchp, NULL, __pyx_n_s_esi_core_gmprocess_waveform_proc); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_fchp, __pyx_t_2) < 0) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "gmprocess/waveform_processing/auto_fchp.pyx":1
+  /* "esi_core/gmprocess/waveform_processing/auto_fchp.pyx":1
  * import numpy as np             # <<<<<<<<<<<<<<
  * import obspy as obs
  * cimport numpy as np
@@ -22443,11 +22443,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init gmprocess.waveform_processing.auto_fchp", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init esi_core.gmprocess.waveform_processing.auto_fchp", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init gmprocess.waveform_processing.auto_fchp");
+    PyErr_SetString(PyExc_ImportError, "init esi_core.gmprocess.waveform_processing.auto_fchp");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

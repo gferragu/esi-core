@@ -4,27 +4,18 @@
 {
     "distutils": {
         "depends": [],
-        "extra_compile_args": [
-            "-Xpreprocessor",
-            "-fopenmp"
-        ],
-        "extra_link_args": [
-            "-Xpreprocessor",
-            "-fopenmp"
-        ],
         "include_dirs": [
-            "/private/var/folders/00/_0gc_srn5sx936prflc1ln3c0181xj/T/pip-build-env-or0_4nf6/overlay/lib/python3.10/site-packages/numpy/core/include"
+            "/private/var/folders/sd/ymvcpyzj0zn7vq5_6rm25n7x5qtldk/T/pip-build-env-6u3zo6a2/overlay/lib/python3.8/site-packages/numpy/core/include"
         ],
         "libraries": [
-            "m",
-            "omp"
+            "m"
         ],
-        "name": "shakemap.c.clib",
+        "name": "esi_core.shakemap.c.clib",
         "sources": [
-            "src/shakemap/c/clib.pyx"
+            "src/esi_core/shakemap/c/clib.pyx"
         ]
     },
-    "module_name": "shakemap.c.clib"
+    "module_name": "esi_core.shakemap.c.clib"
 }
 END: Cython Metadata */
 
@@ -766,8 +757,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__shakemap__c__clib
-#define __PYX_HAVE_API__shakemap__c__clib
+#define __PYX_HAVE__esi_core__shakemap__c__clib
+#define __PYX_HAVE_API__esi_core__shakemap__c__clib
 /* Early includes */
 #include <math.h>
 #include "pythread.h"
@@ -984,7 +975,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "src/shakemap/c/clib.pyx",
+  "src/esi_core/shakemap/c/clib.pyx",
   "stringsource",
 };
 /* NoFastGil.proto */
@@ -1877,7 +1868,7 @@ static PyObject *__pyx_memoryviewslice_assign_item_from_object(struct __pyx_memo
 
 /* Module declarations from 'libc.math' */
 
-/* Module declarations from 'shakemap.c.clib' */
+/* Module declarations from 'esi_core.shakemap.c.clib' */
 static PyTypeObject *__pyx_array_type = 0;
 static PyTypeObject *__pyx_MemviewEnum_type = 0;
 static PyTypeObject *__pyx_memoryview_type = 0;
@@ -1924,11 +1915,11 @@ static void __pyx_memoryview__slice_assign_scalar(char *, Py_ssize_t *, Py_ssize
 static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *, PyObject *); /*proto*/
 static __Pyx_TypeInfo __Pyx_TypeInfo_double = { "double", NULL, sizeof(double), { 0 }, 0, 'R', 0, 0 };
 static __Pyx_TypeInfo __Pyx_TypeInfo_long = { "long", NULL, sizeof(long), { 0 }, 0, IS_UNSIGNED(long) ? 'U' : 'I', IS_UNSIGNED(long), 0 };
-#define __Pyx_MODULE_NAME "shakemap.c.clib"
-extern int __pyx_module_is_main_shakemap__c__clib;
-int __pyx_module_is_main_shakemap__c__clib = 0;
+#define __Pyx_MODULE_NAME "esi_core.shakemap.c.clib"
+extern int __pyx_module_is_main_esi_core__shakemap__c__clib;
+int __pyx_module_is_main_esi_core__shakemap__c__clib = 0;
 
-/* Implementation of 'shakemap.c.clib' */
+/* Implementation of 'esi_core.shakemap.c.clib' */
 static PyObject *__pyx_builtin_range;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_MemoryError;
@@ -2041,7 +2032,6 @@ static const char __pyx_k_allocate_buffer[] = "allocate_buffer";
 static const char __pyx_k_dtype_is_object[] = "dtype_is_object";
 static const char __pyx_k_pyx_PickleError[] = "__pyx_PickleError";
 static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
-static const char __pyx_k_shakemap_c_clib[] = "shakemap.c.clib";
 static const char __pyx_k_make_sigma_matrix[] = "make_sigma_matrix";
 static const char __pyx_k_pyx_unpickle_Enum[] = "__pyx_unpickle_Enum";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
@@ -2053,8 +2043,8 @@ static const char __pyx_k_MemoryView_of_r_object[] = "<MemoryView of %r object>"
 static const char __pyx_k_geodetic_distance_fast[] = "geodetic_distance_fast";
 static const char __pyx_k_MemoryView_of_r_at_0x_x[] = "<MemoryView of %r at 0x%x>";
 static const char __pyx_k_contiguous_and_indirect[] = "<contiguous and indirect>";
-static const char __pyx_k_src_shakemap_c_clib_pyx[] = "src/shakemap/c/clib.pyx";
 static const char __pyx_k_Cannot_index_with_type_s[] = "Cannot index with type '%s'";
+static const char __pyx_k_esi_core_shakemap_c_clib[] = "esi_core.shakemap.c.clib";
 static const char __pyx_k_Invalid_shape_in_axis_d_d[] = "Invalid shape in axis %d: %d.";
 static const char __pyx_k_geodetic_distance_haversine[] = "geodetic_distance_haversine";
 static const char __pyx_k_itemsize_0_for_cython_array[] = "itemsize <= 0 for cython.array";
@@ -2072,6 +2062,7 @@ static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension %d (got %d and %d)";
 static const char __pyx_k_no_default___reduce___due_to_non[] = "no default __reduce__ due to non-trivial __cinit__";
+static const char __pyx_k_src_esi_core_shakemap_c_clib_pyx[] = "src/esi_core/shakemap/c/clib.pyx";
 static const char __pyx_k_unable_to_allocate_shape_and_str[] = "unable to allocate shape and strides.";
 static PyObject *__pyx_n_s_ASCII;
 static PyObject *__pyx_kp_s_Buffer_view_does_not_expose_stri;
@@ -2118,6 +2109,7 @@ static PyObject *__pyx_n_s_dtype_is_object;
 static PyObject *__pyx_n_s_encode;
 static PyObject *__pyx_n_s_enumerate;
 static PyObject *__pyx_n_s_error;
+static PyObject *__pyx_n_s_esi_core_shakemap_c_clib;
 static PyObject *__pyx_n_s_eval_lb_correlation;
 static PyObject *__pyx_n_s_flags;
 static PyObject *__pyx_n_s_format;
@@ -2190,11 +2182,10 @@ static PyObject *__pyx_n_s_sdval;
 static PyObject *__pyx_n_s_setstate;
 static PyObject *__pyx_n_s_setstate_cython;
 static PyObject *__pyx_n_s_sgp;
-static PyObject *__pyx_n_s_shakemap_c_clib;
 static PyObject *__pyx_n_s_shape;
 static PyObject *__pyx_n_s_sigma12;
 static PyObject *__pyx_n_s_size;
-static PyObject *__pyx_kp_s_src_shakemap_c_clib_pyx;
+static PyObject *__pyx_kp_s_src_esi_core_shakemap_c_clib_pyx;
 static PyObject *__pyx_n_s_start;
 static PyObject *__pyx_n_s_step;
 static PyObject *__pyx_n_s_stop;
@@ -2211,11 +2202,11 @@ static PyObject *__pyx_n_s_unpack;
 static PyObject *__pyx_n_s_update;
 static PyObject *__pyx_n_s_x;
 static PyObject *__pyx_n_s_y;
-static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_corr12, __Pyx_memviewslice __pyx_v_sdsta, __Pyx_memviewslice __pyx_v_sdarr); /* proto */
-static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_lons1, __Pyx_memviewslice __pyx_v_lats1, __Pyx_memviewslice __pyx_v_lons2, __Pyx_memviewslice __pyx_v_lats2, __Pyx_memviewslice __pyx_v_result); /* proto */
-static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_lons1, __Pyx_memviewslice __pyx_v_lats1, __Pyx_memviewslice __pyx_v_lons2, __Pyx_memviewslice __pyx_v_lats2, __Pyx_memviewslice __pyx_v_result); /* proto */
-static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_b1, __Pyx_memviewslice __pyx_v_b2, __Pyx_memviewslice __pyx_v_b3, __Pyx_memviewslice __pyx_v_ix1, __Pyx_memviewslice __pyx_v_ix2, __Pyx_memviewslice __pyx_v_h); /* proto */
-static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_sdgrid, __Pyx_memviewslice __pyx_v_pout_sd2, long __pyx_v_iy, __Pyx_memviewslice __pyx_v_rcmatrix, __Pyx_memviewslice __pyx_v_sigma12); /* proto */
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_corr12, __Pyx_memviewslice __pyx_v_sdsta, __Pyx_memviewslice __pyx_v_sdarr); /* proto */
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_lons1, __Pyx_memviewslice __pyx_v_lats1, __Pyx_memviewslice __pyx_v_lons2, __Pyx_memviewslice __pyx_v_lats2, __Pyx_memviewslice __pyx_v_result); /* proto */
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_lons1, __Pyx_memviewslice __pyx_v_lats1, __Pyx_memviewslice __pyx_v_lons2, __Pyx_memviewslice __pyx_v_lats2, __Pyx_memviewslice __pyx_v_result); /* proto */
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_b1, __Pyx_memviewslice __pyx_v_b2, __Pyx_memviewslice __pyx_v_b3, __Pyx_memviewslice __pyx_v_ix1, __Pyx_memviewslice __pyx_v_ix2, __Pyx_memviewslice __pyx_v_h); /* proto */
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_sdgrid, __Pyx_memviewslice __pyx_v_pout_sd2, long __pyx_v_iy, __Pyx_memviewslice __pyx_v_rcmatrix, __Pyx_memviewslice __pyx_v_sigma12); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __pyx_array_obj *__pyx_v_self, PyObject *__pyx_v_shape, Py_ssize_t __pyx_v_itemsize, PyObject *__pyx_v_format, PyObject *__pyx_v_mode, int __pyx_v_allocate_buffer); /* proto */
 static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(struct __pyx_array_obj *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_array___pyx_pf_15View_dot_MemoryView_5array_4__dealloc__(struct __pyx_array_obj *__pyx_v_self); /* proto */
@@ -2306,7 +2297,7 @@ static PyObject *__pyx_codeobj__29;
 static PyObject *__pyx_codeobj__36;
 /* Late includes */
 
-/* "shakemap/c/clib.pyx":13
+/* "esi_core/shakemap/c/clib.pyx":13
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def make_sigma_matrix(double[:, ::1]corr12, double[:]sdsta, double[:]sdarr):             # <<<<<<<<<<<<<<
@@ -2315,9 +2306,9 @@ static PyObject *__pyx_codeobj__36;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8shakemap_1c_4clib_1make_sigma_matrix(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8shakemap_1c_4clib_1make_sigma_matrix = {"make_sigma_matrix", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8shakemap_1c_4clib_1make_sigma_matrix, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8shakemap_1c_4clib_1make_sigma_matrix(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_1make_sigma_matrix(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_8esi_core_8shakemap_1c_4clib_1make_sigma_matrix = {"make_sigma_matrix", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_8shakemap_1c_4clib_1make_sigma_matrix, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_1make_sigma_matrix(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __Pyx_memviewslice __pyx_v_corr12 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_sdsta = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_sdarr = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -2379,18 +2370,18 @@ static PyObject *__pyx_pw_8shakemap_1c_4clib_1make_sigma_matrix(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("make_sigma_matrix", 1, 3, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 13, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("shakemap.c.clib.make_sigma_matrix", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.shakemap.c.clib.make_sigma_matrix", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(__pyx_self, __pyx_v_corr12, __pyx_v_sdsta, __pyx_v_sdarr);
+  __pyx_r = __pyx_pf_8esi_core_8shakemap_1c_4clib_make_sigma_matrix(__pyx_self, __pyx_v_corr12, __pyx_v_sdsta, __pyx_v_sdarr);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_corr12, __Pyx_memviewslice __pyx_v_sdsta, __Pyx_memviewslice __pyx_v_sdarr) {
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_corr12, __Pyx_memviewslice __pyx_v_sdsta, __Pyx_memviewslice __pyx_v_sdarr) {
   CYTHON_UNUSED Py_ssize_t __pyx_v_ny;
   Py_ssize_t __pyx_v_nx;
   double *__pyx_v_c12p;
@@ -2410,7 +2401,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
   Py_ssize_t __pyx_t_8;
   __Pyx_RefNannySetupContext("make_sigma_matrix", 0);
 
-  /* "shakemap/c/clib.pyx":14
+  /* "esi_core/shakemap/c/clib.pyx":14
  * @cython.wraparound(False)
  * def make_sigma_matrix(double[:, ::1]corr12, double[:]sdsta, double[:]sdarr):
  *     cdef Py_ssize_t ny = corr12.shape[0]             # <<<<<<<<<<<<<<
@@ -2419,7 +2410,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
  */
   __pyx_v_ny = (__pyx_v_corr12.shape[0]);
 
-  /* "shakemap/c/clib.pyx":15
+  /* "esi_core/shakemap/c/clib.pyx":15
  * def make_sigma_matrix(double[:, ::1]corr12, double[:]sdsta, double[:]sdarr):
  *     cdef Py_ssize_t ny = corr12.shape[0]
  *     cdef Py_ssize_t nx = corr12.shape[1]             # <<<<<<<<<<<<<<
@@ -2428,7 +2419,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
  */
   __pyx_v_nx = (__pyx_v_corr12.shape[1]);
 
-  /* "shakemap/c/clib.pyx":22
+  /* "esi_core/shakemap/c/clib.pyx":22
  *     cdef Py_ssize_t x, y
  * 
  *     for y in prange(ny, nogil=True, schedule=dynamic):             # <<<<<<<<<<<<<<
@@ -2470,7 +2461,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
                             __pyx_v_tmp = ((double)__PYX_NAN());
                             __pyx_v_x = ((Py_ssize_t)0xbad0bad0);
 
-                            /* "shakemap/c/clib.pyx":23
+                            /* "esi_core/shakemap/c/clib.pyx":23
  * 
  *     for y in prange(ny, nogil=True, schedule=dynamic):
  *         c12p = &corr12[y, 0]             # <<<<<<<<<<<<<<
@@ -2481,7 +2472,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
                             __pyx_t_5 = 0;
                             __pyx_v_c12p = (&(*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_corr12.data + __pyx_t_4 * __pyx_v_corr12.strides[0]) )) + __pyx_t_5)) ))));
 
-                            /* "shakemap/c/clib.pyx":24
+                            /* "esi_core/shakemap/c/clib.pyx":24
  *     for y in prange(ny, nogil=True, schedule=dynamic):
  *         c12p = &corr12[y, 0]
  *         sdval = sdarr[y]             # <<<<<<<<<<<<<<
@@ -2491,7 +2482,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
                             __pyx_t_5 = __pyx_v_y;
                             __pyx_v_sdval = (*((double *) ( /* dim=0 */ (__pyx_v_sdarr.data + __pyx_t_5 * __pyx_v_sdarr.strides[0]) )));
 
-                            /* "shakemap/c/clib.pyx":25
+                            /* "esi_core/shakemap/c/clib.pyx":25
  *         c12p = &corr12[y, 0]
  *         sdval = sdarr[y]
  *         for x in range(nx):             # <<<<<<<<<<<<<<
@@ -2503,7 +2494,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
                             for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
                               __pyx_v_x = __pyx_t_8;
 
-                              /* "shakemap/c/clib.pyx":29
+                              /* "esi_core/shakemap/c/clib.pyx":29
  *             # allow the compiler to do things that result in the
  *             # output matrix being very slightly asymmetric.
  *             tmp = sdsta[x] * sdval             # <<<<<<<<<<<<<<
@@ -2513,7 +2504,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
                               __pyx_t_5 = __pyx_v_x;
                               __pyx_v_tmp = ((*((double *) ( /* dim=0 */ (__pyx_v_sdsta.data + __pyx_t_5 * __pyx_v_sdsta.strides[0]) ))) * __pyx_v_sdval);
 
-                              /* "shakemap/c/clib.pyx":30
+                              /* "esi_core/shakemap/c/clib.pyx":30
  *             # output matrix being very slightly asymmetric.
  *             tmp = sdsta[x] * sdval
  *             c12p[x] = c12p[x] * tmp             # <<<<<<<<<<<<<<
@@ -2535,7 +2526,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
         #endif
       }
 
-      /* "shakemap/c/clib.pyx":22
+      /* "esi_core/shakemap/c/clib.pyx":22
  *     cdef Py_ssize_t x, y
  * 
  *     for y in prange(ny, nogil=True, schedule=dynamic):             # <<<<<<<<<<<<<<
@@ -2554,7 +2545,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
       }
   }
 
-  /* "shakemap/c/clib.pyx":31
+  /* "esi_core/shakemap/c/clib.pyx":31
  *             tmp = sdsta[x] * sdval
  *             c12p[x] = c12p[x] * tmp
  *     return             # <<<<<<<<<<<<<<
@@ -2565,7 +2556,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
 
-  /* "shakemap/c/clib.pyx":13
+  /* "esi_core/shakemap/c/clib.pyx":13
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def make_sigma_matrix(double[:, ::1]corr12, double[:]sdsta, double[:]sdarr):             # <<<<<<<<<<<<<<
@@ -2583,7 +2574,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
   return __pyx_r;
 }
 
-/* "shakemap/c/clib.pyx":36
+/* "esi_core/shakemap/c/clib.pyx":36
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def geodetic_distance_fast(double[::1]lons1, double[::1]lats1,             # <<<<<<<<<<<<<<
@@ -2592,9 +2583,9 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_make_sigma_matrix(CYTHON_UNUSED PyO
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8shakemap_1c_4clib_3geodetic_distance_fast(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8shakemap_1c_4clib_3geodetic_distance_fast = {"geodetic_distance_fast", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8shakemap_1c_4clib_3geodetic_distance_fast, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8shakemap_1c_4clib_3geodetic_distance_fast(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_3geodetic_distance_fast(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_8esi_core_8shakemap_1c_4clib_3geodetic_distance_fast = {"geodetic_distance_fast", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_8shakemap_1c_4clib_3geodetic_distance_fast, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_3geodetic_distance_fast(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __Pyx_memviewslice __pyx_v_lons1 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_lats1 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_lons2 = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -2678,18 +2669,18 @@ static PyObject *__pyx_pw_8shakemap_1c_4clib_3geodetic_distance_fast(PyObject *_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("geodetic_distance_fast", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 36, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("shakemap.c.clib.geodetic_distance_fast", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.shakemap.c.clib.geodetic_distance_fast", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(__pyx_self, __pyx_v_lons1, __pyx_v_lats1, __pyx_v_lons2, __pyx_v_lats2, __pyx_v_result);
+  __pyx_r = __pyx_pf_8esi_core_8shakemap_1c_4clib_2geodetic_distance_fast(__pyx_self, __pyx_v_lons1, __pyx_v_lats1, __pyx_v_lons2, __pyx_v_lats2, __pyx_v_result);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_lons1, __Pyx_memviewslice __pyx_v_lats1, __Pyx_memviewslice __pyx_v_lons2, __Pyx_memviewslice __pyx_v_lats2, __Pyx_memviewslice __pyx_v_result) {
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_lons1, __Pyx_memviewslice __pyx_v_lats1, __Pyx_memviewslice __pyx_v_lons2, __Pyx_memviewslice __pyx_v_lats2, __Pyx_memviewslice __pyx_v_result) {
   double __pyx_v_EARTH_RADIUS;
   Py_ssize_t __pyx_v_nx;
   CYTHON_UNUSED Py_ssize_t __pyx_v_ny;
@@ -2714,7 +2705,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
   double __pyx_t_12;
   __Pyx_RefNannySetupContext("geodetic_distance_fast", 0);
 
-  /* "shakemap/c/clib.pyx":39
+  /* "esi_core/shakemap/c/clib.pyx":39
  *                            double[::1]lons2, double[::1]lats2,
  *                            double[:, ::1]result):
  *     cdef double EARTH_RADIUS = 6371.             # <<<<<<<<<<<<<<
@@ -2723,7 +2714,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
   __pyx_v_EARTH_RADIUS = 6371.;
 
-  /* "shakemap/c/clib.pyx":40
+  /* "esi_core/shakemap/c/clib.pyx":40
  *                            double[:, ::1]result):
  *     cdef double EARTH_RADIUS = 6371.
  *     cdef Py_ssize_t nx = lons1.shape[0]             # <<<<<<<<<<<<<<
@@ -2732,7 +2723,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
   __pyx_v_nx = (__pyx_v_lons1.shape[0]);
 
-  /* "shakemap/c/clib.pyx":41
+  /* "esi_core/shakemap/c/clib.pyx":41
  *     cdef double EARTH_RADIUS = 6371.
  *     cdef Py_ssize_t nx = lons1.shape[0]
  *     cdef Py_ssize_t ny = lons2.shape[0]             # <<<<<<<<<<<<<<
@@ -2741,7 +2732,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
   __pyx_v_ny = (__pyx_v_lons2.shape[0]);
 
-  /* "shakemap/c/clib.pyx":47
+  /* "esi_core/shakemap/c/clib.pyx":47
  *     cdef Py_ssize_t x, y
  * 
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:             # <<<<<<<<<<<<<<
@@ -2763,7 +2754,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "shakemap/c/clib.pyx":48
+    /* "esi_core/shakemap/c/clib.pyx":48
  * 
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:
  *         for y in prange(ny, nogil=True, schedule='guided'):             # <<<<<<<<<<<<<<
@@ -2804,7 +2795,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
                               __pyx_v_lon2 = ((double)__PYX_NAN());
                               __pyx_v_x = ((Py_ssize_t)0xbad0bad0);
 
-                              /* "shakemap/c/clib.pyx":49
+                              /* "esi_core/shakemap/c/clib.pyx":49
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:
  *         for y in prange(ny, nogil=True, schedule='guided'):
  *             lon2 = lons2[y]             # <<<<<<<<<<<<<<
@@ -2814,7 +2805,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
                               __pyx_t_2 = __pyx_v_y;
                               __pyx_v_lon2 = (*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lons2.data) + __pyx_t_2)) )));
 
-                              /* "shakemap/c/clib.pyx":50
+                              /* "esi_core/shakemap/c/clib.pyx":50
  *         for y in prange(ny, nogil=True, schedule='guided'):
  *             lon2 = lons2[y]
  *             lat2 = lats2[y]             # <<<<<<<<<<<<<<
@@ -2824,7 +2815,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
                               __pyx_t_2 = __pyx_v_y;
                               __pyx_v_lat2 = (*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lats2.data) + __pyx_t_2)) )));
 
-                              /* "shakemap/c/clib.pyx":51
+                              /* "esi_core/shakemap/c/clib.pyx":51
  *             lon2 = lons2[y]
  *             lat2 = lats2[y]
  *             for x in range(y+1):             # <<<<<<<<<<<<<<
@@ -2836,7 +2827,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
                               for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
                                 __pyx_v_x = __pyx_t_10;
 
-                                /* "shakemap/c/clib.pyx":54
+                                /* "esi_core/shakemap/c/clib.pyx":54
  *                 result[y, x] = result[x, y] = (
  *                     EARTH_RADIUS *
  *                     sqrt(((lons1[x] - lon2) *             # <<<<<<<<<<<<<<
@@ -2845,7 +2836,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
                                 __pyx_t_2 = __pyx_v_x;
 
-                                /* "shakemap/c/clib.pyx":55
+                                /* "esi_core/shakemap/c/clib.pyx":55
  *                     EARTH_RADIUS *
  *                     sqrt(((lons1[x] - lon2) *
  *                         cos(0.5 * (lats1[x] + lat2)))**2 +             # <<<<<<<<<<<<<<
@@ -2854,7 +2845,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
                                 __pyx_t_3 = __pyx_v_x;
 
-                                /* "shakemap/c/clib.pyx":56
+                                /* "esi_core/shakemap/c/clib.pyx":56
  *                     sqrt(((lons1[x] - lon2) *
  *                         cos(0.5 * (lats1[x] + lat2)))**2 +
  *                         (lats1[x] - lat2)**2))             # <<<<<<<<<<<<<<
@@ -2863,7 +2854,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
                                 __pyx_t_11 = __pyx_v_x;
 
-                                /* "shakemap/c/clib.pyx":53
+                                /* "esi_core/shakemap/c/clib.pyx":53
  *             for x in range(y+1):
  *                 result[y, x] = result[x, y] = (
  *                     EARTH_RADIUS *             # <<<<<<<<<<<<<<
@@ -2872,7 +2863,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
                                 __pyx_t_12 = (__pyx_v_EARTH_RADIUS * sqrt((pow((((*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lons1.data) + __pyx_t_2)) ))) - __pyx_v_lon2) * cos((0.5 * ((*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lats1.data) + __pyx_t_3)) ))) + __pyx_v_lat2)))), 2.0) + pow(((*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lats1.data) + __pyx_t_11)) ))) - __pyx_v_lat2), 2.0))));
 
-                                /* "shakemap/c/clib.pyx":52
+                                /* "esi_core/shakemap/c/clib.pyx":52
  *             lat2 = lats2[y]
  *             for x in range(y+1):
  *                 result[y, x] = result[x, y] = (             # <<<<<<<<<<<<<<
@@ -2899,7 +2890,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
           #endif
         }
 
-        /* "shakemap/c/clib.pyx":48
+        /* "esi_core/shakemap/c/clib.pyx":48
  * 
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:
  *         for y in prange(ny, nogil=True, schedule='guided'):             # <<<<<<<<<<<<<<
@@ -2918,7 +2909,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
         }
     }
 
-    /* "shakemap/c/clib.pyx":47
+    /* "esi_core/shakemap/c/clib.pyx":47
  *     cdef Py_ssize_t x, y
  * 
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:             # <<<<<<<<<<<<<<
@@ -2928,7 +2919,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
     goto __pyx_L3;
   }
 
-  /* "shakemap/c/clib.pyx":58
+  /* "esi_core/shakemap/c/clib.pyx":58
  *                         (lats1[x] - lat2)**2))
  *     else:
  *         for y in prange(ny, nogil=True, schedule=dynamic):             # <<<<<<<<<<<<<<
@@ -2971,7 +2962,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
                               __pyx_v_res = ((double *)1);
                               __pyx_v_x = ((Py_ssize_t)0xbad0bad0);
 
-                              /* "shakemap/c/clib.pyx":59
+                              /* "esi_core/shakemap/c/clib.pyx":59
  *     else:
  *         for y in prange(ny, nogil=True, schedule=dynamic):
  *             res = &result[y, 0]             # <<<<<<<<<<<<<<
@@ -2982,7 +2973,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
                               __pyx_t_3 = 0;
                               __pyx_v_res = (&(*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_result.data + __pyx_t_11 * __pyx_v_result.strides[0]) )) + __pyx_t_3)) ))));
 
-                              /* "shakemap/c/clib.pyx":60
+                              /* "esi_core/shakemap/c/clib.pyx":60
  *         for y in prange(ny, nogil=True, schedule=dynamic):
  *             res = &result[y, 0]
  *             lon2 = lons2[y]             # <<<<<<<<<<<<<<
@@ -2992,7 +2983,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
                               __pyx_t_3 = __pyx_v_y;
                               __pyx_v_lon2 = (*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lons2.data) + __pyx_t_3)) )));
 
-                              /* "shakemap/c/clib.pyx":61
+                              /* "esi_core/shakemap/c/clib.pyx":61
  *             res = &result[y, 0]
  *             lon2 = lons2[y]
  *             lat2 = lats2[y]             # <<<<<<<<<<<<<<
@@ -3002,7 +2993,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
                               __pyx_t_3 = __pyx_v_y;
                               __pyx_v_lat2 = (*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lats2.data) + __pyx_t_3)) )));
 
-                              /* "shakemap/c/clib.pyx":62
+                              /* "esi_core/shakemap/c/clib.pyx":62
  *             lon2 = lons2[y]
  *             lat2 = lats2[y]
  *             for x in range(nx):             # <<<<<<<<<<<<<<
@@ -3014,7 +3005,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
                               for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
                                 __pyx_v_x = __pyx_t_10;
 
-                                /* "shakemap/c/clib.pyx":65
+                                /* "esi_core/shakemap/c/clib.pyx":65
  *                 res[x] = (
  *                     EARTH_RADIUS *
  *                     sqrt(((lons1[x] - lon2) *             # <<<<<<<<<<<<<<
@@ -3023,7 +3014,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
                                 __pyx_t_3 = __pyx_v_x;
 
-                                /* "shakemap/c/clib.pyx":66
+                                /* "esi_core/shakemap/c/clib.pyx":66
  *                     EARTH_RADIUS *
  *                     sqrt(((lons1[x] - lon2) *
  *                         cos(0.5 * (lats1[x] + lat2)))**2 +             # <<<<<<<<<<<<<<
@@ -3032,7 +3023,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
                                 __pyx_t_11 = __pyx_v_x;
 
-                                /* "shakemap/c/clib.pyx":67
+                                /* "esi_core/shakemap/c/clib.pyx":67
  *                     sqrt(((lons1[x] - lon2) *
  *                         cos(0.5 * (lats1[x] + lat2)))**2 +
  *                         (lats1[x] - lat2)**2))             # <<<<<<<<<<<<<<
@@ -3041,7 +3032,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
                                 __pyx_t_2 = __pyx_v_x;
 
-                                /* "shakemap/c/clib.pyx":63
+                                /* "esi_core/shakemap/c/clib.pyx":63
  *             lat2 = lats2[y]
  *             for x in range(nx):
  *                 res[x] = (             # <<<<<<<<<<<<<<
@@ -3063,7 +3054,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
           #endif
         }
 
-        /* "shakemap/c/clib.pyx":58
+        /* "esi_core/shakemap/c/clib.pyx":58
  *                         (lats1[x] - lat2)**2))
  *     else:
  *         for y in prange(ny, nogil=True, schedule=dynamic):             # <<<<<<<<<<<<<<
@@ -3084,7 +3075,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
   }
   __pyx_L3:;
 
-  /* "shakemap/c/clib.pyx":68
+  /* "esi_core/shakemap/c/clib.pyx":68
  *                         cos(0.5 * (lats1[x] + lat2)))**2 +
  *                         (lats1[x] - lat2)**2))
  *     return             # <<<<<<<<<<<<<<
@@ -3095,7 +3086,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
 
-  /* "shakemap/c/clib.pyx":36
+  /* "esi_core/shakemap/c/clib.pyx":36
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def geodetic_distance_fast(double[::1]lons1, double[::1]lats1,             # <<<<<<<<<<<<<<
@@ -3115,7 +3106,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
   return __pyx_r;
 }
 
-/* "shakemap/c/clib.pyx":73
+/* "esi_core/shakemap/c/clib.pyx":73
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def geodetic_distance_haversine(double[::1]lons1, double[::1]lats1,             # <<<<<<<<<<<<<<
@@ -3124,9 +3115,9 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_2geodetic_distance_fast(CYTHON_UNUS
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8shakemap_1c_4clib_5geodetic_distance_haversine(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8shakemap_1c_4clib_5geodetic_distance_haversine = {"geodetic_distance_haversine", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8shakemap_1c_4clib_5geodetic_distance_haversine, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8shakemap_1c_4clib_5geodetic_distance_haversine(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_5geodetic_distance_haversine(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_8esi_core_8shakemap_1c_4clib_5geodetic_distance_haversine = {"geodetic_distance_haversine", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_8shakemap_1c_4clib_5geodetic_distance_haversine, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_5geodetic_distance_haversine(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __Pyx_memviewslice __pyx_v_lons1 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_lats1 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_lons2 = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -3210,18 +3201,18 @@ static PyObject *__pyx_pw_8shakemap_1c_4clib_5geodetic_distance_haversine(PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("geodetic_distance_haversine", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 73, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("shakemap.c.clib.geodetic_distance_haversine", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.shakemap.c.clib.geodetic_distance_haversine", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(__pyx_self, __pyx_v_lons1, __pyx_v_lats1, __pyx_v_lons2, __pyx_v_lats2, __pyx_v_result);
+  __pyx_r = __pyx_pf_8esi_core_8shakemap_1c_4clib_4geodetic_distance_haversine(__pyx_self, __pyx_v_lons1, __pyx_v_lats1, __pyx_v_lons2, __pyx_v_lats2, __pyx_v_result);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_lons1, __Pyx_memviewslice __pyx_v_lats1, __Pyx_memviewslice __pyx_v_lons2, __Pyx_memviewslice __pyx_v_lats2, __Pyx_memviewslice __pyx_v_result) {
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_lons1, __Pyx_memviewslice __pyx_v_lats1, __Pyx_memviewslice __pyx_v_lons2, __Pyx_memviewslice __pyx_v_lats2, __Pyx_memviewslice __pyx_v_result) {
   double __pyx_v_EARTH_RADIUS;
   Py_ssize_t __pyx_v_nx;
   CYTHON_UNUSED Py_ssize_t __pyx_v_ny;
@@ -3249,7 +3240,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
   Py_ssize_t __pyx_t_17;
   __Pyx_RefNannySetupContext("geodetic_distance_haversine", 0);
 
-  /* "shakemap/c/clib.pyx":76
+  /* "esi_core/shakemap/c/clib.pyx":76
  *                                 double[::1]lons2, double[::1]lats2,
  *                                 double[:, ::1]result):
  *     cdef double EARTH_RADIUS = 6371.             # <<<<<<<<<<<<<<
@@ -3258,7 +3249,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
  */
   __pyx_v_EARTH_RADIUS = 6371.;
 
-  /* "shakemap/c/clib.pyx":77
+  /* "esi_core/shakemap/c/clib.pyx":77
  *                                 double[:, ::1]result):
  *     cdef double EARTH_RADIUS = 6371.
  *     cdef Py_ssize_t nx = lons1.shape[0]             # <<<<<<<<<<<<<<
@@ -3267,7 +3258,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
  */
   __pyx_v_nx = (__pyx_v_lons1.shape[0]);
 
-  /* "shakemap/c/clib.pyx":78
+  /* "esi_core/shakemap/c/clib.pyx":78
  *     cdef double EARTH_RADIUS = 6371.
  *     cdef Py_ssize_t nx = lons1.shape[0]
  *     cdef Py_ssize_t ny = lons2.shape[0]             # <<<<<<<<<<<<<<
@@ -3276,7 +3267,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
  */
   __pyx_v_ny = (__pyx_v_lons2.shape[0]);
 
-  /* "shakemap/c/clib.pyx":81
+  /* "esi_core/shakemap/c/clib.pyx":81
  * 
  *     cdef Py_ssize_t x, y
  *     cdef double diameter = 2.0 * EARTH_RADIUS             # <<<<<<<<<<<<<<
@@ -3285,7 +3276,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
  */
   __pyx_v_diameter = (2.0 * __pyx_v_EARTH_RADIUS);
 
-  /* "shakemap/c/clib.pyx":83
+  /* "esi_core/shakemap/c/clib.pyx":83
  *     cdef double diameter = 2.0 * EARTH_RADIUS
  * 
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:             # <<<<<<<<<<<<<<
@@ -3307,7 +3298,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
   __pyx_L4_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "shakemap/c/clib.pyx":84
+    /* "esi_core/shakemap/c/clib.pyx":84
  * 
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:
  *         for y in prange(ny, nogil=True, schedule='guided'):             # <<<<<<<<<<<<<<
@@ -3346,7 +3337,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                               /* Initialize private variables to invalid values */
                               __pyx_v_x = ((Py_ssize_t)0xbad0bad0);
 
-                              /* "shakemap/c/clib.pyx":85
+                              /* "esi_core/shakemap/c/clib.pyx":85
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:
  *         for y in prange(ny, nogil=True, schedule='guided'):
  *             for x in range(y+1):             # <<<<<<<<<<<<<<
@@ -3358,7 +3349,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                               for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
                                 __pyx_v_x = __pyx_t_10;
 
-                                /* "shakemap/c/clib.pyx":88
+                                /* "esi_core/shakemap/c/clib.pyx":88
  *                 result[y, x] = result[x, y] = (
  *                     diameter * asin(sqrt(
  *                         sin((lats1[x] - lats2[y]) / 2.0)**2 +             # <<<<<<<<<<<<<<
@@ -3368,7 +3359,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                                 __pyx_t_2 = __pyx_v_x;
                                 __pyx_t_3 = __pyx_v_y;
 
-                                /* "shakemap/c/clib.pyx":89
+                                /* "esi_core/shakemap/c/clib.pyx":89
  *                     diameter * asin(sqrt(
  *                         sin((lats1[x] - lats2[y]) / 2.0)**2 +
  *                         cos(lats1[x]) * cos(lats2[y]) *             # <<<<<<<<<<<<<<
@@ -3378,7 +3369,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                                 __pyx_t_11 = __pyx_v_x;
                                 __pyx_t_12 = __pyx_v_y;
 
-                                /* "shakemap/c/clib.pyx":90
+                                /* "esi_core/shakemap/c/clib.pyx":90
  *                         sin((lats1[x] - lats2[y]) / 2.0)**2 +
  *                         cos(lats1[x]) * cos(lats2[y]) *
  *                         sin((lons1[x] - lons2[y]) / 2.0)**2)))             # <<<<<<<<<<<<<<
@@ -3388,7 +3379,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                                 __pyx_t_13 = __pyx_v_x;
                                 __pyx_t_14 = __pyx_v_y;
 
-                                /* "shakemap/c/clib.pyx":87
+                                /* "esi_core/shakemap/c/clib.pyx":87
  *             for x in range(y+1):
  *                 result[y, x] = result[x, y] = (
  *                     diameter * asin(sqrt(             # <<<<<<<<<<<<<<
@@ -3397,7 +3388,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
  */
                                 __pyx_t_15 = (__pyx_v_diameter * asin(sqrt((pow(sin((((*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lats1.data) + __pyx_t_2)) ))) - (*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lats2.data) + __pyx_t_3)) )))) / 2.0)), 2.0) + ((cos((*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lats1.data) + __pyx_t_11)) )))) * cos((*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lats2.data) + __pyx_t_12)) ))))) * pow(sin((((*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lons1.data) + __pyx_t_13)) ))) - (*((double *) ( /* dim=0 */ ((char *) (((double *) __pyx_v_lons2.data) + __pyx_t_14)) )))) / 2.0)), 2.0))))));
 
-                                /* "shakemap/c/clib.pyx":86
+                                /* "esi_core/shakemap/c/clib.pyx":86
  *         for y in prange(ny, nogil=True, schedule='guided'):
  *             for x in range(y+1):
  *                 result[y, x] = result[x, y] = (             # <<<<<<<<<<<<<<
@@ -3424,7 +3415,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
           #endif
         }
 
-        /* "shakemap/c/clib.pyx":84
+        /* "esi_core/shakemap/c/clib.pyx":84
  * 
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:
  *         for y in prange(ny, nogil=True, schedule='guided'):             # <<<<<<<<<<<<<<
@@ -3443,7 +3434,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
         }
     }
 
-    /* "shakemap/c/clib.pyx":83
+    /* "esi_core/shakemap/c/clib.pyx":83
  *     cdef double diameter = 2.0 * EARTH_RADIUS
  * 
  *     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:             # <<<<<<<<<<<<<<
@@ -3453,7 +3444,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
     goto __pyx_L3;
   }
 
-  /* "shakemap/c/clib.pyx":92
+  /* "esi_core/shakemap/c/clib.pyx":92
  *                         sin((lons1[x] - lons2[y]) / 2.0)**2)))
  *     else:
  *         for y in prange(ny, nogil=True, schedule=dynamic):             # <<<<<<<<<<<<<<
@@ -3493,7 +3484,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                               /* Initialize private variables to invalid values */
                               __pyx_v_x = ((Py_ssize_t)0xbad0bad0);
 
-                              /* "shakemap/c/clib.pyx":93
+                              /* "esi_core/shakemap/c/clib.pyx":93
  *     else:
  *         for y in prange(ny, nogil=True, schedule=dynamic):
  *             for x in range(nx):             # <<<<<<<<<<<<<<
@@ -3505,7 +3496,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                               for (__pyx_t_10 = 0; __pyx_t_10 < __pyx_t_9; __pyx_t_10+=1) {
                                 __pyx_v_x = __pyx_t_10;
 
-                                /* "shakemap/c/clib.pyx":96
+                                /* "esi_core/shakemap/c/clib.pyx":96
  *                 result[y, x] = (
  *                     diameter * asin(sqrt(
  *                         sin((lats1[x] - lats2[y]) / 2.0)**2 +             # <<<<<<<<<<<<<<
@@ -3515,7 +3506,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                                 __pyx_t_14 = __pyx_v_x;
                                 __pyx_t_13 = __pyx_v_y;
 
-                                /* "shakemap/c/clib.pyx":97
+                                /* "esi_core/shakemap/c/clib.pyx":97
  *                     diameter * asin(sqrt(
  *                         sin((lats1[x] - lats2[y]) / 2.0)**2 +
  *                         cos(lats1[x]) * cos(lats2[y]) *             # <<<<<<<<<<<<<<
@@ -3525,7 +3516,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                                 __pyx_t_12 = __pyx_v_x;
                                 __pyx_t_11 = __pyx_v_y;
 
-                                /* "shakemap/c/clib.pyx":98
+                                /* "esi_core/shakemap/c/clib.pyx":98
  *                         sin((lats1[x] - lats2[y]) / 2.0)**2 +
  *                         cos(lats1[x]) * cos(lats2[y]) *
  *                         sin((lons1[x] - lons2[y]) / 2.0)**2)))             # <<<<<<<<<<<<<<
@@ -3535,7 +3526,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
                                 __pyx_t_3 = __pyx_v_x;
                                 __pyx_t_2 = __pyx_v_y;
 
-                                /* "shakemap/c/clib.pyx":94
+                                /* "esi_core/shakemap/c/clib.pyx":94
  *         for y in prange(ny, nogil=True, schedule=dynamic):
  *             for x in range(nx):
  *                 result[y, x] = (             # <<<<<<<<<<<<<<
@@ -3559,7 +3550,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
           #endif
         }
 
-        /* "shakemap/c/clib.pyx":92
+        /* "esi_core/shakemap/c/clib.pyx":92
  *                         sin((lons1[x] - lons2[y]) / 2.0)**2)))
  *     else:
  *         for y in prange(ny, nogil=True, schedule=dynamic):             # <<<<<<<<<<<<<<
@@ -3580,7 +3571,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
   }
   __pyx_L3:;
 
-  /* "shakemap/c/clib.pyx":99
+  /* "esi_core/shakemap/c/clib.pyx":99
  *                         cos(lats1[x]) * cos(lats2[y]) *
  *                         sin((lons1[x] - lons2[y]) / 2.0)**2)))
  *     return             # <<<<<<<<<<<<<<
@@ -3591,7 +3582,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
 
-  /* "shakemap/c/clib.pyx":73
+  /* "esi_core/shakemap/c/clib.pyx":73
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def geodetic_distance_haversine(double[::1]lons1, double[::1]lats1,             # <<<<<<<<<<<<<<
@@ -3611,7 +3602,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
   return __pyx_r;
 }
 
-/* "shakemap/c/clib.pyx":104
+/* "esi_core/shakemap/c/clib.pyx":104
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def eval_lb_correlation(double[:, ::1]b1, double[:, ::1]b2, double[:, ::1]b3,             # <<<<<<<<<<<<<<
@@ -3620,9 +3611,9 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_4geodetic_distance_haversine(CYTHON
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8shakemap_1c_4clib_7eval_lb_correlation(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8shakemap_1c_4clib_7eval_lb_correlation = {"eval_lb_correlation", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8shakemap_1c_4clib_7eval_lb_correlation, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8shakemap_1c_4clib_7eval_lb_correlation(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_7eval_lb_correlation(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_8esi_core_8shakemap_1c_4clib_7eval_lb_correlation = {"eval_lb_correlation", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_8shakemap_1c_4clib_7eval_lb_correlation, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_7eval_lb_correlation(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __Pyx_memviewslice __pyx_v_b1 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_b2 = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_b3 = { 0, 0, { 0 }, { 0 }, { 0 } };
@@ -3717,18 +3708,18 @@ static PyObject *__pyx_pw_8shakemap_1c_4clib_7eval_lb_correlation(PyObject *__py
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("eval_lb_correlation", 1, 6, 6, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 104, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("shakemap.c.clib.eval_lb_correlation", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.shakemap.c.clib.eval_lb_correlation", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(__pyx_self, __pyx_v_b1, __pyx_v_b2, __pyx_v_b3, __pyx_v_ix1, __pyx_v_ix2, __pyx_v_h);
+  __pyx_r = __pyx_pf_8esi_core_8shakemap_1c_4clib_6eval_lb_correlation(__pyx_self, __pyx_v_b1, __pyx_v_b2, __pyx_v_b3, __pyx_v_ix1, __pyx_v_ix2, __pyx_v_h);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_b1, __Pyx_memviewslice __pyx_v_b2, __Pyx_memviewslice __pyx_v_b3, __Pyx_memviewslice __pyx_v_ix1, __Pyx_memviewslice __pyx_v_ix2, __Pyx_memviewslice __pyx_v_h) {
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_b1, __Pyx_memviewslice __pyx_v_b2, __Pyx_memviewslice __pyx_v_b3, __Pyx_memviewslice __pyx_v_ix1, __Pyx_memviewslice __pyx_v_ix2, __Pyx_memviewslice __pyx_v_h) {
   Py_ssize_t __pyx_v_nx;
   CYTHON_UNUSED Py_ssize_t __pyx_v_ny;
   Py_ssize_t __pyx_v_x;
@@ -3761,7 +3752,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("eval_lb_correlation", 0);
 
-  /* "shakemap/c/clib.pyx":106
+  /* "esi_core/shakemap/c/clib.pyx":106
  * def eval_lb_correlation(double[:, ::1]b1, double[:, ::1]b2, double[:, ::1]b3,
  *                         long[:, ::1]ix1, long[:, ::1]ix2, double[:, ::1]h):
  *     cdef Py_ssize_t nx = ix1.shape[1]             # <<<<<<<<<<<<<<
@@ -3770,7 +3761,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
  */
   __pyx_v_nx = (__pyx_v_ix1.shape[1]);
 
-  /* "shakemap/c/clib.pyx":107
+  /* "esi_core/shakemap/c/clib.pyx":107
  *                         long[:, ::1]ix1, long[:, ::1]ix2, double[:, ::1]h):
  *     cdef Py_ssize_t nx = ix1.shape[1]
  *     cdef Py_ssize_t ny = ix1.shape[0]             # <<<<<<<<<<<<<<
@@ -3779,7 +3770,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
  */
   __pyx_v_ny = (__pyx_v_ix1.shape[0]);
 
-  /* "shakemap/c/clib.pyx":114
+  /* "esi_core/shakemap/c/clib.pyx":114
  *     cdef long *ix2p
  *     cdef double *hp
  *     cdef double afact = -3.0 / 20.0             # <<<<<<<<<<<<<<
@@ -3788,7 +3779,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
  */
   __pyx_v_afact = (-3.0 / 20.0);
 
-  /* "shakemap/c/clib.pyx":115
+  /* "esi_core/shakemap/c/clib.pyx":115
  *     cdef double *hp
  *     cdef double afact = -3.0 / 20.0
  *     cdef double bfact = -3.0 / 70.0             # <<<<<<<<<<<<<<
@@ -3797,7 +3788,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
  */
   __pyx_v_bfact = (-3.0 / 70.0);
 
-  /* "shakemap/c/clib.pyx":117
+  /* "esi_core/shakemap/c/clib.pyx":117
  *     cdef double bfact = -3.0 / 70.0
  * 
  *     for y in prange(ny, nogil=True, schedule=dynamic):             # <<<<<<<<<<<<<<
@@ -3842,7 +3833,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
                             __pyx_v_j = ((Py_ssize_t)0xbad0bad0);
                             __pyx_v_x = ((Py_ssize_t)0xbad0bad0);
 
-                            /* "shakemap/c/clib.pyx":118
+                            /* "esi_core/shakemap/c/clib.pyx":118
  * 
  *     for y in prange(ny, nogil=True, schedule=dynamic):
  *         hp = &h[y, 0]             # <<<<<<<<<<<<<<
@@ -3853,7 +3844,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
                             __pyx_t_5 = 0;
                             __pyx_v_hp = (&(*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_h.data + __pyx_t_4 * __pyx_v_h.strides[0]) )) + __pyx_t_5)) ))));
 
-                            /* "shakemap/c/clib.pyx":119
+                            /* "esi_core/shakemap/c/clib.pyx":119
  *     for y in prange(ny, nogil=True, schedule=dynamic):
  *         hp = &h[y, 0]
  *         ix1p = &ix1[y, 0]             # <<<<<<<<<<<<<<
@@ -3864,7 +3855,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
                             __pyx_t_4 = 0;
                             __pyx_v_ix1p = (&(*((long *) ( /* dim=1 */ ((char *) (((long *) ( /* dim=0 */ (__pyx_v_ix1.data + __pyx_t_5 * __pyx_v_ix1.strides[0]) )) + __pyx_t_4)) ))));
 
-                            /* "shakemap/c/clib.pyx":120
+                            /* "esi_core/shakemap/c/clib.pyx":120
  *         hp = &h[y, 0]
  *         ix1p = &ix1[y, 0]
  *         ix2p = &ix2[y, 0]             # <<<<<<<<<<<<<<
@@ -3875,7 +3866,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
                             __pyx_t_5 = 0;
                             __pyx_v_ix2p = (&(*((long *) ( /* dim=1 */ ((char *) (((long *) ( /* dim=0 */ (__pyx_v_ix2.data + __pyx_t_4 * __pyx_v_ix2.strides[0]) )) + __pyx_t_5)) ))));
 
-                            /* "shakemap/c/clib.pyx":121
+                            /* "esi_core/shakemap/c/clib.pyx":121
  *         ix1p = &ix1[y, 0]
  *         ix2p = &ix2[y, 0]
  *         for x in range(nx):             # <<<<<<<<<<<<<<
@@ -3887,7 +3878,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
                             for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
                               __pyx_v_x = __pyx_t_8;
 
-                              /* "shakemap/c/clib.pyx":122
+                              /* "esi_core/shakemap/c/clib.pyx":122
  *         ix2p = &ix2[y, 0]
  *         for x in range(nx):
  *             hval = hp[x]             # <<<<<<<<<<<<<<
@@ -3896,7 +3887,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
  */
                               __pyx_v_hval = (__pyx_v_hp[__pyx_v_x]);
 
-                              /* "shakemap/c/clib.pyx":123
+                              /* "esi_core/shakemap/c/clib.pyx":123
  *         for x in range(nx):
  *             hval = hp[x]
  *             i = ix1p[x]             # <<<<<<<<<<<<<<
@@ -3905,7 +3896,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
  */
                               __pyx_v_i = (__pyx_v_ix1p[__pyx_v_x]);
 
-                              /* "shakemap/c/clib.pyx":124
+                              /* "esi_core/shakemap/c/clib.pyx":124
  *             hval = hp[x]
  *             i = ix1p[x]
  *             j = ix2p[x]             # <<<<<<<<<<<<<<
@@ -3914,7 +3905,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
  */
                               __pyx_v_j = (__pyx_v_ix2p[__pyx_v_x]);
 
-                              /* "shakemap/c/clib.pyx":125
+                              /* "esi_core/shakemap/c/clib.pyx":125
  *             i = ix1p[x]
  *             j = ix2p[x]
  *             hp[x] = (b1[i, j] * exp(hval * afact) +             # <<<<<<<<<<<<<<
@@ -3924,7 +3915,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
                               __pyx_t_5 = __pyx_v_i;
                               __pyx_t_4 = __pyx_v_j;
 
-                              /* "shakemap/c/clib.pyx":126
+                              /* "esi_core/shakemap/c/clib.pyx":126
  *             j = ix2p[x]
  *             hp[x] = (b1[i, j] * exp(hval * afact) +
  *                      b2[i, j] * exp(hval * bfact))             # <<<<<<<<<<<<<<
@@ -3934,7 +3925,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
                               __pyx_t_9 = __pyx_v_i;
                               __pyx_t_10 = __pyx_v_j;
 
-                              /* "shakemap/c/clib.pyx":125
+                              /* "esi_core/shakemap/c/clib.pyx":125
  *             i = ix1p[x]
  *             j = ix2p[x]
  *             hp[x] = (b1[i, j] * exp(hval * afact) +             # <<<<<<<<<<<<<<
@@ -3943,7 +3934,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
  */
                               (__pyx_v_hp[__pyx_v_x]) = (((*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_b1.data + __pyx_t_5 * __pyx_v_b1.strides[0]) )) + __pyx_t_4)) ))) * exp((__pyx_v_hval * __pyx_v_afact))) + ((*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_b2.data + __pyx_t_9 * __pyx_v_b2.strides[0]) )) + __pyx_t_10)) ))) * exp((__pyx_v_hval * __pyx_v_bfact))));
 
-                              /* "shakemap/c/clib.pyx":127
+                              /* "esi_core/shakemap/c/clib.pyx":127
  *             hp[x] = (b1[i, j] * exp(hval * afact) +
  *                      b2[i, j] * exp(hval * bfact))
  *             if hval == 0:             # <<<<<<<<<<<<<<
@@ -3953,7 +3944,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
                               __pyx_t_11 = ((__pyx_v_hval == 0.0) != 0);
                               if (__pyx_t_11) {
 
-                                /* "shakemap/c/clib.pyx":128
+                                /* "esi_core/shakemap/c/clib.pyx":128
  *                      b2[i, j] * exp(hval * bfact))
  *             if hval == 0:
  *                 hp[x] += b3[i, j]             # <<<<<<<<<<<<<<
@@ -3965,7 +3956,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
                                 __pyx_t_9 = __pyx_v_j;
                                 (__pyx_v_hp[__pyx_t_12]) = ((__pyx_v_hp[__pyx_t_12]) + (*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_b3.data + __pyx_t_10 * __pyx_v_b3.strides[0]) )) + __pyx_t_9)) ))));
 
-                                /* "shakemap/c/clib.pyx":127
+                                /* "esi_core/shakemap/c/clib.pyx":127
  *             hp[x] = (b1[i, j] * exp(hval * afact) +
  *                      b2[i, j] * exp(hval * bfact))
  *             if hval == 0:             # <<<<<<<<<<<<<<
@@ -3987,7 +3978,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
         #endif
       }
 
-      /* "shakemap/c/clib.pyx":117
+      /* "esi_core/shakemap/c/clib.pyx":117
  *     cdef double bfact = -3.0 / 70.0
  * 
  *     for y in prange(ny, nogil=True, schedule=dynamic):             # <<<<<<<<<<<<<<
@@ -4006,7 +3997,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
       }
   }
 
-  /* "shakemap/c/clib.pyx":130
+  /* "esi_core/shakemap/c/clib.pyx":130
  *                 hp[x] += b3[i, j]
  * 
  *     return h             # <<<<<<<<<<<<<<
@@ -4020,7 +4011,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
   __pyx_t_13 = 0;
   goto __pyx_L0;
 
-  /* "shakemap/c/clib.pyx":104
+  /* "esi_core/shakemap/c/clib.pyx":104
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def eval_lb_correlation(double[:, ::1]b1, double[:, ::1]b2, double[:, ::1]b3,             # <<<<<<<<<<<<<<
@@ -4031,7 +4022,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_13);
-  __Pyx_AddTraceback("shakemap.c.clib.eval_lb_correlation", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.shakemap.c.clib.eval_lb_correlation", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __PYX_XDEC_MEMVIEW(&__pyx_v_b1, 1);
@@ -4045,7 +4036,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
   return __pyx_r;
 }
 
-/* "shakemap/c/clib.pyx":135
+/* "esi_core/shakemap/c/clib.pyx":135
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def make_sd_array(double[:, ::1]sdgrid, double[:, ::1]pout_sd2, long iy,             # <<<<<<<<<<<<<<
@@ -4054,9 +4045,9 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_6eval_lb_correlation(CYTHON_UNUSED 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_8shakemap_1c_4clib_9make_sd_array(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_8shakemap_1c_4clib_9make_sd_array = {"make_sd_array", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8shakemap_1c_4clib_9make_sd_array, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_8shakemap_1c_4clib_9make_sd_array(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_9make_sd_array(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_8esi_core_8shakemap_1c_4clib_9make_sd_array = {"make_sd_array", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_8esi_core_8shakemap_1c_4clib_9make_sd_array, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_8esi_core_8shakemap_1c_4clib_9make_sd_array(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   __Pyx_memviewslice __pyx_v_sdgrid = { 0, 0, { 0 }, { 0 }, { 0 } };
   __Pyx_memviewslice __pyx_v_pout_sd2 = { 0, 0, { 0 }, { 0 }, { 0 } };
   long __pyx_v_iy;
@@ -4140,18 +4131,18 @@ static PyObject *__pyx_pw_8shakemap_1c_4clib_9make_sd_array(PyObject *__pyx_self
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("make_sd_array", 1, 5, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 135, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("shakemap.c.clib.make_sd_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("esi_core.shakemap.c.clib.make_sd_array", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_8shakemap_1c_4clib_8make_sd_array(__pyx_self, __pyx_v_sdgrid, __pyx_v_pout_sd2, __pyx_v_iy, __pyx_v_rcmatrix, __pyx_v_sigma12);
+  __pyx_r = __pyx_pf_8esi_core_8shakemap_1c_4clib_8make_sd_array(__pyx_self, __pyx_v_sdgrid, __pyx_v_pout_sd2, __pyx_v_iy, __pyx_v_rcmatrix, __pyx_v_sigma12);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_sdgrid, __Pyx_memviewslice __pyx_v_pout_sd2, long __pyx_v_iy, __Pyx_memviewslice __pyx_v_rcmatrix, __Pyx_memviewslice __pyx_v_sigma12) {
+static PyObject *__pyx_pf_8esi_core_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObject *__pyx_self, __Pyx_memviewslice __pyx_v_sdgrid, __Pyx_memviewslice __pyx_v_pout_sd2, long __pyx_v_iy, __Pyx_memviewslice __pyx_v_rcmatrix, __Pyx_memviewslice __pyx_v_sigma12) {
   Py_ssize_t __pyx_v_nx;
   CYTHON_UNUSED Py_ssize_t __pyx_v_ny;
   double __pyx_v_tmp;
@@ -4174,7 +4165,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
   int __pyx_t_9;
   __Pyx_RefNannySetupContext("make_sd_array", 0);
 
-  /* "shakemap/c/clib.pyx":137
+  /* "esi_core/shakemap/c/clib.pyx":137
  * def make_sd_array(double[:, ::1]sdgrid, double[:, ::1]pout_sd2, long iy,
  *                   double[:, ::1]rcmatrix, double[:, ::1]sigma12):
  *     cdef Py_ssize_t nx = rcmatrix.shape[1]             # <<<<<<<<<<<<<<
@@ -4183,7 +4174,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
  */
   __pyx_v_nx = (__pyx_v_rcmatrix.shape[1]);
 
-  /* "shakemap/c/clib.pyx":138
+  /* "esi_core/shakemap/c/clib.pyx":138
  *                   double[:, ::1]rcmatrix, double[:, ::1]sigma12):
  *     cdef Py_ssize_t nx = rcmatrix.shape[1]
  *     cdef Py_ssize_t ny = rcmatrix.shape[0]             # <<<<<<<<<<<<<<
@@ -4192,7 +4183,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
  */
   __pyx_v_ny = (__pyx_v_rcmatrix.shape[0]);
 
-  /* "shakemap/c/clib.pyx":141
+  /* "esi_core/shakemap/c/clib.pyx":141
  * 
  *     cdef double tmp
  *     cdef double *sdg = &sdgrid[iy, 0]             # <<<<<<<<<<<<<<
@@ -4203,7 +4194,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
   __pyx_t_2 = 0;
   __pyx_v_sdg = (&(*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_sdgrid.data + __pyx_t_1 * __pyx_v_sdgrid.strides[0]) )) + __pyx_t_2)) ))));
 
-  /* "shakemap/c/clib.pyx":142
+  /* "esi_core/shakemap/c/clib.pyx":142
  *     cdef double tmp
  *     cdef double *sdg = &sdgrid[iy, 0]
  *     cdef double *pop = &pout_sd2[iy, 0]             # <<<<<<<<<<<<<<
@@ -4214,7 +4205,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
   __pyx_t_1 = 0;
   __pyx_v_pop = (&(*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_pout_sd2.data + __pyx_t_2 * __pyx_v_pout_sd2.strides[0]) )) + __pyx_t_1)) ))));
 
-  /* "shakemap/c/clib.pyx":147
+  /* "esi_core/shakemap/c/clib.pyx":147
  *     cdef Py_ssize_t x, y
  * 
  *     for y in prange(ny, nogil=True):             # <<<<<<<<<<<<<<
@@ -4256,7 +4247,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
                             __pyx_v_tmp = ((double)__PYX_NAN());
                             __pyx_v_x = ((Py_ssize_t)0xbad0bad0);
 
-                            /* "shakemap/c/clib.pyx":148
+                            /* "esi_core/shakemap/c/clib.pyx":148
  * 
  *     for y in prange(ny, nogil=True):
  *         rcp = &rcmatrix[y, 0]             # <<<<<<<<<<<<<<
@@ -4267,7 +4258,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
                             __pyx_t_2 = 0;
                             __pyx_v_rcp = (&(*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_rcmatrix.data + __pyx_t_1 * __pyx_v_rcmatrix.strides[0]) )) + __pyx_t_2)) ))));
 
-                            /* "shakemap/c/clib.pyx":149
+                            /* "esi_core/shakemap/c/clib.pyx":149
  *     for y in prange(ny, nogil=True):
  *         rcp = &rcmatrix[y, 0]
  *         sgp = &sigma12[y, 0]             # <<<<<<<<<<<<<<
@@ -4278,7 +4269,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
                             __pyx_t_1 = 0;
                             __pyx_v_sgp = (&(*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_sigma12.data + __pyx_t_2 * __pyx_v_sigma12.strides[0]) )) + __pyx_t_1)) ))));
 
-                            /* "shakemap/c/clib.pyx":150
+                            /* "esi_core/shakemap/c/clib.pyx":150
  *         rcp = &rcmatrix[y, 0]
  *         sgp = &sigma12[y, 0]
  *         tmp = 0             # <<<<<<<<<<<<<<
@@ -4287,7 +4278,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
  */
                             __pyx_v_tmp = 0.0;
 
-                            /* "shakemap/c/clib.pyx":151
+                            /* "esi_core/shakemap/c/clib.pyx":151
  *         sgp = &sigma12[y, 0]
  *         tmp = 0
  *         for x in range(nx):             # <<<<<<<<<<<<<<
@@ -4299,7 +4290,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
                             for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
                               __pyx_v_x = __pyx_t_8;
 
-                              /* "shakemap/c/clib.pyx":152
+                              /* "esi_core/shakemap/c/clib.pyx":152
  *         tmp = 0
  *         for x in range(nx):
  *             tmp = tmp + rcp[x] * sgp[x]             # <<<<<<<<<<<<<<
@@ -4309,7 +4300,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
                               __pyx_v_tmp = (__pyx_v_tmp + ((__pyx_v_rcp[__pyx_v_x]) * (__pyx_v_sgp[__pyx_v_x])));
                             }
 
-                            /* "shakemap/c/clib.pyx":153
+                            /* "esi_core/shakemap/c/clib.pyx":153
  *         for x in range(nx):
  *             tmp = tmp + rcp[x] * sgp[x]
  *         sdg[y] = pop[y] - tmp             # <<<<<<<<<<<<<<
@@ -4318,7 +4309,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
  */
                             (__pyx_v_sdg[__pyx_v_y]) = ((__pyx_v_pop[__pyx_v_y]) - __pyx_v_tmp);
 
-                            /* "shakemap/c/clib.pyx":154
+                            /* "esi_core/shakemap/c/clib.pyx":154
  *             tmp = tmp + rcp[x] * sgp[x]
  *         sdg[y] = pop[y] - tmp
  *         if sdg[y] < 0:             # <<<<<<<<<<<<<<
@@ -4328,7 +4319,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
                             __pyx_t_9 = (((__pyx_v_sdg[__pyx_v_y]) < 0.0) != 0);
                             if (__pyx_t_9) {
 
-                              /* "shakemap/c/clib.pyx":155
+                              /* "esi_core/shakemap/c/clib.pyx":155
  *         sdg[y] = pop[y] - tmp
  *         if sdg[y] < 0:
  *             sdg[y] = 0             # <<<<<<<<<<<<<<
@@ -4337,7 +4328,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
  */
                               (__pyx_v_sdg[__pyx_v_y]) = 0.0;
 
-                              /* "shakemap/c/clib.pyx":154
+                              /* "esi_core/shakemap/c/clib.pyx":154
  *             tmp = tmp + rcp[x] * sgp[x]
  *         sdg[y] = pop[y] - tmp
  *         if sdg[y] < 0:             # <<<<<<<<<<<<<<
@@ -4358,7 +4349,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
         #endif
       }
 
-      /* "shakemap/c/clib.pyx":147
+      /* "esi_core/shakemap/c/clib.pyx":147
  *     cdef Py_ssize_t x, y
  * 
  *     for y in prange(ny, nogil=True):             # <<<<<<<<<<<<<<
@@ -4377,7 +4368,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
       }
   }
 
-  /* "shakemap/c/clib.pyx":157
+  /* "esi_core/shakemap/c/clib.pyx":157
  *             sdg[y] = 0
  *         # sdg[y] = sqrt(sdg[y])
  *     return             # <<<<<<<<<<<<<<
@@ -4386,7 +4377,7 @@ static PyObject *__pyx_pf_8shakemap_1c_4clib_8make_sd_array(CYTHON_UNUSED PyObje
   __pyx_r = Py_None; __Pyx_INCREF(Py_None);
   goto __pyx_L0;
 
-  /* "shakemap/c/clib.pyx":135
+  /* "esi_core/shakemap/c/clib.pyx":135
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def make_sd_array(double[:, ::1]sdgrid, double[:, ::1]pout_sd2, long iy,             # <<<<<<<<<<<<<<
@@ -17568,7 +17559,7 @@ static PyBufferProcs __pyx_tp_as_buffer_array = {
 
 static PyTypeObject __pyx_type___pyx_array = {
   PyVarObject_HEAD_INIT(0, 0)
-  "shakemap.c.clib.array", /*tp_name*/
+  "esi_core.shakemap.c.clib.array", /*tp_name*/
   sizeof(struct __pyx_array_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_array, /*tp_dealloc*/
@@ -17690,7 +17681,7 @@ static PyMethodDef __pyx_methods_Enum[] = {
 
 static PyTypeObject __pyx_type___pyx_MemviewEnum = {
   PyVarObject_HEAD_INIT(0, 0)
-  "shakemap.c.clib.Enum", /*tp_name*/
+  "esi_core.shakemap.c.clib.Enum", /*tp_name*/
   sizeof(struct __pyx_MemviewEnum_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_Enum, /*tp_dealloc*/
@@ -17954,7 +17945,7 @@ static PyBufferProcs __pyx_tp_as_buffer_memoryview = {
 
 static PyTypeObject __pyx_type___pyx_memoryview = {
   PyVarObject_HEAD_INIT(0, 0)
-  "shakemap.c.clib.memoryview", /*tp_name*/
+  "esi_core.shakemap.c.clib.memoryview", /*tp_name*/
   sizeof(struct __pyx_memoryview_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_memoryview, /*tp_dealloc*/
@@ -18095,7 +18086,7 @@ static struct PyGetSetDef __pyx_getsets__memoryviewslice[] = {
 
 static PyTypeObject __pyx_type___pyx_memoryviewslice = {
   PyVarObject_HEAD_INIT(0, 0)
-  "shakemap.c.clib._memoryviewslice", /*tp_name*/
+  "esi_core.shakemap.c.clib._memoryviewslice", /*tp_name*/
   sizeof(struct __pyx_memoryviewslice_obj), /*tp_basicsize*/
   0, /*tp_itemsize*/
   __pyx_tp_dealloc__memoryviewslice, /*tp_dealloc*/
@@ -18264,6 +18255,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_encode, __pyx_k_encode, sizeof(__pyx_k_encode), 0, 0, 1, 1},
   {&__pyx_n_s_enumerate, __pyx_k_enumerate, sizeof(__pyx_k_enumerate), 0, 0, 1, 1},
   {&__pyx_n_s_error, __pyx_k_error, sizeof(__pyx_k_error), 0, 0, 1, 1},
+  {&__pyx_n_s_esi_core_shakemap_c_clib, __pyx_k_esi_core_shakemap_c_clib, sizeof(__pyx_k_esi_core_shakemap_c_clib), 0, 0, 1, 1},
   {&__pyx_n_s_eval_lb_correlation, __pyx_k_eval_lb_correlation, sizeof(__pyx_k_eval_lb_correlation), 0, 0, 1, 1},
   {&__pyx_n_s_flags, __pyx_k_flags, sizeof(__pyx_k_flags), 0, 0, 1, 1},
   {&__pyx_n_s_format, __pyx_k_format, sizeof(__pyx_k_format), 0, 0, 1, 1},
@@ -18336,11 +18328,10 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_setstate, __pyx_k_setstate, sizeof(__pyx_k_setstate), 0, 0, 1, 1},
   {&__pyx_n_s_setstate_cython, __pyx_k_setstate_cython, sizeof(__pyx_k_setstate_cython), 0, 0, 1, 1},
   {&__pyx_n_s_sgp, __pyx_k_sgp, sizeof(__pyx_k_sgp), 0, 0, 1, 1},
-  {&__pyx_n_s_shakemap_c_clib, __pyx_k_shakemap_c_clib, sizeof(__pyx_k_shakemap_c_clib), 0, 0, 1, 1},
   {&__pyx_n_s_shape, __pyx_k_shape, sizeof(__pyx_k_shape), 0, 0, 1, 1},
   {&__pyx_n_s_sigma12, __pyx_k_sigma12, sizeof(__pyx_k_sigma12), 0, 0, 1, 1},
   {&__pyx_n_s_size, __pyx_k_size, sizeof(__pyx_k_size), 0, 0, 1, 1},
-  {&__pyx_kp_s_src_shakemap_c_clib_pyx, __pyx_k_src_shakemap_c_clib_pyx, sizeof(__pyx_k_src_shakemap_c_clib_pyx), 0, 0, 1, 0},
+  {&__pyx_kp_s_src_esi_core_shakemap_c_clib_pyx, __pyx_k_src_esi_core_shakemap_c_clib_pyx, sizeof(__pyx_k_src_esi_core_shakemap_c_clib_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_start, __pyx_k_start, sizeof(__pyx_k_start), 0, 0, 1, 1},
   {&__pyx_n_s_step, __pyx_k_step, sizeof(__pyx_k_step), 0, 0, 1, 1},
   {&__pyx_n_s_stop, __pyx_k_stop, sizeof(__pyx_k_stop), 0, 0, 1, 1},
@@ -18572,7 +18563,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "shakemap/c/clib.pyx":13
+  /* "esi_core/shakemap/c/clib.pyx":13
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def make_sigma_matrix(double[:, ::1]corr12, double[:]sdsta, double[:]sdarr):             # <<<<<<<<<<<<<<
@@ -18582,9 +18573,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__20 = PyTuple_Pack(10, __pyx_n_s_corr12, __pyx_n_s_sdsta, __pyx_n_s_sdarr, __pyx_n_s_ny, __pyx_n_s_nx, __pyx_n_s_c12p, __pyx_n_s_sdval, __pyx_n_s_tmp, __pyx_n_s_x, __pyx_n_s_y); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__20);
   __Pyx_GIVEREF(__pyx_tuple__20);
-  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(3, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_shakemap_c_clib_pyx, __pyx_n_s_make_sigma_matrix, 13, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(0, 13, __pyx_L1_error)
+  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(3, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_esi_core_shakemap_c_clib_pyx, __pyx_n_s_make_sigma_matrix, 13, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(0, 13, __pyx_L1_error)
 
-  /* "shakemap/c/clib.pyx":36
+  /* "esi_core/shakemap/c/clib.pyx":36
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def geodetic_distance_fast(double[::1]lons1, double[::1]lats1,             # <<<<<<<<<<<<<<
@@ -18594,9 +18585,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__22 = PyTuple_Pack(13, __pyx_n_s_lons1, __pyx_n_s_lats1, __pyx_n_s_lons2, __pyx_n_s_lats2, __pyx_n_s_result, __pyx_n_s_EARTH_RADIUS, __pyx_n_s_nx, __pyx_n_s_ny, __pyx_n_s_lon2, __pyx_n_s_lat2, __pyx_n_s_res, __pyx_n_s_x, __pyx_n_s_y); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
-  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(5, 0, 13, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_shakemap_c_clib_pyx, __pyx_n_s_geodetic_distance_fast, 36, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 36, __pyx_L1_error)
+  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(5, 0, 13, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_esi_core_shakemap_c_clib_pyx, __pyx_n_s_geodetic_distance_fast, 36, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 36, __pyx_L1_error)
 
-  /* "shakemap/c/clib.pyx":73
+  /* "esi_core/shakemap/c/clib.pyx":73
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def geodetic_distance_haversine(double[::1]lons1, double[::1]lats1,             # <<<<<<<<<<<<<<
@@ -18606,9 +18597,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__24 = PyTuple_Pack(11, __pyx_n_s_lons1, __pyx_n_s_lats1, __pyx_n_s_lons2, __pyx_n_s_lats2, __pyx_n_s_result, __pyx_n_s_EARTH_RADIUS, __pyx_n_s_nx, __pyx_n_s_ny, __pyx_n_s_x, __pyx_n_s_y, __pyx_n_s_diameter); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__24);
   __Pyx_GIVEREF(__pyx_tuple__24);
-  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(5, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_shakemap_c_clib_pyx, __pyx_n_s_geodetic_distance_haversine, 73, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(5, 0, 11, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_esi_core_shakemap_c_clib_pyx, __pyx_n_s_geodetic_distance_haversine, 73, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) __PYX_ERR(0, 73, __pyx_L1_error)
 
-  /* "shakemap/c/clib.pyx":104
+  /* "esi_core/shakemap/c/clib.pyx":104
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def eval_lb_correlation(double[:, ::1]b1, double[:, ::1]b2, double[:, ::1]b3,             # <<<<<<<<<<<<<<
@@ -18618,9 +18609,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__26 = PyTuple_Pack(18, __pyx_n_s_b1, __pyx_n_s_b2, __pyx_n_s_b3, __pyx_n_s_ix1, __pyx_n_s_ix2, __pyx_n_s_h, __pyx_n_s_nx, __pyx_n_s_ny, __pyx_n_s_x, __pyx_n_s_y, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_hval, __pyx_n_s_ix1p, __pyx_n_s_ix2p, __pyx_n_s_hp, __pyx_n_s_afact, __pyx_n_s_bfact); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__26);
   __Pyx_GIVEREF(__pyx_tuple__26);
-  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(6, 0, 18, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_shakemap_c_clib_pyx, __pyx_n_s_eval_lb_correlation, 104, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(6, 0, 18, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_esi_core_shakemap_c_clib_pyx, __pyx_n_s_eval_lb_correlation, 104, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 104, __pyx_L1_error)
 
-  /* "shakemap/c/clib.pyx":135
+  /* "esi_core/shakemap/c/clib.pyx":135
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def make_sd_array(double[:, ::1]sdgrid, double[:, ::1]pout_sd2, long iy,             # <<<<<<<<<<<<<<
@@ -18630,7 +18621,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__28 = PyTuple_Pack(14, __pyx_n_s_sdgrid, __pyx_n_s_pout_sd2, __pyx_n_s_iy, __pyx_n_s_rcmatrix, __pyx_n_s_sigma12, __pyx_n_s_nx, __pyx_n_s_ny, __pyx_n_s_tmp, __pyx_n_s_sdg, __pyx_n_s_pop, __pyx_n_s_rcp, __pyx_n_s_sgp, __pyx_n_s_x, __pyx_n_s_y); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(0, 135, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__28);
   __Pyx_GIVEREF(__pyx_tuple__28);
-  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(5, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_shakemap_c_clib_pyx, __pyx_n_s_make_sd_array, 135, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(5, 0, 14, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_esi_core_shakemap_c_clib_pyx, __pyx_n_s_make_sd_array, 135, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) __PYX_ERR(0, 135, __pyx_L1_error)
 
   /* "View.MemoryView":287
  *         return self.name
@@ -19022,14 +19013,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_shakemap__c__clib) {
+  if (__pyx_module_is_main_esi_core__shakemap__c__clib) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name_2, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "shakemap.c.clib")) {
-      if (unlikely(PyDict_SetItemString(modules, "shakemap.c.clib", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "esi_core.shakemap.c.clib")) {
+      if (unlikely(PyDict_SetItemString(modules, "esi_core.shakemap.c.clib", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -19050,7 +19041,7 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "shakemap/c/clib.pyx":2
+  /* "esi_core/shakemap/c/clib.pyx":2
  * #cython: language_level=3
  * import numpy as np             # <<<<<<<<<<<<<<
  * cimport cython
@@ -19061,67 +19052,67 @@ if (!__Pyx_RefNanny) {
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "shakemap/c/clib.pyx":13
+  /* "esi_core/shakemap/c/clib.pyx":13
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def make_sigma_matrix(double[:, ::1]corr12, double[:]sdsta, double[:]sdarr):             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t ny = corr12.shape[0]
  *     cdef Py_ssize_t nx = corr12.shape[1]
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8shakemap_1c_4clib_1make_sigma_matrix, NULL, __pyx_n_s_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 13, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8esi_core_8shakemap_1c_4clib_1make_sigma_matrix, NULL, __pyx_n_s_esi_core_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_make_sigma_matrix, __pyx_t_1) < 0) __PYX_ERR(0, 13, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "shakemap/c/clib.pyx":36
+  /* "esi_core/shakemap/c/clib.pyx":36
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def geodetic_distance_fast(double[::1]lons1, double[::1]lats1,             # <<<<<<<<<<<<<<
  *                            double[::1]lons2, double[::1]lats2,
  *                            double[:, ::1]result):
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8shakemap_1c_4clib_3geodetic_distance_fast, NULL, __pyx_n_s_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 36, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8esi_core_8shakemap_1c_4clib_3geodetic_distance_fast, NULL, __pyx_n_s_esi_core_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_geodetic_distance_fast, __pyx_t_1) < 0) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "shakemap/c/clib.pyx":73
+  /* "esi_core/shakemap/c/clib.pyx":73
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def geodetic_distance_haversine(double[::1]lons1, double[::1]lats1,             # <<<<<<<<<<<<<<
  *                                 double[::1]lons2, double[::1]lats2,
  *                                 double[:, ::1]result):
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8shakemap_1c_4clib_5geodetic_distance_haversine, NULL, __pyx_n_s_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8esi_core_8shakemap_1c_4clib_5geodetic_distance_haversine, NULL, __pyx_n_s_esi_core_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_geodetic_distance_haversine, __pyx_t_1) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "shakemap/c/clib.pyx":104
+  /* "esi_core/shakemap/c/clib.pyx":104
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def eval_lb_correlation(double[:, ::1]b1, double[:, ::1]b2, double[:, ::1]b3,             # <<<<<<<<<<<<<<
  *                         long[:, ::1]ix1, long[:, ::1]ix2, double[:, ::1]h):
  *     cdef Py_ssize_t nx = ix1.shape[1]
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8shakemap_1c_4clib_7eval_lb_correlation, NULL, __pyx_n_s_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 104, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8esi_core_8shakemap_1c_4clib_7eval_lb_correlation, NULL, __pyx_n_s_esi_core_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_eval_lb_correlation, __pyx_t_1) < 0) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "shakemap/c/clib.pyx":135
+  /* "esi_core/shakemap/c/clib.pyx":135
  * @cython.boundscheck(False)
  * @cython.wraparound(False)
  * def make_sd_array(double[:, ::1]sdgrid, double[:, ::1]pout_sd2, long iy,             # <<<<<<<<<<<<<<
  *                   double[:, ::1]rcmatrix, double[:, ::1]sigma12):
  *     cdef Py_ssize_t nx = rcmatrix.shape[1]
  */
-  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8shakemap_1c_4clib_9make_sd_array, NULL, __pyx_n_s_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 135, __pyx_L1_error)
+  __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_8esi_core_8shakemap_1c_4clib_9make_sd_array, NULL, __pyx_n_s_esi_core_shakemap_c_clib); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 135, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_make_sd_array, __pyx_t_1) < 0) __PYX_ERR(0, 135, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "shakemap/c/clib.pyx":1
+  /* "esi_core/shakemap/c/clib.pyx":1
  * #cython: language_level=3             # <<<<<<<<<<<<<<
  * import numpy as np
  * cimport cython
@@ -19291,11 +19282,11 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_1);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init shakemap.c.clib", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init esi_core.shakemap.c.clib", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_CLEAR(__pyx_m);
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init shakemap.c.clib");
+    PyErr_SetString(PyExc_ImportError, "init esi_core.shakemap.c.clib");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
