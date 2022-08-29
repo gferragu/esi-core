@@ -1,0 +1,23 @@
+*.pyc
+build
+*~
+.atom/
+.DS_Store
+.ipynb_checkpoints/
+.cache
+.coverage*
+.coverage.xml
+htmlcov
+**/*.egg-info/
+.pytest_cache
+**/*.so
+.vscode/
+MANIFEST.in
+# Vim tags
+tags
+# Ignore the C code that gets built by cython
+src/esi-core/gmprocess/waveform_processing/smoothing/konno_ohmachi.c
+src/esi-core/gmprocess/waveform_processing/auto_fchp.c
+src/esi-core/gmprocess/metrics/oscillators.c
+src/esi-core/shakemap/c/clib.c
+src/esi-core/shakemap/c/pcontour.c
