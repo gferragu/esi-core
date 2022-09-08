@@ -18,6 +18,7 @@ name: $(Date:yyyyMMdd)$(Rev:.r)
 
 jobs:
 - job: linux
+  timeoutInMinutes: 120
   pool: {vmImage: 'Ubuntu-latest'}
   strategy:
     matrix:
@@ -42,6 +43,7 @@ jobs:
       inputs: {pathtoPublish: 'wheelhouse'}
 
 - job: macos
+  timeoutInMinutes: 120
   pool: {vmImage: 'macOS-latest'}
   strategy:
     matrix:
@@ -66,6 +68,7 @@ jobs:
       inputs: {pathtoPublish: wheelhouse}
 
 - job: windows
+  timeoutInMinutes: 120
   pool: {vmImage: 'windows-latest'}
   strategy:
     matrix:
