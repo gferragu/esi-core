@@ -21,11 +21,11 @@ jobs:
   pool: {vmImage: 'Ubuntu-latest'}
   strategy:
     matrix:
-      Python27:
+      Python38:
         python.version: '3.8'
-      Python35:
+      Python39:
         python.version: '3.9'
-      Python36:
+      Python310:
         python.version: '3.10'
   steps:
     - task: UsePythonVersion@0
@@ -45,11 +45,11 @@ jobs:
   pool: {vmImage: 'macOS-latest'}
   strategy:
     matrix:
-      Python27:
+      Python38:
         python.version: '3.8'
-      Python35:
+      Python39:
         python.version: '3.9'
-      Python36:
+      Python310:
         python.version: '3.10'
   steps:
     - task: UsePythonVersion@0
@@ -69,11 +69,11 @@ jobs:
   pool: {vmImage: 'windows-latest'}
   strategy:
     matrix:
-      Python27:
+      Python38:
         python.version: '3.8'
-      Python35:
+      Python39:
         python.version: '3.9'
-      Python36:
+      Python310:
         python.version: '3.10'
   steps:
     - task: UsePythonVersion@0
