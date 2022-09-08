@@ -7,6 +7,9 @@ build
 .cache
 .coverage*
 .coverage.xml
+*.code-workspace
+*_cibw.yml
+*_gmprocess.yml
 htmlcov
 **/*.egg-info/
 .pytest_cache
