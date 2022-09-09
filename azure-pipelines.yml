@@ -48,7 +48,7 @@ jobs:
       inputs:
         pythonUploadServiceConnection: pypitest
     - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --skip-existing --verbose --config-file $(PYPIRC_PATH) dist/*
+    - script: python -m twine upload --skip-existing --verbose --config-file $(PYPIRC_PATH) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
 
 # -r esi-core -repository-url https://test.pypi.org/legacy/
