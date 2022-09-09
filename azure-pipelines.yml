@@ -47,7 +47,8 @@ jobs:
     - task: TwineAuthenticate@1
       inputs:
         pythonUploadServiceConnection: pypitest
-    - script: python -m twine upload --skip-existing --verbose --config-file $(PYPIRC_PATH) wheelhouse/*.whl
+    - script: cat $(PYPIRC_PATH)
+    - script: python -m twine upload --skip-existing --verbose --repository-url https://test.pypi.org/legacy/ --config-file $(PYPIRC_PATH) wheelhouse/*.whl
       displayName: 'Publish to PyPi through Twine'
 
 - job: macos
