@@ -43,14 +43,17 @@ jobs:
     #   inputs: {pathtoPublish: 'wheelhouse'}
     - script: python -m pip install --upgrade twine
       displayName: 'Install Twine'
-    - task: TwineAuthenticate@1
-      inputs:
-        pythonUploadServiceConnection: pypitest
+    # - task: TwineAuthenticate@1
+    #   inputs:
+    #     pythonUploadServiceConnection: pypitest
     - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --skip-existing --non-interactive -u $(TWINE_USERNAME) -p $(TWINE_PASSWORD)--verbose --repository-url https://test.pypi.org/legacy/ --config-file $(PYPIRC_PATH) wheelhouse/*
+    - script: python -m twine upload --skip-existing --non-interactive -u $env:TWINE_USERNAME -p $env:TWINE_PASSWORD --verbose --repository-url https://test.pypi.org/legacy/ --config-file $(PYPIRC_PATH) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
+    # - env:
+    #   FOO_TWO: $(SecretTwo) 
 
 # -r esi-core -repository-url https://test.pypi.org/legacy/
+    # - script: python -m twine upload --skip-existing --non-interactive -u $(TWINE_USERNAME) -p $(TWINE_PASSWORD)--verbose --repository-url https://test.pypi.org/legacy/ --config-file $(PYPIRC_PATH) wheelhouse/*
 
 - job: macos
   timeoutInMinutes: 120
