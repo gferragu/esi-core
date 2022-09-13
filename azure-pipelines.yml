@@ -55,7 +55,7 @@ jobs:
         secureFile: .pypirc
       
     # - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --skip-existing --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
 
     # - env:
@@ -99,7 +99,7 @@ jobs:
         secureFile: .pypirc
       
     # - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --skip-existing --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
 
 - job: windows
@@ -136,5 +136,5 @@ jobs:
         secureFile: .pypirc
       
     # - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --skip-existing --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
