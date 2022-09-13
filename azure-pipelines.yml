@@ -46,13 +46,20 @@ jobs:
     # - task: TwineAuthenticate@1
     #   inputs:
     #     pythonUploadServiceConnection: pypitest
+    # Download a secure file to the agent machine
+    - task: DownloadSecureFile@1
+      name: securePyPiRC # The name with which to reference the secure file's path on the agent, like $(mySecureFile.secureFilePath)
+      inputs:
+        secureFile: .pypirc
+        #retryCount: 5 # Optional
     - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --skip-existing --non-interactive -u $env:TWINE_USERNAME -p $env:TWINE_PASSWORD --verbose --repository-url https://test.pypi.org/legacy/ --config-file $(PYPIRC_PATH) wheelhouse/*
+    - script: python -m twine upload --skip-existing --non-interactive -r esi-core --verbose --config $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
     # - env:
     #   FOO_TWO: $(SecretTwo) 
 
 # -r esi-core -repository-url https://test.pypi.org/legacy/
+    # - script: python -m twine upload --skip-existing --non-interactive -u $env:TWINE_USERNAME -p $env:TWINE_PASSWORD --verbose --repository-url https://test.pypi.org/legacy/ wheelhouse/*
     # - script: python -m twine upload --skip-existing --non-interactive -u $(TWINE_USERNAME) -p $(TWINE_PASSWORD)--verbose --repository-url https://test.pypi.org/legacy/ --config-file $(PYPIRC_PATH) wheelhouse/*
 
 - job: macos
