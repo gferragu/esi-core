@@ -53,7 +53,7 @@ jobs:
         secureFile: .pypirc
         #retryCount: 5 # Optional
     - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --skip-existing --non-interactive -r esi-core --verbose --config $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --skip-existing --non-interactive -r esi-core --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
     # - env:
     #   FOO_TWO: $(SecretTwo) 
