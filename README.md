@@ -1,31 +1,19 @@
 # esi-core
 
-Repository for compiled code used by ESI projects. 
+Repository for compiled code used by ESI projects, namely C code used in the USGS Shakemap and Groundmotion-Processing programs.
 
-## Introduction
+As of September 15th, this project is functional for the gmprocess portion of compiled code. Shakemap functionality will soon follow.
 
-This is a utility library of compilied code for gmprocess and ShakeMap. The code
-here represents the innermost loops that need to be very high-performance. We will
-add more code and documentation as time passes, but right now this is code ripped
-from the two repos.
+## gmprocess
 
-You will almost never use this library on its own. It is intended to be incorporated
-into other environments, namely gmprocess and ShakeMap.
+The compiled code here is used in [gmprocess](https://github.com/usgs/groundmotion-processing) both in metrics calculations and waveform processing.
 
-See tests directory for usage examples.
+Computation of waveform metrics utilizes the ```oscillators``` module, while waveform processing routines use the ```auto_fchp``` for corner frequency determination, as well as the ```konno-omachi``` and ```smoothing``` modules to perform spectral smoothing
 
-## Installation
 
-From repository base, run
-```
-conda create --name esi_core pip
-conda activate esi_core
-pip install .
-```
 
-## Tests
+## Shakemap
 
-```
-pip install pytest
-pytest .
-```
+Under development for future PyPi release
+
+Provides the [Shakemap](https://github.com/usgs/shakemap) project with necessary C libraries for Shakemap production and contouring
