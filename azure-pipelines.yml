@@ -55,15 +55,8 @@ jobs:
         secureFile: .pypirc
       
     # - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --skip-existing --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
-
-    # - env:
-    #   FOO_TWO: $(SecretTwo) 
-
-# -r esi-core -repository-url https://test.pypi.org/legacy/
-    # - script: python -m twine upload --skip-existing --non-interactive -u $env:TWINE_USERNAME -p $env:TWINE_PASSWORD --verbose --repository-url https://test.pypi.org/legacy/ wheelhouse/*
-    # - script: python -m twine upload --skip-existing --non-interactive -u $(TWINE_USERNAME) -p $(TWINE_PASSWORD)--verbose --repository-url https://test.pypi.org/legacy/ --config-file $(PYPIRC_PATH) wheelhouse/*
 
 - job: macos
   timeoutInMinutes: '120'
@@ -99,7 +92,7 @@ jobs:
         secureFile: .pypirc
       
     # - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --skip-existing --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
 
 - job: windows
@@ -136,5 +129,5 @@ jobs:
         secureFile: .pypirc
       
     # - script: cat $(PYPIRC_PATH)
-    - script: python -m twine upload --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --skip-existing --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
