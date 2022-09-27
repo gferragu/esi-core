@@ -9,10 +9,7 @@
 trigger:
   tags:
     include:
-    - '*testing'
-  branches:
-    exclude:
-    - main
+    - 'release*'
 
 name: $(Date:yyyyMMdd)$(Rev:.r)
 
