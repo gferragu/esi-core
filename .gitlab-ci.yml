@@ -8,8 +8,9 @@ stages:
 
 run tests:
   script:
+    - yum install gcc
     - source /etc/profile.d/conda.sh
-    - conda install -c conda-forge python=3.8 gcc
+    - conda install -c conda-forge python=3.8
     - pip install .
     - pip install pytest
     - pytest .
