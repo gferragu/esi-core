@@ -1,0 +1,16 @@
+default:
+  image: ${DEVOPS_REGISTRY}usgs/conda:latest
+  tags:
+    - development
+
+stages:
+  - test
+
+run tests:
+  script:
+    - source /etc/profile.d/conda.sh
+    - pip install .
+    - pip install pytest
+    - pytest .
+  stage: test
+
