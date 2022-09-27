@@ -1,0 +1,17 @@
+default:
+  image: ${DEVOPS_REGISTRY}usgs/conda:latest
+  tags:
+    - development
+
+stages:
+  - test
+
+run tests:
+  script:
+    - source /etc/profile.d/conda.sh
+    - conda install python=3.8
+    - pip install .
+    - pip install pytest
+    - pytest .
+  stage: test
+
