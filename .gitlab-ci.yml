@@ -9,6 +9,7 @@ stages:
 run tests:
   script:
     - source /etc/profile.d/conda.sh
+    - conda install python=3.8
     - pip install .
     - pip install pytest
     - pytest .
