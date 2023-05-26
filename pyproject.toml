@@ -1,12 +1,57 @@
 [build-system]
 requires = [
   "setuptools>=42",
-  "wheel",
   "setuptools_scm[toml]>=3.4",
   "Cython>=0.29.23",
   "numpy",
+  "wheel",
 ]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "esi-core"
+dynamic = ["version"]
+description = "Repository for compiled code used by ESI projects."
+authors = [
+    {name = "Eric Thompson", email="emthompsone@usgs.gov"},
+    {name = "Bruce Worden", email="cbworden@contractor.usgs.gov"},
+    {name = "Gabe Ferragut", email="gferragut@usgs.gov"},
+]
+license = {file = "LICENSE.md"}
+readme = "README.md"
+requires-python = ">=3.8,<3.11"
+
+dependencies = [
+  "numpy>=1.21",
+  "obspy>=1.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build>=0.7.0",
+    "black>=21",
+    "flake8>=3.9",
+    "ipython>=7.26",
+]
+test = [
+    "pytest>=6.2",
+    "pytest-cov>=2.12",
+    "pytest-console-scripts>=1.2",
+    "vcrpy>=4.1",
+]
+build = [
+    "build",
+    "twine",
+    "check-wheel-contents",
+]
 
 [tool.cibuildwheel]
 skip = "cp36-* cp37-* pp37-* *-manylinux_i686 *_ppc64le *_s390x *-musllinux*"

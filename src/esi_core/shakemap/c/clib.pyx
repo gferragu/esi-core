@@ -1,7 +1,7 @@
 #cython: language_level=3
 import numpy as np
 cimport cython
-from cython.parallel import prange
+#from cython.parallel import prange
 from libc.math cimport (sqrt,
                         cos,
                         sin,
@@ -19,7 +19,8 @@ def make_sigma_matrix(double[:, ::1]corr12, double[:]sdsta, double[:]sdarr):
     cdef double tmp
     cdef Py_ssize_t x, y
 
-    for y in prange(ny, nogil=True, schedule=dynamic):
+    #for y in range(ny, nogil=True, schedule=dynamic):
+    for y in range(ny):
         c12p = &corr12[y, 0]
         sdval = sdarr[y]
         for x in range(nx):
@@ -45,7 +46,8 @@ def geodetic_distance_fast(double[::1]lons1, double[::1]lats1,
     cdef Py_ssize_t x, y
 
     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:
-        for y in prange(ny, nogil=True, schedule='guided'):
+        #for y in range(ny, nogil=True, schedule='guided'):
+        for y in range(ny):
             lon2 = lons2[y]
             lat2 = lats2[y]
             for x in range(y+1):
@@ -55,7 +57,8 @@ def geodetic_distance_fast(double[::1]lons1, double[::1]lats1,
                         cos(0.5 * (lats1[x] + lat2)))**2 +
                         (lats1[x] - lat2)**2))
     else:
-        for y in prange(ny, nogil=True, schedule=dynamic):
+        #for y in range(ny, nogil=True, schedule=dynamic):
+        for y in range(ny):
             res = &result[y, 0]
             lon2 = lons2[y]
             lat2 = lats2[y]
@@ -81,7 +84,8 @@ def geodetic_distance_haversine(double[::1]lons1, double[::1]lats1,
     cdef double diameter = 2.0 * EARTH_RADIUS
 
     if &lons1[0] == &lons2[0] and &lats1[0] == &lats2[0]:
-        for y in prange(ny, nogil=True, schedule='guided'):
+        #for y in range(ny, nogil=True, schedule='guided'):
+        for y in range(ny):
             for x in range(y+1):
                 result[y, x] = result[x, y] = (
                     diameter * asin(sqrt(
@@ -89,7 +93,8 @@ def geodetic_distance_haversine(double[::1]lons1, double[::1]lats1,
                         cos(lats1[x]) * cos(lats2[y]) *
                         sin((lons1[x] - lons2[y]) / 2.0)**2)))
     else:
-        for y in prange(ny, nogil=True, schedule=dynamic):
+        #for y in range(ny, nogil=True, schedule=dynamic):
+        for y in range(ny):
             for x in range(nx):
                 result[y, x] = (
                     diameter * asin(sqrt(
@@ -114,7 +119,8 @@ def eval_lb_correlation(double[:, ::1]b1, double[:, ::1]b2, double[:, ::1]b3,
     cdef double afact = -3.0 / 20.0
     cdef double bfact = -3.0 / 70.0
 
-    for y in prange(ny, nogil=True, schedule=dynamic):
+    #for y in range(ny, nogil=True, schedule=dynamic):
+    for y in range(ny):
         hp = &h[y, 0]
         ix1p = &ix1[y, 0]
         ix2p = &ix2[y, 0]
@@ -144,7 +150,8 @@ def make_sd_array(double[:, ::1]sdgrid, double[:, ::1]pout_sd2, long iy,
     cdef double *sgp
     cdef Py_ssize_t x, y
 
-    for y in prange(ny, nogil=True):
+    #for y in range(ny, nogil=True):
+    for y in range(ny):
         rcp = &rcmatrix[y, 0]
         sgp = &sigma12[y, 0]
         tmp = 0
