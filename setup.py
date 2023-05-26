@@ -17,11 +17,11 @@ ko_sourcefiles = [
 auto_fchp_sourcefiles = ["src/esi_core/gmprocess/waveform_processing/auto_fchp.pyx"]
 
 contour_sourcefiles = [
-    "src/esi_core/shakemap/c/pcontour.pyx",
-    "src/esi_core/shakemap/c/contour.c",
+    "src/esi_core/shakemap/pcontour.pyx",
+    "src/esi_core/shakemap/contour.c",
 ]
 
-clib_source = ["src/esi_core/shakemap/c/clib.pyx"]
+clib_source = ["src/esi_core/shakemap/clib.pyx"]
 
 libraries = []
 if os.name == "posix":
@@ -50,14 +50,14 @@ ext_modules = [
         extra_compile_args=["-O2"],
     ),
     Extension(
-        name="shakemap.c.pcontour",
+        name="shakemap.pcontour",
         sources=contour_sourcefiles,
         libraries=["m"],
         include_dirs=[numpy.get_include()],
         extra_compile_args=[],
     ),
     Extension(
-        name="shakemap.c.clib",
+        name="shakemap.clib",
         sources=clib_source,
         libraries=[
             "m",

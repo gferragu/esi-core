@@ -2,6 +2,7 @@
  - Updates project construction to use pyproject.toml instead of setup.cfg
  - Remove .c files.
  - Add shakemap package to the build.
+ - Remove unnecessary "c" subdirectory.
 
 ## 1.0.1 / 2022-09-27
 - Fixes install and dependency issues.
