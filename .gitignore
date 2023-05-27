@@ -24,6 +24,7 @@ tags
 src/esi_core/gmprocess/waveform_processing/smoothing/konno_ohmachi.c
 src/esi_core/gmprocess/waveform_processing/auto_fchp.c
 src/esi_core/gmprocess/metrics/oscillators.c
-src/esi_core/shakemap/clib.c
+src/esi_core/shakemap/covariance_matrix.c
+src/esi_core/shakemap/geodetic_distances.c
 src/esi_core/shakemap/pcontour.c
 
