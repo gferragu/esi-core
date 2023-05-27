@@ -4,7 +4,10 @@
 import numpy as np
 
 # local imports
-from shakemap.clib import geodetic_distance_fast, geodetic_distance_haversine
+from esi_core.shakemap.geodetic_distances import (
+    geodetic_distance_fast,
+    geodetic_distance_haversine,
+)
 
 
 def test_distances():
@@ -47,7 +50,7 @@ def test_distances():
         ]
     )
 
-    assert np.allclose(d1, d1_test.T)
+    np.testing.assert_allclose(d1, d1_test.T)
 
     d2 = np.empty((np.size(lons2), np.size(lons1)))
     geodetic_distance_haversine(
@@ -67,7 +70,7 @@ def test_distances():
         ]
     )
 
-    assert np.allclose(d2, d2_test.T)
+    np.testing.assert_allclose(d2, d2_test.T)
 
 
 if __name__ == "__main__":

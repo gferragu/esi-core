@@ -21,7 +21,8 @@ contour_sourcefiles = [
     "src/esi_core/shakemap/contour.c",
 ]
 
-clib_source = ["src/esi_core/shakemap/clib.pyx"]
+geo_source = ["src/esi_core/shakemap/geodetic_distances.pyx"]
+cov_source = ["src/esi_core/shakemap/covariance_matrix.pyx"]
 
 libraries = []
 if os.name == "posix":
@@ -57,8 +58,16 @@ ext_modules = [
         extra_compile_args=[],
     ),
     Extension(
-        name="esi_core.shakemap.clib",
-        sources=clib_source,
+        name="esi_core.shakemap.covariance_matrix",
+        sources=cov_source,
+        libraries=[
+            "m",
+        ],
+        include_dirs=[numpy.get_include()],
+    ),
+    Extension(
+        name="esi_core.shakemap.geodetic_distances",
+        sources=geo_source,
         libraries=[
             "m",
         ],
