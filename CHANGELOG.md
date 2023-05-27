@@ -1,4 +1,5 @@
 ## main
+ - Change path in setup.py so shakemap modules start with esi_core.
  - Updates project construction to use pyproject.toml instead of setup.cfg
  - Remove .c files.
  - Add shakemap package to the build.

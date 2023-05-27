@@ -50,14 +50,14 @@ ext_modules = [
         extra_compile_args=["-O2"],
     ),
     Extension(
-        name="shakemap.pcontour",
+        name="esi_core.shakemap.pcontour",
         sources=contour_sourcefiles,
         libraries=["m"],
         include_dirs=[numpy.get_include()],
         extra_compile_args=[],
     ),
     Extension(
-        name="shakemap.clib",
+        name="esi_core.shakemap.clib",
         sources=clib_source,
         libraries=[
             "m",
