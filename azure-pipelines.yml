@@ -1,15 +1,13 @@
-# schedules:
-# - cron: "0 6 * * *"
-#   displayName: Daily midnight build
-#   branches:
-#     include:
-#     - main
-#   always: true
-
 trigger:
   tags:
     include:
     - 'release*'
+    - 'testpypi'
+  branches:
+    include:
+    - dev
+    exclude:
+    - main
 
 name: $(Date:yyyyMMdd)$(Rev:.r)
 
