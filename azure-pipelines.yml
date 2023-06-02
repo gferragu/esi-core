@@ -2,7 +2,7 @@ trigger:
   tags:
     include:
     - 'release*'
-    - 'testpypi'
+    - '*dev*'
   branches:
     include:
     - dev
