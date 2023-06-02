@@ -183,7 +183,7 @@ int64_t abs64(int64_t a);
 
 #ifndef _XOPEN_SOURCE
 
-void srand48(int)
+void srand48(int x)
 {
   return;
 }
