@@ -1,7 +1,6 @@
 trigger:
   tags:
     include:
-    - 'release*'
     - '*dev*'
   branches:
     include:
