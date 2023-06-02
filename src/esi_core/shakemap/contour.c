@@ -205,7 +205,7 @@ CResult contour_grid(double *grid, size_t gnx, size_t gny, double gdx,
    * (which is good) and I don't think the systematic errors it
    * introduces are a problem.
    */
-  srand48(444);
+  srand(444);
   /*
   srand48(getpid());
   */
