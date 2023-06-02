@@ -184,7 +184,7 @@ void nest_polygons(void);
 int almost_equal(double a, double b, int maxUlps);
 int64_t abs64(int64_t a);
 
-#ifndef _XOPEN_SOURCE
+#ifdef _WIN32
 
 void srand48(int x)
 {
