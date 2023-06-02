@@ -2,7 +2,10 @@
 #define __has_include(x) 0
 #endif
 
+#ifdef _WIN32
 #define _CRT_RAND_S
+#endif
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
