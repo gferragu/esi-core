@@ -1,6 +1,8 @@
 #if !defined(__has_include)
 #define __has_include(x) 0
 #endif
+
+#define _CRT_RAND_S
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -179,6 +181,26 @@ void nest_polygons(void);
 int almost_equal(double a, double b, int maxUlps);
 int64_t abs64(int64_t a);
 
+#ifndef _XOPEN_SOURCE
+
+void srand48(int)
+{
+  return;
+}
+
+double drand48(void)
+{
+  unsigned int rval;
+  double dval;
+  int err;
+
+  err = rand_s(&rval);
+  dval = (double)rval / ((double)UINT_MAX + 1.0);
+  return dval;
+}
+
+#endif
+
 CResult contour_grid(double *grid, size_t gnx, size_t gny, double gdx,
                      double gdy, double ul_x, double ul_y,
                      double *contour_levels, size_t ncont,
@@ -205,7 +227,7 @@ CResult contour_grid(double *grid, size_t gnx, size_t gny, double gdx,
    * (which is good) and I don't think the systematic errors it
    * introduces are a problem.
    */
-  srand(444);
+  srand48(444);
   /*
   srand48(getpid());
   */
