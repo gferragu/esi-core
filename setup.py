@@ -70,4 +70,6 @@ ext_modules = [
 
 setup(
     ext_modules=cythonize(ext_modules),
+    use_scm_version=True,
+    setup_requires=["setuptools_scm"],
 )
