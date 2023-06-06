@@ -1,14 +1,13 @@
 trigger:
   tags:
     include:
-    - '*rc*'
-    - 'release*'
-    - '*.*.*'
+    - '1.2.0'
   branches:
     include:
-    - dev
+    - 1.2.0
     exclude:
     - main
+    - dev
 
 name: $(Date:yyyyMMdd)$(Rev:.r)
 
@@ -44,7 +43,7 @@ jobs:
       inputs:
         secureFile: .pypirc
       
-    - script: python -m twine upload --skip-existing --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --skip-existing --non-interactive -r pypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
 
 - job: macos
@@ -79,7 +78,7 @@ jobs:
       inputs:
         secureFile: .pypirc
       
-    - script: python -m twine upload --skip-existing --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --skip-existing --non-interactive -r pypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
 
 - job: windows
@@ -113,5 +112,5 @@ jobs:
       inputs:
         secureFile: .pypirc
       
-    - script: python -m twine upload --skip-existing --non-interactive -r testpypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
+    - script: python -m twine upload --skip-existing --non-interactive -r pypi --verbose --config-file $(securePyPiRC.secureFilePath) wheelhouse/*
       displayName: 'Publish to PyPi through Twine'
