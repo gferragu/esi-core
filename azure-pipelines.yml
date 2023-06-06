@@ -2,6 +2,7 @@ trigger:
   tags:
     include:
     - '*rc*'
+    - 'release*'
   branches:
     include:
     - dev
