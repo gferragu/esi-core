@@ -14,6 +14,4 @@ Computation of waveform metrics utilizes the ```oscillators``` module, while wav
 
 ## Shakemap
 
-Under development for future PyPi release
-
 Provides the [Shakemap](https://github.com/usgs/shakemap) project with necessary C libraries for Shakemap production and contouring
