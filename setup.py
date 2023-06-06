@@ -53,24 +53,17 @@ ext_modules = [
     Extension(
         name="esi_core.shakemap.pcontour",
         sources=contour_sourcefiles,
-        libraries=["m"],
         include_dirs=[numpy.get_include()],
         extra_compile_args=[],
     ),
     Extension(
         name="esi_core.shakemap.covariance_matrix",
         sources=cov_source,
-        libraries=[
-            "m",
-        ],
         include_dirs=[numpy.get_include()],
     ),
     Extension(
         name="esi_core.shakemap.geodetic_distances",
         sources=geo_source,
-        libraries=[
-            "m",
-        ],
         include_dirs=[numpy.get_include()],
     ),
 ]
