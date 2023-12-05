@@ -1,13 +1,13 @@
 trigger:
-  # tags:
-  #   include:
-  #   - '1.2.0'
-  branches:
+  tags:
     include:
-    - dev
+    - '*dev'
+  branches:
+    # include:
+    # - dev
     exclude:
     - main
-    # - dev
+    - dev
 
 name: $(Date:yyyyMMdd)$(Rev:.r)
 
