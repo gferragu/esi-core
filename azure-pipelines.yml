@@ -3,8 +3,8 @@ trigger:
     include:
     - '*dev'
   branches:
-    # include:
-    # - dev
+    include:
+    - dev
     exclude:
     - main
     - dev
