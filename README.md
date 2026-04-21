@@ -1,5 +1,7 @@
 # esi-core
 
+Note: As of April 21st 2026, this repository will be archived. Development has been transferred to the USGS Gitlab instance https://code.usgs.gov/ghsc/esi/esi-core
+
 Repository for compiled code used by ESI projects, namely C code used in the USGS Shakemap and Groundmotion-Processing programs.
 
 As of September 15th, this project is functional for the gmprocess portion of compiled code. Shakemap functionality will soon follow.
